@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blanksy — Art for Walls, Not Wallets</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Bebas+Neue&family=Caveat:wght@600&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            display: ['Bebas Neue', 'sans-serif'],
+            body: ['Space Grotesk', 'sans-serif'],
+            hand: ['Caveat', 'cursive'],
+          },
+          colors: {
+            cream: '#F5F1EB',
+            ink: '#0D0D0D',
+            accent: '#FF3D00',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body { font-family: 'Space Grotesk', sans-serif; }
+    
+    /* Paper texture overlay */
+    .paper-texture {
+      position: relative;
+    }
+    .paper-texture::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%' height='100%' filter='url(%23noise)'/%3E%3C/svg%3E");
+      opacity: 0.03;
+      pointer-events: none;
+      z-index: 1;
+    }
+    
+    /* Stencil effect */
+    .stencil-text {
+      font-family: 'Bebas Neue', sans-serif;
+      letter-spacing: 0.05em;
+    }
+    
+    /* Rough border effect */
+    .rough-border {
+      position: relative;
+    }
+    .rough-border::after {
+      content: '';
+      position: absolute;
+      inset: -4px;
+      border: 3px solid #0D0D0D;
+      transform: rotate(-0.5deg);
+      pointer-events: none;
+    }
+    
+    /* Stamp effect */
+    .stamp {
+      display: inline-block;
+      padding: 8px 16px;
+      border: 3px solid currentColor;
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 14px;
+      letter-spacing: 0.15em;
+      transform: rotate(-3deg);
+      position: relative;
+    }
+    .stamp::before {
+      content: '';
+      position: absolute;
+      inset: 2px;
+      border: 1px solid currentColor;
+    }
+    
+    /* Handwritten style */
+    .handwritten {
+      font-family: 'Caveat', cursive;
+    }
+    
+    /* Spray paint drip */
+    .drip {
+      position: relative;
+    }
+    .drip::after {
+      content: '';
+      position: absolute;
+      bottom: -20px;
+      left: 50%;
+      width: 4px;
+      height: 20px;
+      background: currentColor;
+      border-radius: 0 0 4px 4px;
+    }
+    
+    /* Marquee */
+    @keyframes marquee {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+    .marquee-track {
+      animation: marquee 20s linear infinite;
+    }
+    
+    /* Card hover */
+    .art-card {
+      transition: all 0.3s ease;
+    }
+    .art-card:hover {
+      transform: rotate(-1deg) scale(1.02);
+    }
+    .art-card:hover .art-frame {
+      box-shadow: 8px 8px 0 #0D0D0D;
+    }
+    
+    /* Underline scribble */
+    .scribble-underline {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 12'%3E%3Cpath d='M0 8 Q 25 2, 50 8 T 100 8' stroke='%23FF3D00' stroke-width='3' fill='none'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: bottom;
+      background-size: 100% 12px;
+      padding-bottom: 8px;
+    }
+    
+    /* Crossed out text */
+    .crossed-out {
+      text-decoration: line-through;
+      text-decoration-color: #FF3D00;
+      text-decoration-thickness: 3px;
+      opacity: 0.5;
+    }
+    
+    /* Button style */
+    .btn-bold {
+      background: #0D0D0D;
+      color: #F5F1EB;
+      padding: 16px 32px;
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 18px;
+      letter-spacing: 0.1em;
+      position: relative;
+      transition: all 0.2s ease;
+      border: none;
+      cursor: pointer;
+    }
+    .btn-bold:hover {
+      transform: translate(-2px, -2px);
+      box-shadow: 4px 4px 0 #FF3D00;
+    }
+    
+    .btn-outline {
+      background: transparent;
+      color: #0D0D0D;
+      padding: 16px 32px;
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 18px;
+      letter-spacing: 0.1em;
+      border: 3px solid #0D0D0D;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+    .btn-outline:hover {
+      background: #0D0D0D;
+      color: #F5F1EB;
+    }
+    
+    /* Arrow animation */
+    @keyframes bounce-right {
+      0%, 100% { transform: translateX(0); }
+      50% { transform: translateX(5px); }
+    }
+    .arrow-bounce:hover svg {
+      animation: bounce-right 0.5s ease infinite;
+    }
+    
+    /* Frame styles */
+    .art-frame {
+      border: 2px solid #0D0D0D;
+      padding: 8px;
+      background: white;
+      transition: box-shadow 0.3s ease;
+    }
+  </style>
+</head>
+<body class="bg-cream text-ink paper-texture">
+
+  <!-- Top Marquee Banner -->
+  <div class="bg-ink text-cream py-3 overflow-hidden">
+    <div class="flex whitespace-nowrap marquee-track">
+      <span class="mx-8 text-sm tracking-widest stencil-text">FREE SHIPPING ON PRINTS OVER $50</span>
+      <span class="mx-8 text-accent">✦</span>
+      <span class="mx-8 text-sm tracking-widest stencil-text">10,000+ ORIGINAL DESIGNS</span>
+      <span class="mx-8 text-accent">✦</span>
+      <span class="mx-8 text-sm tracking-widest stencil-text">INSTANT DIGITAL DOWNLOADS</span>
+      <span class="mx-8 text-accent">✦</span>
+      <span class="mx-8 text-sm tracking-widest stencil-text">ART FOR THE PEOPLE</span>
+      <span class="mx-8 text-accent">✦</span>
+      <span class="mx-8 text-sm tracking-widest stencil-text">FREE SHIPPING ON PRINTS OVER $50</span>
+      <span class="mx-8 text-accent">✦</span>
+      <span class="mx-8 text-sm tracking-widest stencil-text">10,000+ ORIGINAL DESIGNS</span>
+      <span class="mx-8 text-accent">✦</span>
+      <span class="mx-8 text-sm tracking-widest stencil-text">INSTANT DIGITAL DOWNLOADS</span>
+      <span class="mx-8 text-accent">✦</span>
+      <span class="mx-8 text-sm tracking-widest stencil-text">ART FOR THE PEOPLE</span>
+      <span class="mx-8 text-accent">✦</span>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="border-b-2 border-ink">
+    <div class="max-w-7xl mx-auto px-6 py-5">
+      <div class="flex items-center justify-between">
+        <!-- Logo -->
+        <a href="#" class="flex items-center space-x-3">
+          <div class="relative">
+            <div class="w-14 h-14 bg-ink flex items-center justify-center transform -rotate-2">
+              <span class="text-cream stencil-text text-4xl font-bold">B</span>
+            </div>
+            <div class="absolute -top-1 -right-1 w-3 h-3 bg-accent rounded-full"></div>
+          </div>
+          <div>
+            <span class="stencil-text text-3xl tracking-wide">BLANKSY</span>
+            <p class="text-xs tracking-widest text-ink/50 -mt-1">EST. 2024</p>
+          </div>
+        </a>
+        
+        <!-- Nav Links -->
+        <div class="hidden md:flex items-center space-x-10">
+          <a href="#" class="text-sm font-medium tracking-wide hover:text-accent transition-colors">SHOP</a>
+          <a href="#" class="text-sm font-medium tracking-wide hover:text-accent transition-colors">COLLECTIONS</a>
+          <a href="#" class="text-sm font-medium tracking-wide hover:text-accent transition-colors">PRINTS</a>
+          <a href="#" class="text-sm font-medium tracking-wide hover:text-accent transition-colors">ABOUT</a>
+        </div>
+        
+        <!-- Right Side -->
+        <div class="flex items-center space-x-6">
+          <a href="#" class="stamp text-accent">JOIN FREE</a>
+          <button class="relative">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/>
+            </svg>
+            <span class="absolute -top-2 -right-2 w-5 h-5 bg-accent text-cream text-xs flex items-center justify-center font-bold">2</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-6 py-20 md:py-32">
+      <div class="grid lg:grid-cols-2 gap-16 items-center">
+        <!-- Left Content -->
+        <div class="relative z-10">
+          <div class="inline-block mb-6">
+            <span class="handwritten text-3xl text-accent transform -rotate-3 inline-block">finally...</span>
+          </div>
+          
+          <h1 class="stencil-text text-6xl md:text-8xl lg:text-9xl leading-[0.85] mb-6">
+            ART FOR<br/>
+            <span class="scribble-underline">WALLS</span><br/>
+            <span class="text-ink/20">NOT</span> <span class="text-accent">WALLETS</span>
+          </h1>
+          
+          <p class="text-xl md:text-2xl text-ink/70 max-w-md mb-8 leading-relaxed">
+            <span class="crossed-out">$500 gallery prints</span><br/>
+            Premium art downloads from <span class="font-bold text-ink">$9.99</span>
+          </p>
+          
+          <div class="flex flex-wrap gap-4 mb-12">
+            <button class="btn-bold arrow-bounce inline-flex items-center space-x-3">
+              <span>BROWSE GALLERY</span>
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+              </svg>
+            </button>
+            <button class="btn-outline">HOW IT WORKS</button>
+          </div>
+          
+          <!-- Stats -->
+          <div class="flex items-center space-x-8 pt-8 border-t-2 border-ink/10">
+            <div>
+              <p class="stencil-text text-4xl">10K+</p>
+              <p class="text-sm text-ink/50 tracking-wide">DESIGNS</p>
+            </div>
+            <div class="w-px h-12 bg-ink/20"></div>
+            <div>
+              <p class="stencil-text text-4xl">50K+</p>
+              <p class="text-sm text-ink/50 tracking-wide">DOWNLOADS</p>
+            </div>
+            <div class="w-px h-12 bg-ink/20"></div>
+            <div>
+              <p class="stencil-text text-4xl">4.9★</p>
+              <p class="text-sm text-ink/50 tracking-wide">RATING</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Right - Art Grid -->
+        <div class="relative">
+          <!-- Main featured art -->
+          <div class="art-card">
+            <div class="art-frame transform rotate-2">
+              <img src="https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=600&h=750&fit=crop" alt="Featured Art" class="w-full">
+            </div>
+          </div>
+          
+          <!-- Floating smaller art -->
+          <div class="absolute -bottom-8 -left-8 w-40 art-card">
+            <div class="art-frame transform -rotate-3">
+              <img src="https://images.unsplash.com/photo-1549887534-1541e9326642?w=200&h=200&fit=crop" alt="Art" class="w-full">
+            </div>
+          </div>
+          
+          <!-- Price tag -->
+          <div class="absolute top-4 -right-4 bg-accent text-cream p-4 transform rotate-6">
+            <p class="stencil-text text-3xl">$12.99</p>
+            <p class="text-xs">DIGITAL</p>
+          </div>
+          
+          <!-- Handwritten note -->
+          <div class="absolute -bottom-4 right-8 handwritten text-2xl text-ink/60 transform rotate-3">
+            print at any size ↗
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Background decoration -->
+    <div class="absolute top-20 right-0 stencil-text text-[20rem] text-ink/[0.02] leading-none pointer-events-none">
+      ART
+    </div>
+  </section>
+
+  <!-- Scrolling Categories -->
+  <section class="border-y-2 border-ink py-6 bg-ink text-cream overflow-hidden">
+    <div class="flex items-center space-x-8 animate-pulse">
+      <span class="stencil-text text-2xl whitespace-nowrap">★ ABSTRACT</span>
+      <span class="stencil-text text-2xl whitespace-nowrap">★ MINIMAL</span>
+      <span class="stencil-text text-2xl whitespace-nowrap">★ NATURE</span>
+      <span class="stencil-text text-2xl whitespace-nowrap">★ TYPOGRAPHY</span>
+      <span class="stencil-text text-2xl whitespace-nowrap">★ BOTANICAL</span>
+      <span class="stencil-text text-2xl whitespace-nowrap">★ PORTRAIT</span>
+      <span class="stencil-text text-2xl whitespace-nowrap">★ GEOMETRIC</span>
+      <span class="stencil-text text-2xl whitespace-nowrap">★ VINTAGE</span>
+    </div>
+  </section>
+
+  <!-- Featured Section -->
+  <section class="py-24 px-6">
+    <div class="max-w-7xl mx-auto">
+      <!-- Section Header -->
+      <div class="flex items-end justify-between mb-16">
+        <div>
+          <span class="stamp text-ink mb-4 inline-block">HOT RIGHT NOW</span>
+          <h2 class="stencil-text text-5xl md:text-7xl mt-4">TRENDING<br/>THIS WEEK</h2>
+        </div>
+        <a href="#" class="hidden md:flex items-center space-x-2 text-sm font-bold tracking-wide hover:text-accent transition-colors arrow-bounce">
+          <span>VIEW ALL</span>
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+          </svg>
+        </a>
+      </div>
+      
+      <!-- Art Grid -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <!-- Card 1 -->
+        <div class="art-card group cursor-pointer">
+          <div class="art-frame mb-4">
+            <div class="relative aspect-[3/4] overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1549887534-1541e9326642?w=400&h=533&fit=crop" alt="Ocean Waves" class="w-full h-full object-cover">
+              <div class="absolute top-3 left-3">
+                <span class="bg-accent text-cream text-xs font-bold px-2 py-1 stencil-text">BESTSELLER</span>
+              </div>
+            </div>
+          </div>
+          <h3 class="font-bold mb-1">Ocean Waves Abstract</h3>
+          <p class="text-sm text-ink/50 mb-2">Abstract • Blue Tones</p>
+          <p class="stencil-text text-xl">$12.99</p>
+        </div>
+        
+        <!-- Card 2 -->
+        <div class="art-card group cursor-pointer">
+          <div class="art-frame mb-4">
+            <div class="relative aspect-[3/4] overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=400&h=533&fit=crop" alt="Botanical" class="w-full h-full object-cover">
+              <div class="absolute top-3 left-3">
+                <span class="bg-ink text-cream text-xs font-bold px-2 py-1 stencil-text">NEW</span>
+              </div>
+            </div>
+          </div>
+          <h3 class="font-bold mb-1">Botanical Dreams</h3>
+          <p class="text-sm text-ink/50 mb-2">Nature • Green</p>
+          <p class="stencil-text text-xl">$14.99</p>
+        </div>
+        
+        <!-- Card 3 -->
+        <div class="art-card group cursor-pointer">
+          <div class="art-frame mb-4">
+            <div class="relative aspect-[3/4] overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=400&h=533&fit=crop" alt="Sunset" class="w-full h-full object-cover">
+            </div>
+          </div>
+          <h3 class="font-bold mb-1">Sunset Geometry</h3>
+          <p class="text-sm text-ink/50 mb-2">Abstract • Warm</p>
+          <p class="stencil-text text-xl">$9.99</p>
+        </div>
+        
+        <!-- Card 4 -->
+        <div class="art-card group cursor-pointer">
+          <div class="art-frame mb-4">
+            <div class="relative aspect-[3/4] overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=400&h=533&fit=crop" alt="Modern Lines" class="w-full h-full object-cover">
+            </div>
+          </div>
+          <h3 class="font-bold mb-1">Modern Lines</h3>
+          <p class="text-sm text-ink/50 mb-2">Minimal • B&W</p>
+          <p class="stencil-text text-xl">$12.99</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Big Statement Section -->
+  <section class="py-32 px-6 bg-ink text-cream relative overflow-hidden">
+    <div class="max-w-5xl mx-auto text-center relative z-10">
+      <span class="handwritten text-4xl text-accent mb-4 inline-block transform -rotate-2">here's the thing...</span>
+      
+      <h2 class="stencil-text text-5xl md:text-7xl lg:text-8xl leading-[0.9] mb-8">
+        GALLERY ART IS A<br/>
+        <span class="text-accent">RACKET</span>
+      </h2>
+      
+      <p class="text-xl md:text-2xl text-cream/70 max-w-2xl mx-auto mb-12 leading-relaxed">
+        Why pay $500 for a print when you can download the same quality for $12.99? 
+        <span class="text-accent font-bold">Print it yourself. Frame it yourself. Keep your money.</span>
+      </p>
+      
+      <button class="btn-bold bg-accent hover:bg-accent inline-flex items-center space-x-3">
+        <span>START BROWSING</span>
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+        </svg>
+      </button>
+    </div>
+    
+    <!-- Background text -->
+    <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+      <span class="stencil-text text-[30rem] text-cream/[0.02]">$$$</span>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section class="py-24 px-6">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center mb-16">
+        <span class="stamp text-ink mb-4 inline-block">DEAD SIMPLE</span>
+        <h2 class="stencil-text text-5xl md:text-7xl mt-4">HOW IT WORKS</h2>
+      </div>
+      
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- Step 1 -->
+        <div class="text-center">
+          <div class="w-20 h-20 bg-ink text-cream stencil-text text-4xl flex items-center justify-center mx-auto mb-6 transform -rotate-2">
+            01
+          </div>
+          <h3 class="stencil-text text-2xl mb-3">FIND YOUR ART</h3>
+          <p class="text-ink/60">Browse 10,000+ original designs. Filter by style, color, vibe, whatever.</p>
+        </div>
+        
+        <!-- Step 2 -->
+        <div class="text-center">
+          <div class="w-20 h-20 bg-ink text-cream stencil-text text-4xl flex items-center justify-center mx-auto mb-6 transform rotate-2">
+            02
+          </div>
+          <h3 class="stencil-text text-2xl mb-3">DOWNLOAD OR PRINT</h3>
+          <p class="text-ink/60">Get instant high-res files to print yourself, or order museum-quality prints from us.</p>
+        </div>
+        
+        <!-- Step 3 -->
+        <div class="text-center">
+          <div class="w-20 h-20 bg-accent text-cream stencil-text text-4xl flex items-center justify-center mx-auto mb-6 transform -rotate-3">
+            03
+          </div>
+          <h3 class="stencil-text text-2xl mb-3">HANG & BRAG</h3>
+          <p class="text-ink/60">Frame it. Hang it. Tell everyone you found this amazing artist. We won't tell.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section class="py-24 px-6 bg-cream">
+    <div class="max-w-5xl mx-auto">
+      <div class="text-center mb-16">
+        <span class="stamp text-accent mb-4 inline-block transform rotate-2">NO GOTCHAS</span>
+        <h2 class="stencil-text text-5xl md:text-7xl mt-4">SIMPLE PRICING</h2>
+        <p class="text-xl text-ink/60 mt-4">Pay per download or subscribe for serious savings</p>
+      </div>
+      
+      <div class="grid md:grid-cols-3 gap-6">
+        <!-- Starter -->
+        <div class="border-2 border-ink p-8">
+          <h3 class="stencil-text text-3xl mb-2">STARTER</h3>
+          <p class="text-ink/50 text-sm mb-6">For casual art lovers</p>
+          <p class="stencil-text text-5xl mb-1">$19<span class="text-xl">/MO</span></p>
+          <p class="text-ink/50 text-sm mb-8">5 downloads per month</p>
+          <ul class="space-y-3 mb-8">
+            <li class="flex items-center space-x-2">
+              <span class="text-accent">✓</span>
+              <span>High-res files</span>
+            </li>
+            <li class="flex items-center space-x-2">
+              <span class="text-accent">✓</span>
+              <span>Personal use license</span>
+            </li>
+            <li class="flex items-center space-x-2 text-ink/30">
+              <span>✗</span>
+              <span>Commercial license</span>
+            </li>
+          </ul>
+          <button class="btn-outline w-full">GET STARTED</button>
+        </div>
+        
+        <!-- Pro -->
+        <div class="border-2 border-ink p-8 bg-ink text-cream relative transform md:-translate-y-4">
+          <div class="absolute -top-4 left-1/2 -translate-x-1/2">
+            <span class="bg-accent text-cream stencil-text text-sm px-4 py-1">MOST POPULAR</span>
+          </div>
+          <h3 class="stencil-text text-3xl mb-2">PRO</h3>
+          <p class="text-cream/50 text-sm mb-6">For creators & businesses</p>
+          <p class="stencil-text text-5xl mb-1">$49<span class="text-xl">/MO</span></p>
+          <p class="text-cream/50 text-sm mb-8">25 downloads per month</p>
+          <ul class="space-y-3 mb-8">
+            <li class="flex items-center space-x-2">
+              <span class="text-accent">✓</span>
+              <span>High-res files</span>
+            </li>
+            <li class="flex items-center space-x-2">
+              <span class="text-accent">✓</span>
+              <span>Commercial license</span>
+            </li>
+            <li class="flex items-center space-x-2">
+              <span class="text-accent">✓</span>
+              <span>10% off prints</span>
+            </li>
+          </ul>
+          <button class="btn-bold bg-accent w-full">START FREE TRIAL</button>
+        </div>
+        
+        <!-- Unlimited -->
+        <div class="border-2 border-ink p-8">
+          <h3 class="stencil-text text-3xl mb-2">UNLIMITED</h3>
+          <p class="text-ink/50 text-sm mb-6">For agencies & power users</p>
+          <p class="stencil-text text-5xl mb-1">$99<span class="text-xl">/MO</span></p>
+          <p class="text-ink/50 text-sm mb-8">Unlimited downloads</p>
+          <ul class="space-y-3 mb-8">
+            <li class="flex items-center space-x-2">
+              <span class="text-accent">✓</span>
+              <span>Everything in Pro</span>
+            </li>
+            <li class="flex items-center space-x-2">
+              <span class="text-accent">✓</span>
+              <span>Extended license</span>
+            </li>
+            <li class="flex items-center space-x-2">
+              <span class="text-accent">✓</span>
+              <span>20% off prints</span>
+            </li>
+          </ul>
+          <button class="btn-outline w-full">GO UNLIMITED</button>
+        </div>
+      </div>
+      
+      <p class="text-center text-ink/50 mt-8">Not ready to commit? <a href="#" class="text-accent font-bold hover:underline">Buy single designs from $9.99</a></p>
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section class="py-32 px-6 bg-ink text-cream">
+    <div class="max-w-4xl mx-auto text-center">
+      <span class="handwritten text-4xl text-accent mb-4 inline-block">ready to upgrade your walls?</span>
+      <h2 class="stencil-text text-5xl md:text-7xl lg:text-8xl mb-8">
+        STOP STARING AT<br/>
+        <span class="text-accent">BLANK WALLS</span>
+      </h2>
+      <div class="flex flex-wrap justify-center gap-4">
+        <button class="btn-bold bg-accent inline-flex items-center space-x-3">
+          <span>EXPLORE 10,000+ DESIGNS</span>
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-16 px-6 border-t-2 border-ink bg-cream">
+    <div class="max-w-7xl mx-auto">
+      <div class="grid md:grid-cols-5 gap-12 mb-12">
+        <!-- Brand -->
+        <div class="md:col-span-2">
+          <div class="flex items-center space-x-3 mb-6">
+            <div class="w-12 h-12 bg-ink flex items-center justify-center transform -rotate-2">
+              <span class="text-cream stencil-text text-3xl font-bold">B</span>
+            </div>
+            <span class="stencil-text text-2xl">BLANKSY</span>
+          </div>
+          <p class="text-ink/50 text-sm leading-relaxed mb-6 max-w-xs">
+            Art for the people. Premium designs without the premium bullsh*t.
+          </p>
+          <div class="flex space-x-4">
+            <a href="#" class="w-10 h-10 border-2 border-ink flex items-center justify-center hover:bg-ink hover:text-cream transition-colors">
+              <span class="text-lg">𝕏</span>
+            </a>
+            <a href="#" class="w-10 h-10 border-2 border-ink flex items-center justify-center hover:bg-ink hover:text-cream transition-colors">
+              <span class="text-lg">IG</span>
+            </a>
+            <a href="#" class="w-10 h-10 border-2 border-ink flex items-center justify-center hover:bg-ink hover:text-cream transition-colors">
+              <span class="text-lg">TT</span>
+            </a>
+          </div>
+        </div>
+        
+        <!-- Links -->
+        <div>
+          <h4 class="stencil-text text-lg mb-4">SHOP</h4>
+          <ul class="space-y-2 text-sm">
+            <li><a href="#" class="text-ink/50 hover:text-accent">All Designs</a></li>
+            <li><a href="#" class="text-ink/50 hover:text-accent">Collections</a></li>
+            <li><a href="#" class="text-ink/50 hover:text-accent">Bestsellers</a></li>
+            <li><a href="#" class="text-ink/50 hover:text-accent">New Arrivals</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h4 class="stencil-text text-lg mb-4">COMPANY</h4>
+          <ul class="space-y-2 text-sm">
+            <li><a href="#" class="text-ink/50 hover:text-accent">About</a></li>
+            <li><a href="#" class="text-ink/50 hover:text-accent">Contact</a></li>
+            <li><a href="#" class="text-ink/50 hover:text-accent">FAQ</a></li>
+            <li><a href="#" class="text-ink/50 hover:text-accent">Blog</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h4 class="stencil-text text-lg mb-4">LEGAL</h4>
+          <ul class="space-y-2 text-sm">
+            <li><a href="#" class="text-ink/50 hover:text-accent">License</a></li>
+            <li><a href="#" class="text-ink/50 hover:text-accent">Privacy</a></li>
+            <li><a href="#" class="text-ink/50 hover:text-accent">Terms</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="pt-8 border-t-2 border-ink/10 flex flex-col md:flex-row justify-between items-center">
+        <p class="text-ink/40 text-sm">© 2026 Blanksy. All rights reserved. Art for the people.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
