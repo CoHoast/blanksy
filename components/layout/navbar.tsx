@@ -4,28 +4,6 @@ import Link from "next/link";
 import { ShoppingBag, Search, Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-// Conditionally import Clerk components
-let SignInButton: any = null;
-let SignedIn: any = null;
-let SignedOut: any = null;
-let UserButton: any = null;
-
-const hasClerk = typeof window !== 'undefined' && 
-  process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY && 
-  !process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY.includes('placeholder');
-
-if (hasClerk) {
-  try {
-    const clerk = require("@clerk/nextjs");
-    SignInButton = clerk.SignInButton;
-    SignedIn = clerk.SignedIn;
-    SignedOut = clerk.SignedOut;
-    UserButton = clerk.UserButton;
-  } catch (e) {
-    // Clerk not available
-  }
-}
-
 export function Navbar() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-cream/90 backdrop-blur-md border-b border-charcoal/5">
@@ -67,25 +45,9 @@ export function Navbar() {
               </span>
             </Link>
             
-            {SignedOut && SignInButton ? (
-              <SignedOut>
-                <SignInButton mode="modal">
-                  <button className="hidden sm:block text-sm font-medium text-charcoal/70 hover:text-charcoal">
-                    Sign In
-                  </button>
-                </SignInButton>
-              </SignedOut>
-            ) : (
-              <Link href="/sign-in" className="hidden sm:block text-sm font-medium text-charcoal/70 hover:text-charcoal">
-                Sign In
-              </Link>
-            )}
-            
-            {SignedIn && UserButton && (
-              <SignedIn>
-                <UserButton afterSignOutUrl="/" />
-              </SignedIn>
-            )}
+            <Link href="/sign-in" className="hidden sm:block text-sm font-medium text-charcoal/70 hover:text-charcoal">
+              Sign In
+            </Link>
 
             <Link href="/sign-up">
               <Button className="btn-primary text-white px-6 py-2.5 text-sm font-semibold rounded-full border-0">
