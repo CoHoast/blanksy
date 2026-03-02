@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 
 export function Navbar() {
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-cream/90 backdrop-blur-md border-b border-charcoal/5">
+    <nav className="fixed top-10 left-0 right-0 z-50 bg-cream/95 backdrop-blur-md border-b border-charcoal/5">
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
