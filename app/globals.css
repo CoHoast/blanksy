@@ -1,26 +1,196 @@
 @import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: 40 33% 98%;
+  --foreground: 0 0% 10%;
+  --card: 0 0% 100%;
+  --card-foreground: 0 0% 10%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 0 0% 10%;
+  --primary: 24 95% 46%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 30 71% 67%;
+  --secondary-foreground: 0 0% 10%;
+  --muted: 30 10% 90%;
+  --muted-foreground: 30 10% 40%;
+  --accent: 24 95% 46%;
+  --accent-foreground: 0 0% 100%;
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 30 10% 90%;
+  --input: 30 10% 90%;
+  --ring: 24 95% 46%;
+  --radius: 0.75rem;
+}
+
+.dark {
+  --background: 0 0% 10%;
+  --foreground: 40 33% 98%;
+  --card: 0 0% 15%;
+  --card-foreground: 40 33% 98%;
+  --popover: 0 0% 15%;
+  --popover-foreground: 40 33% 98%;
+  --primary: 24 95% 46%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 30 71% 67%;
+  --secondary-foreground: 0 0% 10%;
+  --muted: 0 0% 20%;
+  --muted-foreground: 0 0% 60%;
+  --accent: 24 95% 46%;
+  --accent-foreground: 0 0% 100%;
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 0 0% 20%;
+  --input: 0 0% 20%;
+  --ring: 24 95% 46%;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-playfair), ui-serif, Georgia, serif;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+  background-color: #FAF9F6;
+  color: #1a1a1a;
+}
+
+/* Custom button gradient */
+.btn-primary {
+  background: linear-gradient(135deg, #E85D04 0%, #D45003 100%);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-primary::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+  transition: left 0.5s ease;
+}
+
+.btn-primary:hover::before {
+  left: 100%;
+}
+
+.btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 35px rgba(232, 93, 4, 0.4);
+}
+
+/* Gradient text */
+.gradient-text {
+  background: linear-gradient(135deg, #E85D04 0%, #F4A261 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Hero gradient background */
+.hero-gradient {
+  background: linear-gradient(135deg, #FAF9F6 0%, #FFF5EB 50%, #FAF9F6 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-gradient::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -50%;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, rgba(232, 93, 4, 0.08) 0%, transparent 60%);
+  animation: pulse-bg 8s ease-in-out infinite;
+}
+
+@keyframes pulse-bg {
+  0%, 100% { transform: scale(1); opacity: 0.5; }
+  50% { transform: scale(1.2); opacity: 0.8; }
+}
+
+/* Card hover effects */
+.design-card {
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.design-card:hover {
+  transform: translateY(-12px) scale(1.02);
+  box-shadow: 0 25px 50px -12px rgba(232, 93, 4, 0.25);
+}
+
+.design-card:hover .design-overlay {
+  opacity: 1;
+}
+
+.design-overlay {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* Category cards */
+.category-card {
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.category-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+}
+
+/* Stat boxes */
+.stat-box {
+  background: linear-gradient(135deg, rgba(232, 93, 4, 0.1) 0%, rgba(244, 162, 97, 0.05) 100%);
+  border: 1px solid rgba(232, 93, 4, 0.2);
+}
+
+/* Glow effect */
+.glow {
+  box-shadow: 0 0 40px rgba(232, 93, 4, 0.3);
+}
+
+/* Pricing popular card */
+.pricing-popular {
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+  position: relative;
+}
+
+.pricing-popular::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  background: linear-gradient(135deg, #E85D04, #F4A261, #E85D04);
+  border-radius: 1.75rem;
+  z-index: -1;
+}
+
+/* Navigation link underline */
+.nav-link {
+  position: relative;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #E85D04, #F4A261);
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
 }
