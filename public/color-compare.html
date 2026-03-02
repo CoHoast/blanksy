@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blanksy — Color Comparison</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .font-serif { font-family: 'Playfair Display', serif; }
+    html { scroll-behavior: smooth; }
+    
+    /* Color themes */
+    :root {
+      --accent: #0077B6;
+      --accent-dark: #005a8c;
+      --accent-glow: rgba(0, 119, 182, 0.3);
+      --secondary: #00B4D8;
+    }
+    
+    [data-theme="violet"] {
+      --accent: #7B2D8E;
+      --accent-dark: #5c2169;
+      --accent-glow: rgba(123, 45, 142, 0.3);
+      --secondary: #A855F7;
+    }
+    
+    /* Animated gradient background */
+    .hero-gradient {
+      background: linear-gradient(135deg, #FAF9F6 0%, #FFF5EB 50%, #FAF9F6 100%);
+      position: relative;
+      overflow: hidden;
+    }
+    .hero-gradient::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      right: -50%;
+      width: 100%;
+      height: 100%;
+      background: radial-gradient(circle, color-mix(in srgb, var(--accent) 8%, transparent) 0%, transparent 60%);
+      animation: pulse 8s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); opacity: 0.5; }
+      50% { transform: scale(1.2); opacity: 0.8; }
+    }
+    
+    /* Design card hover effect */
+    .design-card {
+      transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .design-card:hover {
+      transform: translateY(-12px) scale(1.02);
+      box-shadow: 0 25px 50px -12px var(--accent-glow);
+    }
+    .design-card:hover .design-overlay {
+      opacity: 1;
+    }
+    .design-overlay {
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+    
+    /* Category hover */
+    .category-card {
+      transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .category-card:hover {
+      transform: scale(1.03);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+    }
+    
+    /* Button styles */
+    .btn-primary {
+      background: linear-gradient(135deg, var(--accent) 0%, var(--accent-dark) 100%);
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+    }
+    .btn-primary::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+      transition: left 0.5s ease;
+    }
+    .btn-primary:hover::before {
+      left: 100%;
+    }
+    .btn-primary:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 15px 35px var(--accent-glow);
+    }
+    
+    /* Gradient text */
+    .gradient-text {
+      background: linear-gradient(135deg, var(--accent) 0%, var(--secondary) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    
+    /* Animated underline */
+    .nav-link {
+      position: relative;
+    }
+    .nav-link::after {
+      content: '';
+      position: absolute;
+      bottom: -4px;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background: linear-gradient(90deg, var(--accent), var(--secondary));
+      transition: width 0.3s ease;
+    }
+    .nav-link:hover::after {
+      width: 100%;
+    }
+    
+    /* Floating animation */
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-10px); }
+    }
+    .float-animation {
+      animation: float 4s ease-in-out infinite;
+    }
+    
+    /* Glow effect */
+    .glow {
+      box-shadow: 0 0 40px var(--accent-glow);
+    }
+    
+    /* Pricing card special */
+    .pricing-popular {
+      background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+      position: relative;
+    }
+    .pricing-popular::before {
+      content: '';
+      position: absolute;
+      inset: -2px;
+      background: linear-gradient(135deg, var(--accent), var(--secondary), var(--accent));
+      border-radius: 1.75rem;
+      z-index: -1;
+    }
+    
+    /* Stats counter animation */
+    .stat-box {
+      background: linear-gradient(135deg, color-mix(in srgb, var(--accent) 10%, transparent) 0%, color-mix(in srgb, var(--secondary) 5%, transparent) 100%);
+      border: 1px solid color-mix(in srgb, var(--accent) 20%, transparent);
+    }
+    
+    /* Accent backgrounds */
+    .bg-accent { background-color: var(--accent); }
+    .bg-accent-10 { background-color: color-mix(in srgb, var(--accent) 10%, transparent); }
+    .border-accent { border-color: var(--accent); }
+    .border-accent-20 { border-color: color-mix(in srgb, var(--accent) 20%, transparent); }
+    .border-accent-30 { border-color: color-mix(in srgb, var(--accent) 30%, transparent); }
+    .text-accent { color: var(--accent); }
+    .hover\:text-accent:hover { color: var(--accent); }
+    .hover\:bg-accent:hover { background-color: var(--accent); }
+    .hover\:border-accent:hover { border-color: var(--accent); }
+    .from-accent { --tw-gradient-from: var(--accent); }
+    .to-secondary { --tw-gradient-to: var(--secondary); }
+    
+    /* Color switcher */
+    .color-switcher {
+      position: fixed;
+      top: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 100;
+      background: white;
+      border-radius: 100px;
+      padding: 8px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+      display: flex;
+      gap: 8px;
+    }
+    .color-btn {
+      padding: 12px 24px;
+      border-radius: 100px;
+      font-weight: 600;
+      font-size: 14px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      border: 2px solid transparent;
+    }
+    .color-btn.active {
+      color: white;
+    }
+    .color-btn:not(.active) {
+      background: #f5f5f5;
+      color: #666;
+    }
+    .color-btn:not(.active):hover {
+      background: #eee;
+    }
+    .color-btn.blue.active { background: #0077B6; }
+    .color-btn.violet.active { background: #7B2D8E; }
+  </style>
+</head>
+<body class="bg-[#FAF9F6] text-[#1a1a1a]" data-theme="blue">
+
+  <!-- Color Switcher -->
+  <div class="color-switcher">
+    <button class="color-btn blue active" onclick="setTheme('blue')">
+      🔵 Electric Blue
+    </button>
+    <button class="color-btn violet" onclick="setTheme('violet')">
+      🟣 Deep Violet
+    </button>
+  </div>
+
+  <script>
+    function setTheme(theme) {
+      document.body.dataset.theme = theme;
+      document.querySelectorAll('.color-btn').forEach(btn => {
+        btn.classList.remove('active');
+      });
+      document.querySelector(`.color-btn.${theme}`).classList.add('active');
+    }
+  </script>
+
+  <!-- Navigation -->
+  <nav class="fixed top-0 left-0 right-0 z-50 bg-[#FAF9F6]/90 backdrop-blur-md border-b border-[#1a1a1a]/5" style="top: 70px;">
+    <div class="max-w-7xl mx-auto px-6 py-4">
+      <div class="flex items-center justify-between">
+        <!-- Logo -->
+        <a href="#" class="flex items-center space-x-2">
+          <div class="w-10 h-10 bg-gradient-to-br from-[var(--accent)] to-[var(--secondary)] rounded-xl flex items-center justify-center">
+            <span class="text-white font-serif font-bold text-xl">B</span>
+          </div>
+          <span class="font-serif text-2xl font-semibold tracking-tight">Blanksy</span>
+        </a>
+        
+        <!-- Nav Links -->
+        <div class="hidden md:flex items-center space-x-8">
+          <a href="#" class="nav-link text-sm font-medium text-[#1a1a1a]/70 hover:text-[#1a1a1a]">Gallery</a>
+          <a href="#" class="nav-link text-sm font-medium text-[#1a1a1a]/70 hover:text-[#1a1a1a]">Collections</a>
+          <a href="#" class="nav-link text-sm font-medium text-[#1a1a1a]/70 hover:text-[#1a1a1a]">Prints</a>
+          <a href="#" class="nav-link text-sm font-medium text-[#1a1a1a]/70 hover:text-[#1a1a1a]">Pricing</a>
+        </div>
+        
+        <!-- Right Side -->
+        <div class="flex items-center space-x-4">
+          <button class="text-[#1a1a1a]/70 hover:text-accent transition-colors">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+            </svg>
+          </button>
+          <button class="text-[#1a1a1a]/70 hover:text-accent transition-colors relative">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/>
+            </svg>
+            <span class="absolute -top-1 -right-1 w-4 h-4 bg-accent text-white text-[10px] rounded-full flex items-center justify-center font-bold">2</span>
+          </button>
+          <a href="#" class="hidden sm:block text-sm font-medium text-[#1a1a1a]/70 hover:text-[#1a1a1a]">Sign In</a>
+          <a href="#" class="btn-primary text-white px-6 py-2.5 text-sm font-semibold rounded-full">Get Started</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-gradient pt-48 pb-24 px-6 relative">
+    <div class="max-w-7xl mx-auto relative z-10">
+      <div class="grid lg:grid-cols-2 gap-16 items-center">
+        <!-- Left Content -->
+        <div class="max-w-xl">
+          <div class="inline-flex items-center space-x-2 bg-accent-10 border border-accent-20 rounded-full px-4 py-2 mb-6" style="background: color-mix(in srgb, var(--accent) 10%, transparent); border-color: color-mix(in srgb, var(--accent) 20%, transparent);">
+            <span class="w-2 h-2 bg-accent rounded-full animate-pulse" style="background: var(--accent);"></span>
+            <span class="text-accent font-semibold text-sm tracking-wide" style="color: var(--accent);">10,000+ Original Designs</span>
+          </div>
+          <h1 class="font-serif text-5xl md:text-6xl lg:text-7xl font-medium leading-[1.05] mb-6">
+            Art that <span class="gradient-text">ignites</span> your space
+          </h1>
+          <p class="text-xl text-[#1a1a1a]/60 leading-relaxed mb-8">
+            Discover our curated collection of premium wall art. Download instantly or order museum-quality prints delivered to your door.
+          </p>
+          <div class="flex flex-wrap gap-4">
+            <a href="#" class="btn-primary text-white px-8 py-4 text-sm font-semibold rounded-full inline-flex items-center space-x-2">
+              <span>Explore Gallery</span>
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+              </svg>
+            </a>
+            <a href="#" class="px-8 py-4 text-sm font-semibold text-[#1a1a1a] border-2 border-[#1a1a1a]/20 rounded-full hover:border-accent hover:text-accent transition-all" style="--tw-border-opacity: 0.2;">
+              View Pricing
+            </a>
+          </div>
+          
+          <!-- Trust badges -->
+          <div class="mt-12 flex flex-wrap gap-4">
+            <div class="stat-box rounded-2xl px-5 py-4">
+              <p class="text-3xl font-serif font-bold gradient-text">10K+</p>
+              <p class="text-xs text-[#1a1a1a]/50 uppercase tracking-wide font-medium">Designs</p>
+            </div>
+            <div class="stat-box rounded-2xl px-5 py-4">
+              <p class="text-3xl font-serif font-bold gradient-text">50K+</p>
+              <p class="text-xs text-[#1a1a1a]/50 uppercase tracking-wide font-medium">Downloads</p>
+            </div>
+            <div class="stat-box rounded-2xl px-5 py-4">
+              <p class="text-3xl font-serif font-bold gradient-text">4.9★</p>
+              <p class="text-xs text-[#1a1a1a]/50 uppercase tracking-wide font-medium">Rating</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Right - Hero Image Grid -->
+        <div class="relative">
+          <div class="grid grid-cols-2 gap-4">
+            <div class="space-y-4">
+              <div class="aspect-[3/4] rounded-3xl overflow-hidden shadow-2xl float-animation">
+                <img src="https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=400&h=533&fit=crop" alt="Abstract Art" class="w-full h-full object-cover">
+              </div>
+              <div class="aspect-square rounded-3xl overflow-hidden shadow-2xl" style="animation: float 4s ease-in-out 1s infinite;">
+                <img src="https://images.unsplash.com/photo-1549887534-1541e9326642?w=400&h=400&fit=crop" alt="Minimal Art" class="w-full h-full object-cover">
+              </div>
+            </div>
+            <div class="space-y-4 pt-12">
+              <div class="aspect-square rounded-3xl overflow-hidden shadow-2xl" style="animation: float 4s ease-in-out 0.5s infinite;">
+                <img src="https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=400&h=400&fit=crop" alt="Nature Art" class="w-full h-full object-cover">
+              </div>
+              <div class="aspect-[3/4] rounded-3xl overflow-hidden shadow-2xl" style="animation: float 4s ease-in-out 1.5s infinite;">
+                <img src="https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=400&h=533&fit=crop" alt="Modern Art" class="w-full h-full object-cover">
+              </div>
+            </div>
+          </div>
+          
+          <!-- Floating badge -->
+          <div class="absolute -bottom-6 -left-6 bg-white rounded-2xl shadow-2xl p-5 flex items-center space-x-4 glow">
+            <div class="w-12 h-12 bg-gradient-to-br rounded-xl flex items-center justify-center" style="background: linear-gradient(135deg, var(--accent), var(--secondary));">
+              <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+              </svg>
+            </div>
+            <div>
+              <p class="font-bold text-[#1a1a1a]">Instant Download</p>
+              <p class="text-sm text-[#1a1a1a]/50">High-res files ready</p>
+            </div>
+          </div>
+          
+          <!-- Second floating badge -->
+          <div class="absolute -top-4 -right-4 rounded-2xl shadow-2xl p-4 text-white" style="background: linear-gradient(135deg, var(--accent), var(--secondary));">
+            <p class="font-bold text-lg">New!</p>
+            <p class="text-sm opacity-90">500+ designs added</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Categories Section -->
+  <section class="py-24 px-6 bg-white">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center mb-14">
+        <p class="text-accent font-semibold text-sm tracking-widest uppercase mb-3" style="color: var(--accent);">Curated Collections</p>
+        <h2 class="font-serif text-4xl md:text-5xl font-medium mb-4">Browse by Style</h2>
+        <p class="text-[#1a1a1a]/60 max-w-lg mx-auto text-lg">Find the perfect piece for your aesthetic</p>
+      </div>
+      
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-5">
+        <!-- Category 1 -->
+        <div class="category-card group relative aspect-[4/5] rounded-3xl overflow-hidden cursor-pointer">
+          <img src="https://images.unsplash.com/photo-1547826039-bfc35e0f1ea8?w=400&h=500&fit=crop" alt="Abstract" class="w-full h-full object-cover">
+          <div class="absolute inset-0 bg-gradient-to-t from-[#1a1a1a] via-[#1a1a1a]/30 to-transparent"></div>
+          <div class="absolute bottom-0 left-0 right-0 p-6">
+            <h3 class="font-serif text-white text-2xl font-medium">Abstract</h3>
+            <p class="text-white/70 text-sm mt-1">2,400+ designs</p>
+            <div class="mt-3 w-12 h-1 rounded-full opacity-0 group-hover:opacity-100 transition-opacity" style="background: linear-gradient(90deg, var(--accent), var(--secondary));"></div>
+          </div>
+        </div>
+        
+        <!-- Category 2 -->
+        <div class="category-card group relative aspect-[4/5] rounded-3xl overflow-hidden cursor-pointer">
+          <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=500&fit=crop" alt="Nature" class="w-full h-full object-cover">
+          <div class="absolute inset-0 bg-gradient-to-t from-[#1a1a1a] via-[#1a1a1a]/30 to-transparent"></div>
+          <div class="absolute bottom-0 left-0 right-0 p-6">
+            <h3 class="font-serif text-white text-2xl font-medium">Nature</h3>
+            <p class="text-white/70 text-sm mt-1">3,100+ designs</p>
+            <div class="mt-3 w-12 h-1 rounded-full opacity-0 group-hover:opacity-100 transition-opacity" style="background: linear-gradient(90deg, var(--accent), var(--secondary));"></div>
+          </div>
+        </div>
+        
+        <!-- Category 3 -->
+        <div class="category-card group relative aspect-[4/5] rounded-3xl overflow-hidden cursor-pointer">
+          <img src="https://images.unsplash.com/photo-1561998338-13ad7883b20f?w=400&h=500&fit=crop" alt="Minimal" class="w-full h-full object-cover">
+          <div class="absolute inset-0 bg-gradient-to-t from-[#1a1a1a] via-[#1a1a1a]/30 to-transparent"></div>
+          <div class="absolute bottom-0 left-0 right-0 p-6">
+            <h3 class="font-serif text-white text-2xl font-medium">Minimal</h3>
+            <p class="text-white/70 text-sm mt-1">1,800+ designs</p>
+            <div class="mt-3 w-12 h-1 rounded-full opacity-0 group-hover:opacity-100 transition-opacity" style="background: linear-gradient(90deg, var(--accent), var(--secondary));"></div>
+          </div>
+        </div>
+        
+        <!-- Category 4 -->
+        <div class="category-card group relative aspect-[4/5] rounded-3xl overflow-hidden cursor-pointer">
+          <img src="https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?w=400&h=500&fit=crop" alt="Typography" class="w-full h-full object-cover">
+          <div class="absolute inset-0 bg-gradient-to-t from-[#1a1a1a] via-[#1a1a1a]/30 to-transparent"></div>
+          <div class="absolute bottom-0 left-0 right-0 p-6">
+            <h3 class="font-serif text-white text-2xl font-medium">Typography</h3>
+            <p class="text-white/70 text-sm mt-1">1,500+ designs</p>
+            <div class="mt-3 w-12 h-1 rounded-full opacity-0 group-hover:opacity-100 transition-opacity" style="background: linear-gradient(90deg, var(--accent), var(--secondary));"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Designs -->
+  <section class="py-24 px-6 bg-gradient-to-b from-white to-[#FAF9F6]">
+    <div class="max-w-7xl mx-auto">
+      <div class="flex items-end justify-between mb-14">
+        <div>
+          <p class="text-accent font-semibold text-sm tracking-widest uppercase mb-3" style="color: var(--accent);">Hot Right Now</p>
+          <h2 class="font-serif text-4xl md:text-5xl font-medium mb-2">Trending Designs</h2>
+          <p class="text-[#1a1a1a]/60 text-lg">This week's most popular picks</p>
+        </div>
+        <a href="#" class="hidden md:flex items-center space-x-2 text-sm font-semibold transition-colors group" style="color: var(--accent);">
+          <span>View All</span>
+          <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+          </svg>
+        </a>
+      </div>
+      
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <!-- Design Card 1 -->
+        <div class="design-card group cursor-pointer bg-white rounded-3xl p-3 shadow-lg">
+          <div class="relative aspect-[3/4] rounded-2xl overflow-hidden bg-gray-100 mb-4">
+            <img src="https://images.unsplash.com/photo-1549887534-1541e9326642?w=400&h=533&fit=crop" alt="Ocean Waves" class="w-full h-full object-cover">
+            <div class="design-overlay absolute inset-0 bg-gradient-to-t from-[#1a1a1a]/80 via-[#1a1a1a]/20 to-transparent flex items-end justify-center pb-6">
+              <button class="bg-white text-[#1a1a1a] px-6 py-3 rounded-full text-sm font-semibold transform hover:scale-105 transition-transform shadow-lg">
+                Quick View
+              </button>
+            </div>
+            <button class="absolute top-3 right-3 w-10 h-10 bg-white/90 rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity shadow-lg hover:bg-accent hover:text-white" style="--tw-bg-opacity: 0.9;">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+              </svg>
+            </button>
+          </div>
+          <h3 class="font-semibold text-[#1a1a1a] mb-1">Ocean Waves Abstract</h3>
+          <p class="text-sm text-[#1a1a1a]/50 mb-3">Abstract • Blue Tones</p>
+          <div class="flex items-center justify-between">
+            <span class="font-bold text-lg gradient-text">$12.99</span>
+            <span class="text-xs text-white px-2 py-1 rounded-full font-medium" style="background: var(--accent);">Digital</span>
+          </div>
+        </div>
+        
+        <!-- Design Card 2 -->
+        <div class="design-card group cursor-pointer bg-white rounded-3xl p-3 shadow-lg">
+          <div class="relative aspect-[3/4] rounded-2xl overflow-hidden bg-gray-100 mb-4">
+            <img src="https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=400&h=533&fit=crop" alt="Botanical Dreams" class="w-full h-full object-cover">
+            <div class="design-overlay absolute inset-0 bg-gradient-to-t from-[#1a1a1a]/80 via-[#1a1a1a]/20 to-transparent flex items-end justify-center pb-6">
+              <button class="bg-white text-[#1a1a1a] px-6 py-3 rounded-full text-sm font-semibold transform hover:scale-105 transition-transform shadow-lg">
+                Quick View
+              </button>
+            </div>
+            <button class="absolute top-3 right-3 w-10 h-10 bg-white/90 rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity shadow-lg">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+              </svg>
+            </button>
+            <span class="absolute top-3 left-3 text-white text-xs font-bold px-3 py-1.5 rounded-full shadow-lg" style="background: linear-gradient(135deg, var(--accent), var(--secondary));">🔥 Bestseller</span>
+          </div>
+          <h3 class="font-semibold text-[#1a1a1a] mb-1">Botanical Dreams</h3>
+          <p class="text-sm text-[#1a1a1a]/50 mb-3">Nature • Green Tones</p>
+          <div class="flex items-center justify-between">
+            <span class="font-bold text-lg gradient-text">$14.99</span>
+            <span class="text-xs text-white px-2 py-1 rounded-full font-medium" style="background: var(--accent);">Digital</span>
+          </div>
+        </div>
+        
+        <!-- Design Card 3 -->
+        <div class="design-card group cursor-pointer bg-white rounded-3xl p-3 shadow-lg">
+          <div class="relative aspect-[3/4] rounded-2xl overflow-hidden bg-gray-100 mb-4">
+            <img src="https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=400&h=533&fit=crop" alt="Sunset Geometry" class="w-full h-full object-cover">
+            <div class="design-overlay absolute inset-0 bg-gradient-to-t from-[#1a1a1a]/80 via-[#1a1a1a]/20 to-transparent flex items-end justify-center pb-6">
+              <button class="bg-white text-[#1a1a1a] px-6 py-3 rounded-full text-sm font-semibold transform hover:scale-105 transition-transform shadow-lg">
+                Quick View
+              </button>
+            </div>
+            <button class="absolute top-3 right-3 w-10 h-10 bg-white/90 rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity shadow-lg">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+              </svg>
+            </button>
+          </div>
+          <h3 class="font-semibold text-[#1a1a1a] mb-1">Sunset Geometry</h3>
+          <p class="text-sm text-[#1a1a1a]/50 mb-3">Abstract • Warm Tones</p>
+          <div class="flex items-center justify-between">
+            <span class="font-bold text-lg gradient-text">$9.99</span>
+            <span class="text-xs text-white px-2 py-1 rounded-full font-medium" style="background: var(--accent);">Digital</span>
+          </div>
+        </div>
+        
+        <!-- Design Card 4 -->
+        <div class="design-card group cursor-pointer bg-white rounded-3xl p-3 shadow-lg">
+          <div class="relative aspect-[3/4] rounded-2xl overflow-hidden bg-gray-100 mb-4">
+            <img src="https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=400&h=533&fit=crop" alt="Modern Lines" class="w-full h-full object-cover">
+            <div class="design-overlay absolute inset-0 bg-gradient-to-t from-[#1a1a1a]/80 via-[#1a1a1a]/20 to-transparent flex items-end justify-center pb-6">
+              <button class="bg-white text-[#1a1a1a] px-6 py-3 rounded-full text-sm font-semibold transform hover:scale-105 transition-transform shadow-lg">
+                Quick View
+              </button>
+            </div>
+            <button class="absolute top-3 right-3 w-10 h-10 bg-white/90 rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity shadow-lg">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+              </svg>
+            </button>
+            <span class="absolute top-3 left-3 bg-[#1a1a1a] text-white text-xs font-bold px-3 py-1.5 rounded-full shadow-lg">✨ New</span>
+          </div>
+          <h3 class="font-semibold text-[#1a1a1a] mb-1">Modern Lines</h3>
+          <p class="text-sm text-[#1a1a1a]/50 mb-3">Minimal • Neutral</p>
+          <div class="flex items-center justify-between">
+            <span class="font-bold text-lg gradient-text">$12.99</span>
+            <span class="text-xs text-white px-2 py-1 rounded-full font-medium" style="background: var(--accent);">Digital</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section class="py-24 px-6 bg-[#1a1a1a] text-[#FAF9F6] relative overflow-hidden">
+    <!-- Background decoration -->
+    <div class="absolute top-0 left-0 w-96 h-96 rounded-full blur-3xl" style="background: color-mix(in srgb, var(--accent) 10%, transparent);"></div>
+    <div class="absolute bottom-0 right-0 w-96 h-96 rounded-full blur-3xl" style="background: color-mix(in srgb, var(--secondary) 10%, transparent);"></div>
+    
+    <div class="max-w-7xl mx-auto relative z-10">
+      <div class="text-center mb-16">
+        <p class="font-semibold text-sm tracking-widest uppercase mb-3" style="color: var(--accent);">Simple Process</p>
+        <h2 class="font-serif text-4xl md:text-5xl font-medium mb-4">How It Works</h2>
+        <p class="text-[#FAF9F6]/60 max-w-lg mx-auto text-lg">From discovery to delivery in three simple steps</p>
+      </div>
+      
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- Step 1 -->
+        <div class="text-center group">
+          <div class="w-20 h-20 rounded-3xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform shadow-lg" style="background: linear-gradient(135deg, var(--accent), var(--secondary)); box-shadow: 0 10px 30px var(--accent-glow);">
+            <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+            </svg>
+          </div>
+          <div class="font-bold text-sm mb-2" style="color: var(--accent);">STEP 1</div>
+          <h3 class="font-serif text-2xl font-medium mb-3">Discover</h3>
+          <p class="text-[#FAF9F6]/60 leading-relaxed">Browse our curated collection of 10,000+ original designs. Filter by style, color, room, or mood.</p>
+        </div>
+        
+        <!-- Step 2 -->
+        <div class="text-center group">
+          <div class="w-20 h-20 rounded-3xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform shadow-lg" style="background: linear-gradient(135deg, var(--accent), var(--secondary)); box-shadow: 0 10px 30px var(--accent-glow);">
+            <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"/>
+            </svg>
+          </div>
+          <div class="font-bold text-sm mb-2" style="color: var(--accent);">STEP 2</div>
+          <h3 class="font-serif text-2xl font-medium mb-3">Choose</h3>
+          <p class="text-[#FAF9F6]/60 leading-relaxed">Download high-resolution digital files instantly, or order premium prints shipped right to your door.</p>
+        </div>
+        
+        <!-- Step 3 -->
+        <div class="text-center group">
+          <div class="w-20 h-20 rounded-3xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform shadow-lg" style="background: linear-gradient(135deg, var(--accent), var(--secondary)); box-shadow: 0 10px 30px var(--accent-glow);">
+            <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+            </svg>
+          </div>
+          <div class="font-bold text-sm mb-2" style="color: var(--accent);">STEP 3</div>
+          <h3 class="font-serif text-2xl font-medium mb-3">Enjoy</h3>
+          <p class="text-[#FAF9F6]/60 leading-relaxed">Transform your space with art that reflects your unique style. Print at any size, anywhere.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Preview -->
+  <section class="py-24 px-6 bg-[#FAF9F6]">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center mb-16">
+        <p class="font-semibold text-sm tracking-widest uppercase mb-3" style="color: var(--accent);">Flexible Options</p>
+        <h2 class="font-serif text-4xl md:text-5xl font-medium mb-4">Simple Pricing</h2>
+        <p class="text-[#1a1a1a]/60 max-w-lg mx-auto text-lg">Download à la carte or subscribe for more value</p>
+      </div>
+      
+      <div class="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+        <!-- Starter -->
+        <div class="bg-white rounded-3xl p-8 border-2 border-[#1a1a1a]/10 hover:border-[var(--accent)]/30 transition-colors">
+          <div class="mb-6">
+            <h3 class="font-serif text-2xl font-medium mb-2">Starter</h3>
+            <p class="text-[#1a1a1a]/50 text-sm">Perfect for personal projects</p>
+          </div>
+          <p class="text-5xl font-serif font-bold mb-1">$19<span class="text-xl text-[#1a1a1a]/50 font-normal">/mo</span></p>
+          <p class="text-sm text-[#1a1a1a]/50 mb-8">Billed monthly</p>
+          <ul class="space-y-4 mb-8">
+            <li class="flex items-center space-x-3 text-sm">
+              <div class="w-5 h-5 rounded-full flex items-center justify-center flex-shrink-0" style="background: color-mix(in srgb, var(--accent) 10%, transparent);">
+                <svg class="w-3 h-3" style="color: var(--accent);" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/>
+                </svg>
+              </div>
+              <span><strong>5 downloads</strong> per month</span>
+            </li>
+            <li class="flex items-center space-x-3 text-sm">
+              <div class="w-5 h-5 rounded-full flex items-center justify-center flex-shrink-0" style="background: color-mix(in srgb, var(--accent) 10%, transparent);">
+                <svg class="w-3 h-3" style="color: var(--accent);" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/>
+                </svg>
+              </div>
+              <span>High-resolution files</span>
+            </li>
+            <li class="flex items-center space-x-3 text-sm">
+              <div class="w-5 h-5 rounded-full flex items-center justify-center flex-shrink-0" style="background: color-mix(in srgb, var(--accent) 10%, transparent);">
+                <svg class="w-3 h-3" style="color: var(--accent);" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/>
+                </svg>
+              </div>
+              <span><strong>Personal use</strong> only</span>
+            </li>
+            <li class="flex items-center space-x-3 text-sm text-[#1a1a1a]/40">
+              <div class="w-5 h-5 bg-[#1a1a1a]/5 rounded-full flex items-center justify-center flex-shrink-0">
+                <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                </svg>
+              </div>
+              <span>Commercial license</span>
+            </li>
+          </ul>
+          <button class="w-full py-4 px-6 border-2 border-[#1a1a1a]/20 rounded-full text-sm font-semibold hover:bg-[#1a1a1a] hover:text-[#FAF9F6] hover:border-[#1a1a1a] transition-all">
+            Get Started
+          </button>
+        </div>
+        
+        <!-- Pro (Popular) -->
+        <div class="pricing-popular rounded-3xl p-8 text-[#FAF9F6] transform md:-translate-y-4 shadow-2xl">
+          <div class="absolute -top-4 left-1/2 -translate-x-1/2">
+            <span class="text-white text-xs font-bold px-4 py-2 rounded-full shadow-lg" style="background: linear-gradient(135deg, var(--accent), var(--secondary));">⭐ MOST POPULAR</span>
+          </div>
+          <div class="mb-6 pt-2">
+            <h3 class="font-serif text-2xl font-medium mb-2">Pro</h3>
+            <p class="text-[#FAF9F6]/50 text-sm">For creators & small business</p>
+          </div>
+          <p class="text-5xl font-serif font-bold mb-1">$49<span class="text-xl text-[#FAF9F6]/50 font-normal">/mo</span></p>
+          <p class="text-sm text-[#FAF9F6]/50 mb-8">Billed monthly</p>
+          <ul class="space-y-4 mb-8">
+            <li class="flex items-center space-x-3 text-sm">
+              <div class="w-5 h-5 rounded-full flex items-center justify-center flex-shrink-0" style="background: var(--accent);">
+                <svg class="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/>
+                </svg>
+              </div>
+              <span><strong>25 downloads</strong> per month</span>
+            </li>
+            <li class="flex items-center space-x-3 text-sm">
+              <div class="w-5 h-5 rounded-full flex items-center justify-center flex-shrink-0" style="background: var(--accent);">
+                <svg class="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/>
+                </svg>
+              </div>
+              <span>High-resolution files</span>
+            </li>
+            <li class="flex items-center space-x-3 text-sm">
+              <div class="w-5 h-5 rounded-full flex items-center justify-center flex-shrink-0" style="background: var(--accent);">
+                <svg class="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/>
+                </svg>
+              </div>
+              <span><strong>Commercial license</strong></span>
+            </li>
+            <li class="flex items-center space-x-3 text-sm">
+              <div class="w-5 h-5 rounded-full flex items-center justify-center flex-shrink-0" style="background: var(--accent);">
+                <svg class="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/>
+                </svg>
+              </div>
+              <span><strong>10% off</strong> print orders</span>
+            </li>
+          </ul>
+          <button class="btn-primary w-full py-4 px-6 rounded-full text-sm font-semibold text-white">
+            Start Free Trial
+          </button>
+        </div>
+        
+        <!-- Unlimited -->
+        <div class="bg-white rounded-3xl p-8 border-2 border-[#1a1a1a]/10 hover:border-[var(--accent)]/30 transition-colors">
+          <div class="mb-6">
+            <h3 class="font-serif text-2xl font-medium mb-2">Unlimited</h3>
+            <p class="text-[#1a1a1a]/50 text-sm">For agencies & power users</p>
+          </div>
+          <p class="text-5xl font-serif font-bold mb-1">$99<span class="text-xl text-[#1a1a1a]/50 font-normal">/mo</span></p>
+          <p class="text-sm text-[#1a1a1a]/50 mb-8">Billed monthly</p>
+          <ul class="space-y-4 mb-8">
+            <li class="flex items-center space-x-3 text-sm">
+              <div class="w-5 h-5 rounded-full flex items-center justify-center flex-shrink-0" style="background: color-mix(in srgb, var(--accent) 10%, transparent);">
+                <svg class="w-3 h-3" style="color: var(--accent);" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/>
+                </svg>
+              </div>
+              <span><strong>Unlimited downloads</strong></span>
+            </li>
+            <li class="flex items-center space-x-3 text-sm">
+              <div class="w-5 h-5 rounded-full flex items-center justify-center flex-shrink-0" style="background: color-mix(in srgb, var(--accent) 10%, transparent);">
+                <svg class="w-3 h-3" style="color: var(--accent);" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/>
+                </svg>
+              </div>
+              <span><strong>Extended commercial</strong> license</span>
+            </li>
+            <li class="flex items-center space-x-3 text-sm">
+              <div class="w-5 h-5 rounded-full flex items-center justify-center flex-shrink-0" style="background: color-mix(in srgb, var(--accent) 10%, transparent);">
+                <svg class="w-3 h-3" style="color: var(--accent);" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/>
+                </svg>
+              </div>
+              <span>API access</span>
+            </li>
+            <li class="flex items-center space-x-3 text-sm">
+              <div class="w-5 h-5 rounded-full flex items-center justify-center flex-shrink-0" style="background: color-mix(in srgb, var(--accent) 10%, transparent);">
+                <svg class="w-3 h-3" style="color: var(--accent);" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/>
+                </svg>
+              </div>
+              <span><strong>20% off</strong> print orders</span>
+            </li>
+          </ul>
+          <button class="w-full py-4 px-6 border-2 border-[#1a1a1a]/20 rounded-full text-sm font-semibold hover:bg-[#1a1a1a] hover:text-[#FAF9F6] hover:border-[#1a1a1a] transition-all">
+            Go Unlimited
+          </button>
+        </div>
+      </div>
+      
+      <!-- Single download option -->
+      <div class="text-center mt-12">
+        <p class="text-[#1a1a1a]/60">Not ready to subscribe? <a href="#" class="font-semibold hover:underline" style="color: var(--accent);">Buy single designs from $9.99</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-20 px-6">
+    <div class="max-w-4xl mx-auto">
+      <div class="bg-gradient-to-br from-[#1a1a1a] via-[#1a1a1a] to-[#1a1a1a]/90 rounded-[2.5rem] p-12 md:p-16 text-center text-[#FAF9F6] relative overflow-hidden">
+        <!-- Decorative elements -->
+        <div class="absolute top-0 right-0 w-80 h-80 rounded-full blur-3xl" style="background: color-mix(in srgb, var(--accent) 30%, transparent);"></div>
+        <div class="absolute bottom-0 left-0 w-80 h-80 rounded-full blur-3xl" style="background: color-mix(in srgb, var(--secondary) 20%, transparent);"></div>
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full" style="background: radial-gradient(circle at center, color-mix(in srgb, var(--accent) 10%, transparent) 0%, transparent 70%);"></div>
+        
+        <div class="relative">
+          <h2 class="font-serif text-4xl md:text-5xl lg:text-6xl font-medium mb-6">Ready to transform<br/>your space?</h2>
+          <p class="text-[#FAF9F6]/60 text-lg mb-10 max-w-lg mx-auto">Join thousands of design lovers who've found their perfect art.</p>
+          <div class="flex flex-wrap justify-center gap-4">
+            <a href="#" class="btn-primary text-white px-10 py-5 text-base font-semibold rounded-full inline-flex items-center space-x-2 shadow-xl" style="box-shadow: 0 10px 30px var(--accent-glow);">
+              <span>Start Exploring</span>
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+              </svg>
+            </a>
+            <a href="#" class="px-10 py-5 text-base font-semibold text-[#FAF9F6] border-2 border-[#FAF9F6]/30 rounded-full hover:bg-[#FAF9F6]/10 transition-colors">
+              View Pricing
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-16 px-6 border-t border-[#1a1a1a]/10 bg-white">
+    <div class="max-w-7xl mx-auto">
+      <div class="grid md:grid-cols-5 gap-12 mb-12">
+        <!-- Brand -->
+        <div class="md:col-span-2">
+          <a href="#" class="flex items-center space-x-2 mb-4">
+            <div class="w-10 h-10 rounded-xl flex items-center justify-center" style="background: linear-gradient(135deg, var(--accent), var(--secondary));">
+              <span class="text-white font-serif font-bold text-xl">B</span>
+            </div>
+            <span class="font-serif text-2xl font-semibold">Blanksy</span>
+          </a>
+          <p class="text-[#1a1a1a]/50 text-sm leading-relaxed mb-6 max-w-sm">Premium art prints and digital downloads for design lovers worldwide. Transform your space with art that speaks to you.</p>
+          <div class="flex space-x-3">
+            <a href="#" class="w-10 h-10 bg-[#1a1a1a]/5 rounded-full flex items-center justify-center hover:bg-accent hover:text-white transition-all">
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
+            </a>
+            <a href="#" class="w-10 h-10 bg-[#1a1a1a]/5 rounded-full flex items-center justify-center hover:bg-accent hover:text-white transition-all">
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+            <a href="#" class="w-10 h-10 bg-[#1a1a1a]/5 rounded-full flex items-center justify-center hover:bg-accent hover:text-white transition-all">
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.372-12 12 0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738.098.119.112.224.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146 1.124.347 2.317.535 3.554.535 6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12z"/></svg>
+            </a>
+          </div>
+        </div>
+        
+        <!-- Links -->
+        <div>
+          <h4 class="font-semibold text-sm mb-4">Shop</h4>
+          <ul class="space-y-3">
+            <li><a href="#" class="text-[#1a1a1a]/50 text-sm hover:text-accent transition-colors">All Designs</a></li>
+            <li><a href="#" class="text-[#1a1a1a]/50 text-sm hover:text-accent transition-colors">Collections</a></li>
+            <li><a href="#" class="text-[#1a1a1a]/50 text-sm hover:text-accent transition-colors">Bestsellers</a></li>
+            <li><a href="#" class="text-[#1a1a1a]/50 text-sm hover:text-accent transition-colors">New Arrivals</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h4 class="font-semibold text-sm mb-4">Company</h4>
+          <ul class="space-y-3">
+            <li><a href="#" class="text-[#1a1a1a]/50 text-sm hover:text-accent transition-colors">About Us</a></li>
+            <li><a href="#" class="text-[#1a1a1a]/50 text-sm hover:text-accent transition-colors">Contact</a></li>
+            <li><a href="#" class="text-[#1a1a1a]/50 text-sm hover:text-accent transition-colors">FAQ</a></li>
+            <li><a href="#" class="text-[#1a1a1a]/50 text-sm hover:text-accent transition-colors">Blog</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h4 class="font-semibold text-sm mb-4">Support</h4>
+          <ul class="space-y-3">
+            <li><a href="#" class="text-[#1a1a1a]/50 text-sm hover:text-accent transition-colors">Shipping Info</a></li>
+            <li><a href="#" class="text-[#1a1a1a]/50 text-sm hover:text-accent transition-colors">Returns</a></li>
+            <li><a href="#" class="text-[#1a1a1a]/50 text-sm hover:text-accent transition-colors">License Terms</a></li>
+            <li><a href="#" class="text-[#1a1a1a]/50 text-sm hover:text-accent transition-colors">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="pt-8 border-t border-[#1a1a1a]/10 flex flex-col md:flex-row justify-between items-center">
+        <p class="text-[#1a1a1a]/40 text-sm">© 2026 Blanksy. All rights reserved.</p>
+        <div class="flex items-center space-x-4 mt-4 md:mt-0">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Stripe_Logo%2C_revised_2016.svg/512px-Stripe_Logo%2C_revised_2016.svg.png" alt="Stripe" class="h-6 opacity-40">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
