@@ -2,8 +2,29 @@
 
 import Link from "next/link";
 import { ShoppingBag, Search, Menu } from "lucide-react";
-import { SignInButton, SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
 import { Button } from "@/components/ui/button";
+
+// Conditionally import Clerk components
+let SignInButton: any = null;
+let SignedIn: any = null;
+let SignedOut: any = null;
+let UserButton: any = null;
+
+const hasClerk = typeof window !== 'undefined' && 
+  process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY && 
+  !process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY.includes('placeholder');
+
+if (hasClerk) {
+  try {
+    const clerk = require("@clerk/nextjs");
+    SignInButton = clerk.SignInButton;
+    SignedIn = clerk.SignedIn;
+    SignedOut = clerk.SignedOut;
+    UserButton = clerk.UserButton;
+  } catch (e) {
+    // Clerk not available
+  }
+}
 
 export function Navbar() {
   return (
@@ -46,17 +67,25 @@ export function Navbar() {
               </span>
             </Link>
             
-            <SignedOut>
-              <SignInButton mode="modal">
-                <button className="hidden sm:block text-sm font-medium text-charcoal/70 hover:text-charcoal">
-                  Sign In
-                </button>
-              </SignInButton>
-            </SignedOut>
+            {SignedOut && SignInButton ? (
+              <SignedOut>
+                <SignInButton mode="modal">
+                  <button className="hidden sm:block text-sm font-medium text-charcoal/70 hover:text-charcoal">
+                    Sign In
+                  </button>
+                </SignInButton>
+              </SignedOut>
+            ) : (
+              <Link href="/sign-in" className="hidden sm:block text-sm font-medium text-charcoal/70 hover:text-charcoal">
+                Sign In
+              </Link>
+            )}
             
-            <SignedIn>
-              <UserButton afterSignOutUrl="/" />
-            </SignedIn>
+            {SignedIn && UserButton && (
+              <SignedIn>
+                <UserButton afterSignOutUrl="/" />
+              </SignedIn>
+            )}
 
             <Link href="/sign-up">
               <Button className="btn-primary text-white px-6 py-2.5 text-sm font-semibold rounded-full border-0">

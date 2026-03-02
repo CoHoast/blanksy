@@ -21,13 +21,24 @@ export const metadata: Metadata = {
   keywords: ["art prints", "digital downloads", "wall art", "posters", "home decor"],
 };
 
+function ConditionalClerkProvider({ children }: { children: React.ReactNode }) {
+  const hasClerkKey = process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY && 
+                      !process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY.includes('placeholder');
+  
+  if (hasClerkKey) {
+    return <ClerkProvider>{children}</ClerkProvider>;
+  }
+  
+  return <>{children}</>;
+}
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <ClerkProvider>
+    <ConditionalClerkProvider>
       <html lang="en">
         <body className={`${inter.variable} ${playfair.variable} font-sans antialiased bg-cream text-charcoal`}>
           <Navbar />
@@ -35,6 +46,6 @@ export default function RootLayout({
           <Footer />
         </body>
       </html>
-    </ClerkProvider>
+    </ConditionalClerkProvider>
   );
 }
