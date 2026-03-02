@@ -13,12 +13,8 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-  // Skip type checking during build (for faster deploys)
   typescript: {
     ignoreBuildErrors: true,
-  },
-  eslint: {
-    ignoreDuringBuilds: true,
   },
 };
 
