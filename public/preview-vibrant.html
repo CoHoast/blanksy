@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blanksy — Art for Walls, Not Wallets</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Bebas+Neue&family=Caveat:wght@600&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            display: ['Bebas Neue', 'sans-serif'],
+            body: ['Space Grotesk', 'sans-serif'],
+            hand: ['Caveat', 'cursive'],
+          },
+          colors: {
+            cream: '#FFFEF9',
+            ink: '#0D0D0D',
+            electric: '#FF2D55',
+            lime: '#C7F940',
+            cyan: '#00D4FF',
+            violet: '#8B5CF6',
+            peach: '#FFBE98',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body { font-family: 'Space Grotesk', sans-serif; }
+    
+    /* Gradient backgrounds */
+    .gradient-hero {
+      background: linear-gradient(135deg, #FFF5F7 0%, #FFFEF9 30%, #F0FDFF 70%, #FFF5F7 100%);
+    }
+    
+    .gradient-electric {
+      background: linear-gradient(135deg, #FF2D55 0%, #FF6B35 50%, #FFBE98 100%);
+    }
+    
+    .gradient-cool {
+      background: linear-gradient(135deg, #00D4FF 0%, #8B5CF6 100%);
+    }
+    
+    .gradient-lime {
+      background: linear-gradient(135deg, #C7F940 0%, #00D4FF 100%);
+    }
+    
+    /* Stencil effect */
+    .stencil-text {
+      font-family: 'Bebas Neue', sans-serif;
+      letter-spacing: 0.05em;
+    }
+    
+    /* Handwritten style */
+    .handwritten {
+      font-family: 'Caveat', cursive;
+    }
+    
+    /* Neon glow */
+    .neon-glow {
+      text-shadow: 0 0 10px currentColor, 0 0 20px currentColor, 0 0 40px currentColor;
+    }
+    
+    .neon-box {
+      box-shadow: 0 0 20px currentColor, 0 0 40px currentColor;
+    }
+    
+    /* Stamp effect */
+    .stamp {
+      display: inline-block;
+      padding: 8px 16px;
+      border: 3px solid currentColor;
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 14px;
+      letter-spacing: 0.15em;
+      transform: rotate(-3deg);
+      position: relative;
+    }
+    .stamp::before {
+      content: '';
+      position: absolute;
+      inset: 2px;
+      border: 1px solid currentColor;
+    }
+    
+    /* Marquee */
+    @keyframes marquee {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+    .marquee-track {
+      animation: marquee 15s linear infinite;
+    }
+    
+    /* Card hover */
+    .art-card {
+      transition: all 0.3s ease;
+    }
+    .art-card:hover {
+      transform: translateY(-8px) rotate(-1deg);
+    }
+    
+    /* Blob shapes */
+    .blob {
+      border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+      animation: blob-morph 8s ease-in-out infinite;
+    }
+    @keyframes blob-morph {
+      0%, 100% { border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%; }
+      50% { border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%; }
+    }
+    
+    /* Button styles */
+    .btn-electric {
+      background: linear-gradient(135deg, #FF2D55 0%, #FF6B35 100%);
+      color: white;
+      padding: 16px 32px;
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 18px;
+      letter-spacing: 0.1em;
+      border: none;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+    }
+    .btn-electric:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 30px rgba(255, 45, 85, 0.4);
+    }
+    .btn-electric::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+      transition: left 0.5s ease;
+    }
+    .btn-electric:hover::before {
+      left: 100%;
+    }
+    
+    .btn-outline {
+      background: transparent;
+      color: #0D0D0D;
+      padding: 16px 32px;
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 18px;
+      letter-spacing: 0.1em;
+      border: 3px solid #0D0D0D;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+    .btn-outline:hover {
+      background: #0D0D0D;
+      color: white;
+    }
+    
+    .btn-lime {
+      background: #C7F940;
+      color: #0D0D0D;
+      padding: 16px 32px;
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 18px;
+      letter-spacing: 0.1em;
+      border: none;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    .btn-lime:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 30px rgba(199, 249, 64, 0.5);
+    }
+    
+    /* Floating animation */
+    @keyframes float {
+      0%, 100% { transform: translateY(0) rotate(0deg); }
+      50% { transform: translateY(-15px) rotate(2deg); }
+    }
+    .float {
+      animation: float 4s ease-in-out infinite;
+    }
+    
+    /* Color bar */
+    .color-bar {
+      height: 6px;
+      background: linear-gradient(90deg, #FF2D55, #FFBE98, #C7F940, #00D4FF, #8B5CF6, #FF2D55);
+      background-size: 200% 100%;
+      animation: color-shift 5s ease infinite;
+    }
+    @keyframes color-shift {
+      0%, 100% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+    }
+    
+    /* Gradient text */
+    .gradient-text {
+      background: linear-gradient(135deg, #FF2D55 0%, #FF6B35 50%, #FFBE98 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    
+    .gradient-text-cool {
+      background: linear-gradient(135deg, #00D4FF 0%, #8B5CF6 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    
+    /* Frame with color border */
+    .art-frame {
+      padding: 4px;
+      background: linear-gradient(135deg, #FF2D55, #FFBE98, #C7F940, #00D4FF);
+      transition: all 0.3s ease;
+    }
+    .art-frame:hover {
+      padding: 6px;
+    }
+    .art-frame-inner {
+      background: white;
+      padding: 8px;
+    }
+    
+    /* Pill badge */
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      padding: 6px 14px;
+      border-radius: 100px;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+    }
+  </style>
+</head>
+<body class="bg-cream text-ink">
+
+  <!-- Rainbow bar -->
+  <div class="color-bar"></div>
+
+  <!-- Top Marquee Banner -->
+  <div class="bg-ink text-white py-3 overflow-hidden">
+    <div class="flex whitespace-nowrap marquee-track">
+      <span class="mx-8 text-sm tracking-widest stencil-text">FREE SHIPPING ON PRINTS OVER $50</span>
+      <span class="mx-8 text-lime">✦</span>
+      <span class="mx-8 text-sm tracking-widest stencil-text">10,000+ ORIGINAL DESIGNS</span>
+      <span class="mx-8 text-cyan">✦</span>
+      <span class="mx-8 text-sm tracking-widest stencil-text">INSTANT DIGITAL DOWNLOADS</span>
+      <span class="mx-8 text-electric">✦</span>
+      <span class="mx-8 text-sm tracking-widest stencil-text">ART FOR THE PEOPLE</span>
+      <span class="mx-8 text-violet">✦</span>
+      <span class="mx-8 text-sm tracking-widest stencil-text">FREE SHIPPING ON PRINTS OVER $50</span>
+      <span class="mx-8 text-lime">✦</span>
+      <span class="mx-8 text-sm tracking-widest stencil-text">10,000+ ORIGINAL DESIGNS</span>
+      <span class="mx-8 text-cyan">✦</span>
+      <span class="mx-8 text-sm tracking-widest stencil-text">INSTANT DIGITAL DOWNLOADS</span>
+      <span class="mx-8 text-electric">✦</span>
+      <span class="mx-8 text-sm tracking-widest stencil-text">ART FOR THE PEOPLE</span>
+      <span class="mx-8 text-violet">✦</span>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="border-b border-ink/10 bg-white/80 backdrop-blur-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4">
+      <div class="flex items-center justify-between">
+        <!-- Logo -->
+        <a href="#" class="flex items-center space-x-3">
+          <div class="relative">
+            <div class="w-12 h-12 gradient-electric flex items-center justify-center transform -rotate-3 rounded-xl">
+              <span class="text-white stencil-text text-3xl font-bold">B</span>
+            </div>
+          </div>
+          <div>
+            <span class="stencil-text text-2xl tracking-wide">BLANKSY</span>
+          </div>
+        </a>
+        
+        <!-- Nav Links -->
+        <div class="hidden md:flex items-center space-x-10">
+          <a href="#" class="text-sm font-semibold tracking-wide hover:text-electric transition-colors">SHOP</a>
+          <a href="#" class="text-sm font-semibold tracking-wide hover:text-electric transition-colors">COLLECTIONS</a>
+          <a href="#" class="text-sm font-semibold tracking-wide hover:text-electric transition-colors">PRINTS</a>
+          <a href="#" class="text-sm font-semibold tracking-wide hover:text-electric transition-colors">PRICING</a>
+        </div>
+        
+        <!-- Right Side -->
+        <div class="flex items-center space-x-4">
+          <a href="#" class="pill bg-lime text-ink">JOIN FREE →</a>
+          <button class="relative w-10 h-10 bg-ink text-white rounded-full flex items-center justify-center">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/>
+            </svg>
+            <span class="absolute -top-1 -right-1 w-5 h-5 bg-electric text-white text-xs flex items-center justify-center font-bold rounded-full">2</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="gradient-hero relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-6 py-20 md:py-28">
+      <div class="grid lg:grid-cols-2 gap-16 items-center">
+        <!-- Left Content -->
+        <div class="relative z-10">
+          <div class="inline-flex items-center space-x-2 mb-6">
+            <span class="pill bg-electric/10 text-electric border border-electric/20">
+              <span class="w-2 h-2 bg-electric rounded-full mr-2 animate-pulse"></span>
+              10,000+ DESIGNS
+            </span>
+          </div>
+          
+          <h1 class="stencil-text text-6xl md:text-7xl lg:text-8xl leading-[0.9] mb-6">
+            ART FOR<br/>
+            <span class="gradient-text">WALLS</span><br/>
+            NOT WALLETS
+          </h1>
+          
+          <p class="text-xl text-ink/70 max-w-md mb-8 leading-relaxed">
+            Premium art downloads from <span class="font-bold text-electric">$9.99</span>. 
+            Print at any size. Skip the gallery markup.
+          </p>
+          
+          <div class="flex flex-wrap gap-4 mb-12">
+            <button class="btn-electric inline-flex items-center space-x-3 rounded-full">
+              <span>BROWSE GALLERY</span>
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+              </svg>
+            </button>
+            <button class="btn-outline rounded-full">HOW IT WORKS</button>
+          </div>
+          
+          <!-- Stats -->
+          <div class="flex items-center space-x-6">
+            <div class="text-center">
+              <p class="stencil-text text-3xl gradient-text">10K+</p>
+              <p class="text-xs text-ink/50 tracking-wide">DESIGNS</p>
+            </div>
+            <div class="w-px h-10 bg-ink/10"></div>
+            <div class="text-center">
+              <p class="stencil-text text-3xl gradient-text-cool">50K+</p>
+              <p class="text-xs text-ink/50 tracking-wide">DOWNLOADS</p>
+            </div>
+            <div class="w-px h-10 bg-ink/10"></div>
+            <div class="text-center">
+              <p class="stencil-text text-3xl text-lime">4.9★</p>
+              <p class="text-xs text-ink/50 tracking-wide">RATING</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Right - Art Grid -->
+        <div class="relative">
+          <!-- Decorative blobs -->
+          <div class="absolute -top-20 -right-20 w-72 h-72 bg-electric/20 blob"></div>
+          <div class="absolute -bottom-10 -left-10 w-48 h-48 bg-cyan/20 blob" style="animation-delay: -4s;"></div>
+          <div class="absolute top-1/2 right-0 w-32 h-32 bg-lime/30 blob" style="animation-delay: -2s;"></div>
+          
+          <!-- Main featured art -->
+          <div class="art-card relative z-10">
+            <div class="art-frame rounded-3xl">
+              <div class="art-frame-inner rounded-2xl overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=600&h=700&fit=crop" alt="Featured Art" class="w-full">
+              </div>
+            </div>
+          </div>
+          
+          <!-- Floating smaller art -->
+          <div class="absolute -bottom-8 -left-8 w-36 art-card float z-20">
+            <div class="bg-white rounded-2xl p-2 shadow-2xl">
+              <img src="https://images.unsplash.com/photo-1549887534-1541e9326642?w=200&h=200&fit=crop" alt="Art" class="w-full rounded-xl">
+            </div>
+          </div>
+          
+          <!-- Price tag -->
+          <div class="absolute top-8 -right-4 z-20 float" style="animation-delay: -1s;">
+            <div class="bg-ink text-white p-4 rounded-2xl shadow-xl">
+              <p class="stencil-text text-2xl text-lime">$12.99</p>
+              <p class="text-xs text-white/60">INSTANT DOWNLOAD</p>
+            </div>
+          </div>
+          
+          <!-- Handwritten note -->
+          <div class="absolute bottom-12 right-4 handwritten text-2xl text-ink/50 transform rotate-6 z-20">
+            print any size! ↗
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Category Pills -->
+  <section class="py-8 px-6 bg-white border-y border-ink/10">
+    <div class="max-w-7xl mx-auto">
+      <div class="flex flex-wrap justify-center gap-3">
+        <a href="#" class="pill bg-electric text-white">🔥 TRENDING</a>
+        <a href="#" class="pill bg-ink/5 text-ink hover:bg-ink hover:text-white transition-colors">ABSTRACT</a>
+        <a href="#" class="pill bg-ink/5 text-ink hover:bg-ink hover:text-white transition-colors">MINIMAL</a>
+        <a href="#" class="pill bg-ink/5 text-ink hover:bg-ink hover:text-white transition-colors">NATURE</a>
+        <a href="#" class="pill bg-ink/5 text-ink hover:bg-ink hover:text-white transition-colors">BOTANICAL</a>
+        <a href="#" class="pill bg-ink/5 text-ink hover:bg-ink hover:text-white transition-colors">TYPOGRAPHY</a>
+        <a href="#" class="pill bg-ink/5 text-ink hover:bg-ink hover:text-white transition-colors">PORTRAIT</a>
+        <a href="#" class="pill bg-lime text-ink">✨ NEW</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Section -->
+  <section class="py-20 px-6">
+    <div class="max-w-7xl mx-auto">
+      <!-- Section Header -->
+      <div class="flex items-end justify-between mb-12">
+        <div>
+          <span class="pill bg-electric/10 text-electric mb-4 inline-block">HOT RIGHT NOW 🔥</span>
+          <h2 class="stencil-text text-5xl md:text-6xl">TRENDING DESIGNS</h2>
+        </div>
+        <a href="#" class="hidden md:flex items-center space-x-2 font-bold text-electric hover:underline">
+          <span>VIEW ALL</span>
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+          </svg>
+        </a>
+      </div>
+      
+      <!-- Art Grid -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <!-- Card 1 -->
+        <div class="art-card group cursor-pointer">
+          <div class="relative rounded-2xl overflow-hidden mb-4 bg-gradient-to-br from-cyan/20 to-violet/20 p-1">
+            <div class="bg-white rounded-xl overflow-hidden">
+              <div class="relative aspect-[3/4]">
+                <img src="https://images.unsplash.com/photo-1549887534-1541e9326642?w=400&h=533&fit=crop" alt="Ocean Waves" class="w-full h-full object-cover">
+                <div class="absolute top-3 left-3">
+                  <span class="pill bg-electric text-white text-xs">BESTSELLER</span>
+                </div>
+                <div class="absolute inset-0 bg-ink/0 group-hover:bg-ink/20 transition-colors flex items-center justify-center">
+                  <button class="bg-white text-ink px-6 py-3 rounded-full font-bold opacity-0 group-hover:opacity-100 transition-opacity transform translate-y-4 group-hover:translate-y-0">
+                    QUICK VIEW
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h3 class="font-bold mb-1">Ocean Waves Abstract</h3>
+          <p class="text-sm text-ink/50 mb-2">Abstract • Blue Tones</p>
+          <p class="stencil-text text-xl text-electric">$12.99</p>
+        </div>
+        
+        <!-- Card 2 -->
+        <div class="art-card group cursor-pointer">
+          <div class="relative rounded-2xl overflow-hidden mb-4 bg-gradient-to-br from-lime/20 to-cyan/20 p-1">
+            <div class="bg-white rounded-xl overflow-hidden">
+              <div class="relative aspect-[3/4]">
+                <img src="https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=400&h=533&fit=crop" alt="Botanical" class="w-full h-full object-cover">
+                <div class="absolute top-3 left-3">
+                  <span class="pill bg-lime text-ink text-xs">NEW</span>
+                </div>
+                <div class="absolute inset-0 bg-ink/0 group-hover:bg-ink/20 transition-colors flex items-center justify-center">
+                  <button class="bg-white text-ink px-6 py-3 rounded-full font-bold opacity-0 group-hover:opacity-100 transition-opacity transform translate-y-4 group-hover:translate-y-0">
+                    QUICK VIEW
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h3 class="font-bold mb-1">Botanical Dreams</h3>
+          <p class="text-sm text-ink/50 mb-2">Nature • Green</p>
+          <p class="stencil-text text-xl text-electric">$14.99</p>
+        </div>
+        
+        <!-- Card 3 -->
+        <div class="art-card group cursor-pointer">
+          <div class="relative rounded-2xl overflow-hidden mb-4 bg-gradient-to-br from-electric/20 to-peach/20 p-1">
+            <div class="bg-white rounded-xl overflow-hidden">
+              <div class="relative aspect-[3/4]">
+                <img src="https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=400&h=533&fit=crop" alt="Sunset" class="w-full h-full object-cover">
+                <div class="absolute inset-0 bg-ink/0 group-hover:bg-ink/20 transition-colors flex items-center justify-center">
+                  <button class="bg-white text-ink px-6 py-3 rounded-full font-bold opacity-0 group-hover:opacity-100 transition-opacity transform translate-y-4 group-hover:translate-y-0">
+                    QUICK VIEW
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h3 class="font-bold mb-1">Sunset Geometry</h3>
+          <p class="text-sm text-ink/50 mb-2">Abstract • Warm</p>
+          <p class="stencil-text text-xl text-electric">$9.99</p>
+        </div>
+        
+        <!-- Card 4 -->
+        <div class="art-card group cursor-pointer">
+          <div class="relative rounded-2xl overflow-hidden mb-4 bg-gradient-to-br from-violet/20 to-electric/20 p-1">
+            <div class="bg-white rounded-xl overflow-hidden">
+              <div class="relative aspect-[3/4]">
+                <img src="https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=400&h=533&fit=crop" alt="Modern Lines" class="w-full h-full object-cover">
+                <div class="absolute inset-0 bg-ink/0 group-hover:bg-ink/20 transition-colors flex items-center justify-center">
+                  <button class="bg-white text-ink px-6 py-3 rounded-full font-bold opacity-0 group-hover:opacity-100 transition-opacity transform translate-y-4 group-hover:translate-y-0">
+                    QUICK VIEW
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h3 class="font-bold mb-1">Modern Lines</h3>
+          <p class="text-sm text-ink/50 mb-2">Minimal • B&W</p>
+          <p class="stencil-text text-xl text-electric">$12.99</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Big Statement Section -->
+  <section class="py-24 px-6 bg-ink text-white relative overflow-hidden">
+    <!-- Gradient orbs -->
+    <div class="absolute top-0 left-1/4 w-96 h-96 bg-electric/30 rounded-full blur-3xl"></div>
+    <div class="absolute bottom-0 right-1/4 w-96 h-96 bg-cyan/20 rounded-full blur-3xl"></div>
+    <div class="absolute top-1/2 right-0 w-64 h-64 bg-lime/20 rounded-full blur-3xl"></div>
+    
+    <div class="max-w-5xl mx-auto text-center relative z-10">
+      <span class="handwritten text-4xl text-lime mb-6 inline-block">here's the deal...</span>
+      
+      <h2 class="stencil-text text-5xl md:text-7xl lg:text-8xl leading-[0.9] mb-8">
+        GALLERY ART IS<br/>
+        <span class="gradient-text">OVERPRICED</span>
+      </h2>
+      
+      <p class="text-xl md:text-2xl text-white/70 max-w-2xl mx-auto mb-12 leading-relaxed">
+        Why pay $500 for a print when you can download the same quality for <span class="text-lime font-bold">$12.99</span>? 
+        Print it yourself. Frame it yourself. Keep your money.
+      </p>
+      
+      <button class="btn-lime inline-flex items-center space-x-3 rounded-full text-xl px-10 py-5">
+        <span>START BROWSING</span>
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+        </svg>
+      </button>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section class="py-24 px-6 bg-white">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center mb-16">
+        <span class="pill bg-cyan/10 text-cyan mb-4 inline-block">SUPER EASY</span>
+        <h2 class="stencil-text text-5xl md:text-6xl">HOW IT WORKS</h2>
+      </div>
+      
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- Step 1 -->
+        <div class="text-center p-8 rounded-3xl bg-gradient-to-br from-electric/5 to-peach/5 border border-electric/10">
+          <div class="w-20 h-20 gradient-electric text-white stencil-text text-4xl flex items-center justify-center mx-auto mb-6 rounded-2xl transform -rotate-3">
+            01
+          </div>
+          <h3 class="stencil-text text-2xl mb-3">FIND YOUR ART</h3>
+          <p class="text-ink/60">Browse 10,000+ original designs. Filter by style, color, vibe, room—whatever.</p>
+        </div>
+        
+        <!-- Step 2 -->
+        <div class="text-center p-8 rounded-3xl bg-gradient-to-br from-cyan/5 to-violet/5 border border-cyan/10">
+          <div class="w-20 h-20 gradient-cool text-white stencil-text text-4xl flex items-center justify-center mx-auto mb-6 rounded-2xl transform rotate-2">
+            02
+          </div>
+          <h3 class="stencil-text text-2xl mb-3">DOWNLOAD OR ORDER</h3>
+          <p class="text-ink/60">Get instant high-res files to print yourself, or order museum-quality prints delivered.</p>
+        </div>
+        
+        <!-- Step 3 -->
+        <div class="text-center p-8 rounded-3xl bg-gradient-to-br from-lime/5 to-cyan/5 border border-lime/10">
+          <div class="w-20 h-20 bg-lime text-ink stencil-text text-4xl flex items-center justify-center mx-auto mb-6 rounded-2xl transform -rotate-2">
+            03
+          </div>
+          <h3 class="stencil-text text-2xl mb-3">HANG & FLEX</h3>
+          <p class="text-ink/60">Frame it, hang it, bask in the compliments. Tell everyone you found this amazing artist.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section class="py-24 px-6 gradient-hero">
+    <div class="max-w-5xl mx-auto">
+      <div class="text-center mb-16">
+        <span class="pill bg-violet/10 text-violet mb-4 inline-block">NO BS PRICING</span>
+        <h2 class="stencil-text text-5xl md:text-6xl">SIMPLE PLANS</h2>
+        <p class="text-xl text-ink/60 mt-4">Pay per download or subscribe for savings</p>
+      </div>
+      
+      <div class="grid md:grid-cols-3 gap-6">
+        <!-- Starter -->
+        <div class="bg-white rounded-3xl p-8 border border-ink/10 hover:border-electric/30 transition-colors hover:shadow-xl">
+          <h3 class="stencil-text text-2xl mb-2">STARTER</h3>
+          <p class="text-ink/50 text-sm mb-6">For casual art lovers</p>
+          <p class="stencil-text text-5xl mb-1">$19<span class="text-xl text-ink/50">/MO</span></p>
+          <p class="text-ink/50 text-sm mb-8">5 downloads per month</p>
+          <ul class="space-y-3 mb-8">
+            <li class="flex items-center space-x-2">
+              <span class="text-lime text-xl">✓</span>
+              <span>High-res files</span>
+            </li>
+            <li class="flex items-center space-x-2">
+              <span class="text-lime text-xl">✓</span>
+              <span>Personal use license</span>
+            </li>
+            <li class="flex items-center space-x-2 text-ink/30">
+              <span>✗</span>
+              <span>Commercial license</span>
+            </li>
+          </ul>
+          <button class="btn-outline w-full rounded-full">GET STARTED</button>
+        </div>
+        
+        <!-- Pro -->
+        <div class="bg-ink text-white rounded-3xl p-8 relative transform md:-translate-y-4 shadow-2xl">
+          <div class="absolute -top-3 left-1/2 -translate-x-1/2">
+            <span class="pill bg-electric text-white text-xs">⭐ MOST POPULAR</span>
+          </div>
+          <h3 class="stencil-text text-2xl mb-2 pt-2">PRO</h3>
+          <p class="text-white/50 text-sm mb-6">For creators & businesses</p>
+          <p class="stencil-text text-5xl mb-1 text-lime">$49<span class="text-xl text-white/50">/MO</span></p>
+          <p class="text-white/50 text-sm mb-8">25 downloads per month</p>
+          <ul class="space-y-3 mb-8">
+            <li class="flex items-center space-x-2">
+              <span class="text-lime text-xl">✓</span>
+              <span>High-res files</span>
+            </li>
+            <li class="flex items-center space-x-2">
+              <span class="text-lime text-xl">✓</span>
+              <span>Commercial license</span>
+            </li>
+            <li class="flex items-center space-x-2">
+              <span class="text-lime text-xl">✓</span>
+              <span>10% off prints</span>
+            </li>
+          </ul>
+          <button class="btn-lime w-full rounded-full">START FREE TRIAL</button>
+        </div>
+        
+        <!-- Unlimited -->
+        <div class="bg-white rounded-3xl p-8 border border-ink/10 hover:border-violet/30 transition-colors hover:shadow-xl">
+          <h3 class="stencil-text text-2xl mb-2">UNLIMITED</h3>
+          <p class="text-ink/50 text-sm mb-6">For agencies & power users</p>
+          <p class="stencil-text text-5xl mb-1">$99<span class="text-xl text-ink/50">/MO</span></p>
+          <p class="text-ink/50 text-sm mb-8">Unlimited downloads</p>
+          <ul class="space-y-3 mb-8">
+            <li class="flex items-center space-x-2">
+              <span class="text-lime text-xl">✓</span>
+              <span>Everything in Pro</span>
+            </li>
+            <li class="flex items-center space-x-2">
+              <span class="text-lime text-xl">✓</span>
+              <span>Extended license</span>
+            </li>
+            <li class="flex items-center space-x-2">
+              <span class="text-lime text-xl">✓</span>
+              <span>20% off prints</span>
+            </li>
+          </ul>
+          <button class="btn-outline w-full rounded-full">GO UNLIMITED</button>
+        </div>
+      </div>
+      
+      <p class="text-center text-ink/50 mt-8">Not ready? <a href="#" class="text-electric font-bold hover:underline">Buy single designs from $9.99</a></p>
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section class="py-32 px-6 bg-ink text-white relative overflow-hidden">
+    <div class="absolute inset-0 opacity-30">
+      <div class="absolute top-10 left-10 w-40 h-40 bg-electric rounded-full blur-3xl"></div>
+      <div class="absolute bottom-10 right-10 w-60 h-60 bg-cyan rounded-full blur-3xl"></div>
+      <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-lime rounded-full blur-3xl opacity-50"></div>
+    </div>
+    
+    <div class="max-w-4xl mx-auto text-center relative z-10">
+      <span class="handwritten text-4xl text-lime mb-6 inline-block">ready to level up your walls?</span>
+      <h2 class="stencil-text text-5xl md:text-7xl lg:text-8xl mb-8">
+        STOP STARING AT<br/>
+        <span class="gradient-text">BLANK WALLS</span>
+      </h2>
+      <button class="btn-lime inline-flex items-center space-x-3 rounded-full text-xl px-10 py-5">
+        <span>EXPLORE 10,000+ DESIGNS</span>
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+        </svg>
+      </button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-16 px-6 bg-cream border-t border-ink/10">
+    <div class="max-w-7xl mx-auto">
+      <div class="grid md:grid-cols-5 gap-12 mb-12">
+        <!-- Brand -->
+        <div class="md:col-span-2">
+          <div class="flex items-center space-x-3 mb-6">
+            <div class="w-12 h-12 gradient-electric flex items-center justify-center rounded-xl transform -rotate-3">
+              <span class="text-white stencil-text text-2xl font-bold">B</span>
+            </div>
+            <span class="stencil-text text-2xl">BLANKSY</span>
+          </div>
+          <p class="text-ink/50 text-sm leading-relaxed mb-6 max-w-xs">
+            Art for the people. Premium designs without the gallery markup.
+          </p>
+          <div class="flex space-x-3">
+            <a href="#" class="w-10 h-10 bg-ink/5 rounded-full flex items-center justify-center hover:bg-electric hover:text-white transition-colors">
+              <span class="text-lg">𝕏</span>
+            </a>
+            <a href="#" class="w-10 h-10 bg-ink/5 rounded-full flex items-center justify-center hover:bg-electric hover:text-white transition-colors">
+              <span class="text-lg">IG</span>
+            </a>
+            <a href="#" class="w-10 h-10 bg-ink/5 rounded-full flex items-center justify-center hover:bg-electric hover:text-white transition-colors">
+              <span class="text-lg">TT</span>
+            </a>
+          </div>
+        </div>
+        
+        <!-- Links -->
+        <div>
+          <h4 class="stencil-text text-lg mb-4">SHOP</h4>
+          <ul class="space-y-2 text-sm">
+            <li><a href="#" class="text-ink/50 hover:text-electric transition-colors">All Designs</a></li>
+            <li><a href="#" class="text-ink/50 hover:text-electric transition-colors">Collections</a></li>
+            <li><a href="#" class="text-ink/50 hover:text-electric transition-colors">Bestsellers</a></li>
+            <li><a href="#" class="text-ink/50 hover:text-electric transition-colors">New Arrivals</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h4 class="stencil-text text-lg mb-4">COMPANY</h4>
+          <ul class="space-y-2 text-sm">
+            <li><a href="#" class="text-ink/50 hover:text-electric transition-colors">About</a></li>
+            <li><a href="#" class="text-ink/50 hover:text-electric transition-colors">Contact</a></li>
+            <li><a href="#" class="text-ink/50 hover:text-electric transition-colors">FAQ</a></li>
+            <li><a href="#" class="text-ink/50 hover:text-electric transition-colors">Blog</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h4 class="stencil-text text-lg mb-4">LEGAL</h4>
+          <ul class="space-y-2 text-sm">
+            <li><a href="#" class="text-ink/50 hover:text-electric transition-colors">License</a></li>
+            <li><a href="#" class="text-ink/50 hover:text-electric transition-colors">Privacy</a></li>
+            <li><a href="#" class="text-ink/50 hover:text-electric transition-colors">Terms</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="color-bar rounded-full mb-8"></div>
+      
+      <div class="flex flex-col md:flex-row justify-between items-center">
+        <p class="text-ink/40 text-sm">© 2026 Blanksy. Art for the people.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
