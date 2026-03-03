@@ -1,0 +1,5008 @@
+{
+  "designs": [
+    {
+      "id": "15001",
+      "category": "Botanical",
+      "title": "Matisse-Inspired Coral Line Art in Neutral Beige",
+      "slug": "15001-botanical",
+      "description": "An elegant minimalist print featuring a white organic coral or leaf form against a warm beige background with a bold black accent. Inspired by Matisse iconic cut-out style, this piece brings effortless sophistication to any modern interior.",
+      "style": "Minimalist Abstract",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "beige",
+        "white",
+        "black"
+      ],
+      "tags": [
+        "Matisse inspired",
+        "minimalist art",
+        "line art",
+        "neutral wall art",
+        "organic shapes"
+      ],
+      "mood": "Serene",
+      "rooms": [
+        "living room",
+        "bedroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/15001/15001-sm.jpg",
+        "md": "/designs/15001/15001-md.jpg",
+        "lg": "/designs/15001/15001-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/15001/15001-sm.jpg",
+        "md": "/designs/15001/15001-md.jpg",
+        "lg": "/designs/15001/15001-lg.jpg"
+      }
+    },
+    {
+      "id": "15002",
+      "category": "Botanical",
+      "title": "Abstract Botanical Cutouts in Black and Beige",
+      "slug": "15002-botanical",
+      "description": "Bold black organic shapes inspired by Matisse paper cutouts dance across a warm beige background. Flowing leaves, coral forms, and abstract botanicals create a striking monochromatic composition full of movement and energy.",
+      "style": "Matisse-inspired abstract",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "black",
+        "beige",
+        "cream"
+      ],
+      "tags": [
+        "matisse cutouts",
+        "abstract botanical",
+        "monochrome art",
+        "organic shapes",
+        "mid-century modern"
+      ],
+      "mood": "bold",
+      "rooms": [
+        "living room",
+        "bedroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/15002/15002-sm.jpg",
+        "md": "/designs/15002/15002-md.jpg",
+        "lg": "/designs/15002/15002-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/15002/15002-sm.jpg",
+        "md": "/designs/15002/15002-md.jpg",
+        "lg": "/designs/15002/15002-lg.jpg"
+      }
+    },
+    {
+      "id": "15004",
+      "category": "Botanical",
+      "title": "Abstract Botanical Leaf in Warm Peach and Sage",
+      "slug": "15004-botanical",
+      "description": "A stylized abstract leaf form with rounded petals dominates this warm-toned composition. A sage green circle and coral geometric shape add contrast against the creamy background. Subtle texture and organic line work give the piece a handcrafted, modern feel.",
+      "style": "Mid-Century Modern Abstract",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "peach",
+        "coral",
+        "sage green"
+      ],
+      "tags": [
+        "abstract leaf",
+        "botanical art",
+        "mid-century modern",
+        "organic shapes",
+        "minimalist"
+      ],
+      "mood": "warm",
+      "rooms": [
+        "living room",
+        "bedroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/15004/15004-sm.jpg",
+        "md": "/designs/15004/15004-md.jpg",
+        "lg": "/designs/15004/15004-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/15004/15004-sm.jpg",
+        "md": "/designs/15004/15004-md.jpg",
+        "lg": "/designs/15004/15004-lg.jpg"
+      }
+    },
+    {
+      "id": "19001_1-49044",
+      "category": "Botanical",
+      "title": "The Island Garden \u2014 Impressionist Floral Print",
+      "slug": "19001-1-49044-botanical",
+      "description": "A delicate watercolor reproduction depicting a lush field of poppies and wildflowers. Soft washes of coral, lavender, and white create a dreamy, sun-drenched garden scene. Presented in an elegant exhibition poster format.",
+      "style": "Impressionist",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "coral pink",
+        "lavender",
+        "cream"
+      ],
+      "tags": [
+        "impressionism",
+        "watercolor flowers",
+        "garden art",
+        "museum poster",
+        "floral"
+      ],
+      "mood": "dreamy",
+      "rooms": [
+        "living room",
+        "dining room"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/19001_1-49044/19001_1-49044-sm.jpg",
+        "md": "/designs/19001_1-49044/19001_1-49044-md.jpg",
+        "lg": "/designs/19001_1-49044/19001_1-49044-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/19001_1-49044/19001_1-49044-sm.jpg",
+        "md": "/designs/19001_1-49044/19001_1-49044-md.jpg",
+        "lg": "/designs/19001_1-49044/19001_1-49044-lg.jpg"
+      }
+    },
+    {
+      "id": "19079_1-76593",
+      "category": "Botanical",
+      "title": "Bold Folk Art Wildflower Garden Illustration",
+      "slug": "19079-1-76593-botanical",
+      "description": "A vibrant flat-style illustration bursting with daisies, cornflowers, and assorted wildflowers in bold primary and pastel hues. Graphic shapes and a playful composition give the piece a contemporary folk art charm.",
+      "style": "Contemporary Folk Art",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "cobalt blue",
+        "red",
+        "pink"
+      ],
+      "tags": [
+        "folk art flowers",
+        "flat illustration",
+        "wildflowers",
+        "colorful wall art",
+        "Scandinavian"
+      ],
+      "mood": "cheerful",
+      "rooms": [
+        "kids room",
+        "kitchen"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/19079_1-76593/19079_1-76593-sm.jpg",
+        "md": "/designs/19079_1-76593/19079_1-76593-md.jpg",
+        "lg": "/designs/19079_1-76593/19079_1-76593-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/19079_1-76593/19079_1-76593-sm.jpg",
+        "md": "/designs/19079_1-76593/19079_1-76593-md.jpg",
+        "lg": "/designs/19079_1-76593/19079_1-76593-lg.jpg"
+      }
+    },
+    {
+      "id": "20 [Converti]",
+      "category": "Botanical",
+      "title": "Art Is a Way of Survival - Abstract Botanical Print",
+      "slug": "20-converti-botanical",
+      "description": "A muted-tone abstract botanical illustration featuring organic leaf shapes, paired with an inspiring quote. The soft, overlapping forms create a serene composition that blends nature with modern art sensibility.",
+      "style": "Modern Abstract Botanical",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "dusty pink",
+        "light blue",
+        "olive green"
+      ],
+      "tags": [
+        "abstract art",
+        "botanical print",
+        "inspirational quote",
+        "organic shapes",
+        "muted tones"
+      ],
+      "mood": "calm",
+      "rooms": [
+        "living room",
+        "bedroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/20 [Converti]/20 [Converti]-sm.jpg",
+        "md": "/designs/20 [Converti]/20 [Converti]-md.jpg",
+        "lg": "/designs/20 [Converti]/20 [Converti]-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/20 [Converti]/20 [Converti]-sm.jpg",
+        "md": "/designs/20 [Converti]/20 [Converti]-md.jpg",
+        "lg": "/designs/20 [Converti]/20 [Converti]-lg.jpg"
+      }
+    },
+    {
+      "id": "28 [Converti]",
+      "category": "Botanical",
+      "title": "Art Is a Way of Survival - Vibrant Floral Print",
+      "slug": "28-converti-botanical",
+      "description": "A bold and colorful abstract floral pattern featuring stylized blossoms and leaves in vivid greens, pinks, and yellows. This energetic print brings joyful, garden-fresh vibes to any space.",
+      "style": "Modern Abstract Floral",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "emerald green",
+        "bubblegum pink",
+        "golden yellow"
+      ],
+      "tags": [
+        "floral art",
+        "colorful print",
+        "abstract flowers",
+        "tropical vibes",
+        "botanical"
+      ],
+      "mood": "joyful",
+      "rooms": [
+        "living room",
+        "home office"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/28 [Converti]/28 [Converti]-sm.jpg",
+        "md": "/designs/28 [Converti]/28 [Converti]-md.jpg",
+        "lg": "/designs/28 [Converti]/28 [Converti]-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/28 [Converti]/28 [Converti]-sm.jpg",
+        "md": "/designs/28 [Converti]/28 [Converti]-md.jpg",
+        "lg": "/designs/28 [Converti]/28 [Converti]-lg.jpg"
+      }
+    },
+    {
+      "id": "29 [Converti]",
+      "category": "Botanical",
+      "title": "Botanical Forms of Art - Abstract Pebble Print",
+      "slug": "29-converti-botanical",
+      "description": "An eye-catching composition of overlapping oval and petal-shaped forms in a rich, earthy color palette. This abstract botanical poster balances playfulness with sophistication through its terrazzo-like arrangement.",
+      "style": "Abstract Geometric Botanical",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "periwinkle blue",
+        "mustard yellow",
+        "black"
+      ],
+      "tags": [
+        "abstract shapes",
+        "botanical art",
+        "terrazzo style",
+        "mid-century modern",
+        "organic forms"
+      ],
+      "mood": "sophisticated",
+      "rooms": [
+        "hallway",
+        "dining room"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/29 [Converti]/29 [Converti]-sm.jpg",
+        "md": "/designs/29 [Converti]/29 [Converti]-md.jpg",
+        "lg": "/designs/29 [Converti]/29 [Converti]-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/29 [Converti]/29 [Converti]-sm.jpg",
+        "md": "/designs/29 [Converti]/29 [Converti]-md.jpg",
+        "lg": "/designs/29 [Converti]/29 [Converti]-lg.jpg"
+      }
+    },
+    {
+      "id": "35414392_0112abc_105",
+      "category": "Botanical",
+      "title": "Flower Market Monstera Leaf - Botanical Paradise",
+      "slug": "35414392-0112abc-105-botanical",
+      "description": "A striking minimalist poster featuring a bold green monstera leaf against a vivid orange background. The high-contrast two-tone design creates a vibrant statement piece.",
+      "style": "Minimalist Pop Botanical",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "bright orange",
+        "forest green",
+        "white"
+      ],
+      "tags": [
+        "monstera leaf",
+        "flower market poster",
+        "tropical plant",
+        "minimalist art",
+        "bold color"
+      ],
+      "mood": "bold",
+      "rooms": [
+        "kitchen",
+        "entryway"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/35414392_0112abc_105/35414392_0112abc_105-sm.jpg",
+        "md": "/designs/35414392_0112abc_105/35414392_0112abc_105-md.jpg",
+        "lg": "/designs/35414392_0112abc_105/35414392_0112abc_105-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/35414392_0112abc_105/35414392_0112abc_105-sm.jpg",
+        "md": "/designs/35414392_0112abc_105/35414392_0112abc_105-md.jpg",
+        "lg": "/designs/35414392_0112abc_105/35414392_0112abc_105-lg.jpg"
+      }
+    },
+    {
+      "id": "35414407_0112abc_2",
+      "category": "Botanical",
+      "title": "Botanical Art Modern Cut Out - Green Leaf Print",
+      "slug": "35414407-0112abc-2-botanical",
+      "description": "A Matisse-inspired cut-out style botanical print featuring a symmetrical green leaf on a warm beige background. The clean, organic silhouette gives this piece a timeless, gallery-worthy appeal.",
+      "style": "Matisse Cut-Out Botanical",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "deep green",
+        "warm beige",
+        "cream"
+      ],
+      "tags": [
+        "Matisse style",
+        "cut out art",
+        "botanical print",
+        "minimalist",
+        "leaf silhouette"
+      ],
+      "mood": "serene",
+      "rooms": [
+        "bedroom",
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/35414407_0112abc_2/35414407_0112abc_2-sm.jpg",
+        "md": "/designs/35414407_0112abc_2/35414407_0112abc_2-md.jpg",
+        "lg": "/designs/35414407_0112abc_2/35414407_0112abc_2-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/35414407_0112abc_2/35414407_0112abc_2-sm.jpg",
+        "md": "/designs/35414407_0112abc_2/35414407_0112abc_2-md.jpg",
+        "lg": "/designs/35414407_0112abc_2/35414407_0112abc_2-lg.jpg"
+      }
+    },
+    {
+      "id": "35414410_0112abc_3",
+      "category": "Botanical",
+      "title": "Flower Market Botanical Art \u2013 Colorful Blooms Print",
+      "slug": "35414410-0112abc-3-botanical",
+      "description": "A vibrant flower market poster featuring four bold, abstract blooms in orange, pink, navy, and forest green on a warm beige background. The Matisse-inspired cutout shapes make this a standout piece.",
+      "style": "Modern Matisse cutout",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "orange-red",
+        "hot pink",
+        "navy blue"
+      ],
+      "tags": [
+        "flower market poster",
+        "botanical art print",
+        "Matisse cutout style",
+        "abstract floral",
+        "colorful modern"
+      ],
+      "mood": "cheerful",
+      "rooms": [
+        "living room",
+        "kitchen"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/35414410_0112abc_3/35414410_0112abc_3-sm.jpg",
+        "md": "/designs/35414410_0112abc_3/35414410_0112abc_3-md.jpg",
+        "lg": "/designs/35414410_0112abc_3/35414410_0112abc_3-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/35414410_0112abc_3/35414410_0112abc_3-sm.jpg",
+        "md": "/designs/35414410_0112abc_3/35414410_0112abc_3-md.jpg",
+        "lg": "/designs/35414410_0112abc_3/35414410_0112abc_3-lg.jpg"
+      }
+    },
+    {
+      "id": "35414413_0112abc_5",
+      "category": "Botanical",
+      "title": "Flower Market Red Bloom \u2013 Bold Botanical Art Print",
+      "slug": "35414413-0112abc-5-botanical",
+      "description": "A striking single red-orange abstract flower dominates this minimalist botanical poster. The bold, organic silhouette against a neutral beige background creates a powerful focal point with retro charm.",
+      "style": "Modern Matisse cutout",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "red-orange",
+        "beige",
+        "dark green"
+      ],
+      "tags": [
+        "flower market print",
+        "red floral poster",
+        "minimalist botanical",
+        "abstract flower",
+        "mid-century modern"
+      ],
+      "mood": "bold",
+      "rooms": [
+        "living room",
+        "dining room"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/35414413_0112abc_5/35414413_0112abc_5-sm.jpg",
+        "md": "/designs/35414413_0112abc_5/35414413_0112abc_5-md.jpg",
+        "lg": "/designs/35414413_0112abc_5/35414413_0112abc_5-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/35414413_0112abc_5/35414413_0112abc_5-sm.jpg",
+        "md": "/designs/35414413_0112abc_5/35414413_0112abc_5-md.jpg",
+        "lg": "/designs/35414413_0112abc_5/35414413_0112abc_5-lg.jpg"
+      }
+    },
+    {
+      "id": "35414416_0112abc_6",
+      "category": "Botanical",
+      "title": "Flower Market Navy Blue Bloom \u2013 Botanical Art Print",
+      "slug": "35414416-0112abc-6-botanical",
+      "description": "A deep navy blue abstract flower with intricate petal details sits against a soft beige background. This elegant botanical poster combines bold graphic design with organic, hand-drawn character.",
+      "style": "Modern Matisse cutout",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "navy blue",
+        "beige",
+        "dark green"
+      ],
+      "tags": [
+        "flower market poster",
+        "navy blue floral art",
+        "abstract botanical",
+        "modern wall decor",
+        "blue flower"
+      ],
+      "mood": "sophisticated",
+      "rooms": [
+        "bedroom",
+        "home office"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/35414416_0112abc_6/35414416_0112abc_6-sm.jpg",
+        "md": "/designs/35414416_0112abc_6/35414416_0112abc_6-md.jpg",
+        "lg": "/designs/35414416_0112abc_6/35414416_0112abc_6-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/35414416_0112abc_6/35414416_0112abc_6-sm.jpg",
+        "md": "/designs/35414416_0112abc_6/35414416_0112abc_6-md.jpg",
+        "lg": "/designs/35414416_0112abc_6/35414416_0112abc_6-lg.jpg"
+      }
+    },
+    {
+      "id": "35414533_0612abc_1",
+      "category": "Botanical",
+      "title": "Green Garden Flower \u2013 Linocut Style Botanical Print",
+      "slug": "35414533-0612abc-1-botanical",
+      "description": "A cream-white flower with a soft pink center blooms against a lush green background filled with sweeping, curved leaf patterns. The linocut-inspired illustration gives this piece a handcrafted quality.",
+      "style": "Linocut illustration",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "sage green",
+        "cream white",
+        "dusty pink"
+      ],
+      "tags": [
+        "linocut flower print",
+        "green botanical wall art",
+        "retro floral poster",
+        "block print style",
+        "nature illustration"
+      ],
+      "mood": "serene",
+      "rooms": [
+        "bedroom",
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/35414533_0612abc_1/35414533_0612abc_1-sm.jpg",
+        "md": "/designs/35414533_0612abc_1/35414533_0612abc_1-md.jpg",
+        "lg": "/designs/35414533_0612abc_1/35414533_0612abc_1-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/35414533_0612abc_1/35414533_0612abc_1-sm.jpg",
+        "md": "/designs/35414533_0612abc_1/35414533_0612abc_1-md.jpg",
+        "lg": "/designs/35414533_0612abc_1/35414533_0612abc_1-lg.jpg"
+      }
+    },
+    {
+      "id": "35414541_0612abc_18",
+      "category": "Botanical",
+      "title": "Tropical Leaves \u2013 Green Botanical Block Print Art",
+      "slug": "35414541-0612abc-18-botanical",
+      "description": "Bold dark green tropical leaves fan outward in a dramatic, symmetrical composition against a light beige background. The expressive brushwork brings raw, natural energy to any wall.",
+      "style": "Woodcut block print",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "forest green",
+        "light beige",
+        "dark olive"
+      ],
+      "tags": [
+        "tropical leaf print",
+        "green botanical poster",
+        "block print plant art",
+        "palm leaf wall decor",
+        "nature-inspired"
+      ],
+      "mood": "lush",
+      "rooms": [
+        "living room",
+        "entryway"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/35414541_0612abc_18/35414541_0612abc_18-sm.jpg",
+        "md": "/designs/35414541_0612abc_18/35414541_0612abc_18-md.jpg",
+        "lg": "/designs/35414541_0612abc_18/35414541_0612abc_18-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/35414541_0612abc_18/35414541_0612abc_18-sm.jpg",
+        "md": "/designs/35414541_0612abc_18/35414541_0612abc_18-md.jpg",
+        "lg": "/designs/35414541_0612abc_18/35414541_0612abc_18-lg.jpg"
+      }
+    },
+    {
+      "id": "35659856_1012abcd_7",
+      "category": "Botanical",
+      "title": "Bold Green Foliage Silhouette Print",
+      "slug": "35659856-1012abcd-7-botanical",
+      "description": "A striking minimalist illustration of lush green leaves with clean white outlines against a pure white background. The bold, graphic shapes create a modern botanical statement.",
+      "style": "Modern Minimalist",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "deep green",
+        "white",
+        "forest green"
+      ],
+      "tags": [
+        "botanical",
+        "leaves",
+        "minimalist",
+        "tropical plant",
+        "green foliage"
+      ],
+      "mood": "fresh",
+      "rooms": [
+        "living room",
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/35659856_1012abcd_7/35659856_1012abcd_7-sm.jpg",
+        "md": "/designs/35659856_1012abcd_7/35659856_1012abcd_7-md.jpg",
+        "lg": "/designs/35659856_1012abcd_7/35659856_1012abcd_7-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/35659856_1012abcd_7/35659856_1012abcd_7-sm.jpg",
+        "md": "/designs/35659856_1012abcd_7/35659856_1012abcd_7-md.jpg",
+        "lg": "/designs/35659856_1012abcd_7/35659856_1012abcd_7-lg.jpg"
+      }
+    },
+    {
+      "id": "35659862_1012abcd_8",
+      "category": "Botanical",
+      "title": "Colorful Potted Plant in Blue Vase",
+      "slug": "35659862-1012abcd-8-botanical",
+      "description": "A vibrant pop-art inspired illustration of a tropical houseplant with bold pink and green leaves in a cobalt blue pot. The flat color palette gives this piece a playful, contemporary energy.",
+      "style": "Contemporary Pop Art",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "hot pink",
+        "deep green",
+        "cobalt blue"
+      ],
+      "tags": [
+        "houseplant",
+        "potted plant",
+        "colorful",
+        "tropical",
+        "pop art"
+      ],
+      "mood": "playful",
+      "rooms": [
+        "bedroom",
+        "home office"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/35659862_1012abcd_8/35659862_1012abcd_8-sm.jpg",
+        "md": "/designs/35659862_1012abcd_8/35659862_1012abcd_8-md.jpg",
+        "lg": "/designs/35659862_1012abcd_8/35659862_1012abcd_8-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/35659862_1012abcd_8/35659862_1012abcd_8-sm.jpg",
+        "md": "/designs/35659862_1012abcd_8/35659862_1012abcd_8-md.jpg",
+        "lg": "/designs/35659862_1012abcd_8/35659862_1012abcd_8-lg.jpg"
+      }
+    },
+    {
+      "id": "35659938_ty8",
+      "category": "Botanical",
+      "title": "Black Peony Botanical Collection Gallery Print",
+      "slug": "35659938-ty8-botanical",
+      "description": "An elegant monochrome botanical poster featuring bold black peonies and swirling foliage in a woodcut-inspired style. High-contrast design on cream background evokes vintage printmaking.",
+      "style": "Woodcut Linocut",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "black",
+        "cream",
+        "beige"
+      ],
+      "tags": [
+        "peony",
+        "floral",
+        "monochrome",
+        "gallery poster",
+        "woodcut"
+      ],
+      "mood": "sophisticated",
+      "rooms": [
+        "living room",
+        "hallway"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/35659938_ty8/35659938_ty8-sm.jpg",
+        "md": "/designs/35659938_ty8/35659938_ty8-md.jpg",
+        "lg": "/designs/35659938_ty8/35659938_ty8-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/35659938_ty8/35659938_ty8-sm.jpg",
+        "md": "/designs/35659938_ty8/35659938_ty8-md.jpg",
+        "lg": "/designs/35659938_ty8/35659938_ty8-lg.jpg"
+      }
+    },
+    {
+      "id": "35659949_ty9",
+      "category": "Botanical",
+      "title": "Orange Peony Botanical Collection Gallery Print",
+      "slug": "35659949-ty9-botanical",
+      "description": "A warm botanical poster showcasing lush peonies in vibrant burnt orange against soft cream background. The expressive hand-cut style brings rustic charm to this garden-inspired piece.",
+      "style": "Woodcut Linocut",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "burnt orange",
+        "cream",
+        "beige"
+      ],
+      "tags": [
+        "peony",
+        "floral",
+        "orange",
+        "gallery poster",
+        "botanical"
+      ],
+      "mood": "warm",
+      "rooms": [
+        "dining room",
+        "kitchen"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/35659949_ty9/35659949_ty9-sm.jpg",
+        "md": "/designs/35659949_ty9/35659949_ty9-md.jpg",
+        "lg": "/designs/35659949_ty9/35659949_ty9-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/35659949_ty9/35659949_ty9-sm.jpg",
+        "md": "/designs/35659949_ty9/35659949_ty9-md.jpg",
+        "lg": "/designs/35659949_ty9/35659949_ty9-lg.jpg"
+      }
+    },
+    {
+      "id": "36 [Converti]",
+      "category": "Botanical",
+      "title": "Abstract Botanical Forms of Art Leaf Print",
+      "slug": "36-converti-botanical",
+      "description": "A sophisticated abstract botanical poster featuring overlapping leaves in a rich, muted palette of navy, dusty pink, brown, and soft blue. The layered shapes create depth and movement.",
+      "style": "Abstract Contemporary",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "navy blue",
+        "dusty pink",
+        "brown"
+      ],
+      "tags": [
+        "abstract leaves",
+        "muted tones",
+        "botanical",
+        "gallery poster",
+        "autumn"
+      ],
+      "mood": "elegant",
+      "rooms": [
+        "bedroom",
+        "living room"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/36 [Converti]/36 [Converti]-sm.jpg",
+        "md": "/designs/36 [Converti]/36 [Converti]-md.jpg",
+        "lg": "/designs/36 [Converti]/36 [Converti]-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/36 [Converti]/36 [Converti]-sm.jpg",
+        "md": "/designs/36 [Converti]/36 [Converti]-md.jpg",
+        "lg": "/designs/36 [Converti]/36 [Converti]-lg.jpg"
+      }
+    },
+    {
+      "id": "37 [Converti]",
+      "category": "Botanical",
+      "title": "Botanical Forms of Art \u2013 Autumn Leaves Collection",
+      "slug": "37-converti-botanical",
+      "description": "A sophisticated abstract botanical print featuring overlapping leaves in warm autumnal tones on a cream background. The flat, layered composition evokes a modern take on nature-inspired design.",
+      "style": "Modern Abstract Botanical",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "mustard gold",
+        "dusty rose",
+        "powder blue"
+      ],
+      "tags": [
+        "botanical print",
+        "abstract leaves",
+        "autumn palette",
+        "modern wall art",
+        "nature illustration"
+      ],
+      "mood": "warm",
+      "rooms": [
+        "living room",
+        "bedroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/37 [Converti]/37 [Converti]-sm.jpg",
+        "md": "/designs/37 [Converti]/37 [Converti]-md.jpg",
+        "lg": "/designs/37 [Converti]/37 [Converti]-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/37 [Converti]/37 [Converti]-sm.jpg",
+        "md": "/designs/37 [Converti]/37 [Converti]-md.jpg",
+        "lg": "/designs/37 [Converti]/37 [Converti]-lg.jpg"
+      }
+    },
+    {
+      "id": "43 [Converti]",
+      "category": "Botanical",
+      "title": "Botanical Forms \u2013 Chartreuse & Pink Foliage",
+      "slug": "43-converti-botanical",
+      "description": "A vibrant botanical print with bold chartreuse and hot pink leaves scattered across a sage green background. The energetic color combination creates a fresh, contemporary feel.",
+      "style": "Contemporary Graphic Botanical",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "chartreuse",
+        "hot pink",
+        "sage green"
+      ],
+      "tags": [
+        "botanical print",
+        "bold colors",
+        "tropical leaves",
+        "graphic art",
+        "modern poster"
+      ],
+      "mood": "energetic",
+      "rooms": [
+        "home office",
+        "dining room"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/43 [Converti]/43 [Converti]-sm.jpg",
+        "md": "/designs/43 [Converti]/43 [Converti]-md.jpg",
+        "lg": "/designs/43 [Converti]/43 [Converti]-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/43 [Converti]/43 [Converti]-sm.jpg",
+        "md": "/designs/43 [Converti]/43 [Converti]-md.jpg",
+        "lg": "/designs/43 [Converti]/43 [Converti]-lg.jpg"
+      }
+    },
+    {
+      "id": "44 [Converti]",
+      "category": "Botanical",
+      "title": "Botanical Forms \u2013 Soft Pink & Sage Leaves",
+      "slug": "44-converti-botanical",
+      "description": "A delicate botanical print showcasing flowing leaves in soft pink and muted sage green tones. The gentle pastel palette creates a serene, feminine aesthetic.",
+      "style": "Soft Pastel Botanical",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "soft pink",
+        "sage green",
+        "cream"
+      ],
+      "tags": [
+        "botanical print",
+        "pastel art",
+        "feminine decor",
+        "minimalist leaves",
+        "soft tones"
+      ],
+      "mood": "calm",
+      "rooms": [
+        "bedroom",
+        "nursery"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/44 [Converti]/44 [Converti]-sm.jpg",
+        "md": "/designs/44 [Converti]/44 [Converti]-md.jpg",
+        "lg": "/designs/44 [Converti]/44 [Converti]-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/44 [Converti]/44 [Converti]-sm.jpg",
+        "md": "/designs/44 [Converti]/44 [Converti]-md.jpg",
+        "lg": "/designs/44 [Converti]/44 [Converti]-lg.jpg"
+      }
+    },
+    {
+      "id": "50 [Converti]",
+      "category": "Botanical",
+      "title": "Botanical Forms \u2013 Striped Swirl Leaves",
+      "slug": "50-converti-botanical",
+      "description": "An eye-catching botanical print featuring swirling, striped leaf forms in periwinkle blue and blush pink against golden ochre. The rhythmic linework creates a mesmerizing pattern.",
+      "style": "Abstract Pattern Botanical",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "periwinkle blue",
+        "blush pink",
+        "golden ochre"
+      ],
+      "tags": [
+        "botanical print",
+        "striped pattern",
+        "abstract art",
+        "swirl design",
+        "contemporary poster"
+      ],
+      "mood": "dynamic",
+      "rooms": [
+        "living room",
+        "hallway"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/50 [Converti]/50 [Converti]-sm.jpg",
+        "md": "/designs/50 [Converti]/50 [Converti]-md.jpg",
+        "lg": "/designs/50 [Converti]/50 [Converti]-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/50 [Converti]/50 [Converti]-sm.jpg",
+        "md": "/designs/50 [Converti]/50 [Converti]-md.jpg",
+        "lg": "/designs/50 [Converti]/50 [Converti]-lg.jpg"
+      }
+    },
+    {
+      "id": "56 [Converti]",
+      "category": "Botanical",
+      "title": "Botanical Forms \u2013 Bold Tropical Red & Green",
+      "slug": "56-converti-botanical",
+      "description": "A striking botanical print with dramatic red, deep green, and dark navy leaves against an abstract lavender background. High-contrast colors deliver a bold statement piece.",
+      "style": "Bold Contemporary Botanical",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "vermillion red",
+        "deep forest green",
+        "lavender"
+      ],
+      "tags": [
+        "botanical print",
+        "bold wall art",
+        "tropical plants",
+        "high contrast",
+        "statement piece"
+      ],
+      "mood": "bold",
+      "rooms": [
+        "living room",
+        "studio"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/56 [Converti]/56 [Converti]-sm.jpg",
+        "md": "/designs/56 [Converti]/56 [Converti]-md.jpg",
+        "lg": "/designs/56 [Converti]/56 [Converti]-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/56 [Converti]/56 [Converti]-sm.jpg",
+        "md": "/designs/56 [Converti]/56 [Converti]-md.jpg",
+        "lg": "/designs/56 [Converti]/56 [Converti]-lg.jpg"
+      }
+    },
+    {
+      "id": "62 [Converti]",
+      "category": "Botanical",
+      "title": "Art Is a Way of Survival \u2013 Green Daisy Floral Print",
+      "slug": "62-converti-botanical",
+      "description": "A cheerful floral quote print featuring white daisies with orange centers set against soft sage green and peach leaves. An uplifting piece blending typography with a fresh botanical pattern.",
+      "style": "Scandinavian Modern Illustration",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "sage green",
+        "peach",
+        "white"
+      ],
+      "tags": [
+        "floral quote print",
+        "daisy pattern",
+        "botanical wall art",
+        "inspirational typography",
+        "modern"
+      ],
+      "mood": "uplifting",
+      "rooms": [
+        "living room",
+        "home office"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/62 [Converti]/62 [Converti]-sm.jpg",
+        "md": "/designs/62 [Converti]/62 [Converti]-md.jpg",
+        "lg": "/designs/62 [Converti]/62 [Converti]-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/62 [Converti]/62 [Converti]-sm.jpg",
+        "md": "/designs/62 [Converti]/62 [Converti]-md.jpg",
+        "lg": "/designs/62 [Converti]/62 [Converti]-lg.jpg"
+      }
+    },
+    {
+      "id": "63 [Converti]",
+      "category": "Botanical",
+      "title": "Art Is a Way of Survival \u2013 Blush Pink Floral Print",
+      "slug": "63-converti-botanical",
+      "description": "A dreamy pastel floral print with soft coral, lavender, and blush wildflowers. The warm, muted tones create a gentle, romantic atmosphere perfect for feminine spaces.",
+      "style": "Scandinavian Modern Illustration",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "blush pink",
+        "coral",
+        "lavender"
+      ],
+      "tags": [
+        "pastel floral art",
+        "romantic wall decor",
+        "wildflower print",
+        "feminine art print",
+        "botanical"
+      ],
+      "mood": "romantic",
+      "rooms": [
+        "bedroom",
+        "nursery"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/63 [Converti]/63 [Converti]-sm.jpg",
+        "md": "/designs/63 [Converti]/63 [Converti]-md.jpg",
+        "lg": "/designs/63 [Converti]/63 [Converti]-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/63 [Converti]/63 [Converti]-sm.jpg",
+        "md": "/designs/63 [Converti]/63 [Converti]-md.jpg",
+        "lg": "/designs/63 [Converti]/63 [Converti]-lg.jpg"
+      }
+    },
+    {
+      "id": "70 [Converti]",
+      "category": "Botanical",
+      "title": "Art Is a Way of Survival \u2013 Lavender & Mint Floral",
+      "slug": "70-converti-botanical",
+      "description": "Bold lavender and cream flowers with cheerful yellow centers bloom across a fresh mint green background. A vibrant yet soothing quote print with a playful, spring-inspired palette.",
+      "style": "Scandinavian Modern Illustration",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "lavender",
+        "mint green",
+        "yellow"
+      ],
+      "tags": [
+        "lavender floral print",
+        "spring wall art",
+        "bold botanical art",
+        "pastel poster",
+        "cheerful"
+      ],
+      "mood": "playful",
+      "rooms": [
+        "living room",
+        "teen bedroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/70 [Converti]/70 [Converti]-sm.jpg",
+        "md": "/designs/70 [Converti]/70 [Converti]-md.jpg",
+        "lg": "/designs/70 [Converti]/70 [Converti]-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/70 [Converti]/70 [Converti]-sm.jpg",
+        "md": "/designs/70 [Converti]/70 [Converti]-md.jpg",
+        "lg": "/designs/70 [Converti]/70 [Converti]-lg.jpg"
+      }
+    },
+    {
+      "id": "71 [Converti]",
+      "category": "Botanical",
+      "title": "Art Is a Way of Survival \u2013 Blue Peony Floral Print",
+      "slug": "71-converti-botanical",
+      "description": "Elegant navy and sky-blue peonies intertwine with sage green foliage on a soft peach background. The cool blue tones make a refined, calming statement piece.",
+      "style": "Scandinavian Modern Illustration",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "navy blue",
+        "sky blue",
+        "peach"
+      ],
+      "tags": [
+        "blue floral art",
+        "peony print",
+        "sophisticated wall art",
+        "modern botanical",
+        "calm"
+      ],
+      "mood": "serene",
+      "rooms": [
+        "bedroom",
+        "dining room"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/71 [Converti]/71 [Converti]-sm.jpg",
+        "md": "/designs/71 [Converti]/71 [Converti]-md.jpg",
+        "lg": "/designs/71 [Converti]/71 [Converti]-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/71 [Converti]/71 [Converti]-sm.jpg",
+        "md": "/designs/71 [Converti]/71 [Converti]-md.jpg",
+        "lg": "/designs/71 [Converti]/71 [Converti]-lg.jpg"
+      }
+    },
+    {
+      "id": "75 [Converti]",
+      "category": "Botanical",
+      "title": "Art Is a Way of Survival \u2013 Abstract Tropical Leaf",
+      "slug": "75-converti-botanical",
+      "description": "An abstract composition of bold tropical leaves in olive, dark teal, and pale blue creates a striking, modern botanical scene. Sculptural foliage with contemporary appeal.",
+      "style": "Abstract Modern Illustration",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "olive green",
+        "dark teal",
+        "pale blue"
+      ],
+      "tags": [
+        "abstract leaf art",
+        "tropical print",
+        "modern botanical poster",
+        "nature wall art",
+        "contemporary"
+      ],
+      "mood": "earthy",
+      "rooms": [
+        "home office",
+        "living room"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/75 [Converti]/75 [Converti]-sm.jpg",
+        "md": "/designs/75 [Converti]/75 [Converti]-md.jpg",
+        "lg": "/designs/75 [Converti]/75 [Converti]-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/75 [Converti]/75 [Converti]-sm.jpg",
+        "md": "/designs/75 [Converti]/75 [Converti]-md.jpg",
+        "lg": "/designs/75 [Converti]/75 [Converti]-lg.jpg"
+      }
+    },
+    {
+      "id": "8 [Converti]",
+      "category": "Botanical",
+      "title": "Botanical Forms \u2013 Abstract Green Leaf Print",
+      "slug": "8-converti-botanical",
+      "description": "A lush arrangement of overlapping leaves rendered in a bold, flat illustration style with dark outlines and layered color blocks. This modern botanical poster brings organic, garden-inspired energy.",
+      "style": "Modern Flat Illustration",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "forest green",
+        "chartreuse",
+        "soft pink"
+      ],
+      "tags": [
+        "botanical",
+        "leaves",
+        "modern illustration",
+        "nature art",
+        "plant print"
+      ],
+      "mood": "fresh",
+      "rooms": [
+        "living room",
+        "home office"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/8 [Converti]/8 [Converti]-sm.jpg",
+        "md": "/designs/8 [Converti]/8 [Converti]-md.jpg",
+        "lg": "/designs/8 [Converti]/8 [Converti]-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/8 [Converti]/8 [Converti]-sm.jpg",
+        "md": "/designs/8 [Converti]/8 [Converti]-md.jpg",
+        "lg": "/designs/8 [Converti]/8 [Converti]-lg.jpg"
+      }
+    },
+    {
+      "id": "85 [Converti]",
+      "category": "Botanical",
+      "title": "Botanical Forms \u2013 Coral Floral Pattern Print",
+      "slug": "85-converti-botanical",
+      "description": "A decorative floral pattern featuring blue star-shaped flowers and flowing cream leaves against a warm coral background. Matisse-inspired botanical poster with cheerful, retro aesthetic.",
+      "style": "Decorative Flat Pattern",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "coral pink",
+        "periwinkle blue",
+        "cream"
+      ],
+      "tags": [
+        "floral",
+        "pattern",
+        "retro",
+        "botanical poster",
+        "Matisse-inspired"
+      ],
+      "mood": "cheerful",
+      "rooms": [
+        "bedroom",
+        "dining room"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/85 [Converti]/85 [Converti]-sm.jpg",
+        "md": "/designs/85 [Converti]/85 [Converti]-md.jpg",
+        "lg": "/designs/85 [Converti]/85 [Converti]-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/85 [Converti]/85 [Converti]-sm.jpg",
+        "md": "/designs/85 [Converti]/85 [Converti]-md.jpg",
+        "lg": "/designs/85 [Converti]/85 [Converti]-lg.jpg"
+      }
+    },
+    {
+      "id": "abstractflowerlowres",
+      "category": "Botanical",
+      "title": "Bold Tropical Flowers \u2013 Vibrant Folk Art Print",
+      "slug": "abstractflowerlowres-botanical",
+      "description": "A striking composition of oversized tropical flowers and leaves in saturated reds, yellows, oranges, and greens. Folk-art-inspired floral print delivers maximum visual impact with dense, mosaic-like arrangement.",
+      "style": "Folk Art Fauvist Illustration",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "crimson red",
+        "bright yellow",
+        "emerald green"
+      ],
+      "tags": [
+        "tropical flowers",
+        "folk art",
+        "bold color",
+        "maximalist",
+        "floral illustration"
+      ],
+      "mood": "bold",
+      "rooms": [
+        "living room",
+        "entryway"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/abstractflowerlowres/abstractflowerlowres-sm.jpg",
+        "md": "/designs/abstractflowerlowres/abstractflowerlowres-md.jpg",
+        "lg": "/designs/abstractflowerlowres/abstractflowerlowres-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/abstractflowerlowres/abstractflowerlowres-sm.jpg",
+        "md": "/designs/abstractflowerlowres/abstractflowerlowres-md.jpg",
+        "lg": "/designs/abstractflowerlowres/abstractflowerlowres-lg.jpg"
+      }
+    },
+    {
+      "id": "blue-leaf-paint-brushes-matisse-style-botanical-shapes-printable-art",
+      "category": "Botanical",
+      "title": "Blue Organic Form on Beige \u2013 Abstract Botanical Art",
+      "slug": "blue-leaf-paint-brushes-matisse-style-botanical-sh",
+      "description": "A single biomorphic coral-blue shape resembling a stylized plant rendered in thick, textured paint on warm beige. Minimalist piece channels mid-century modern aesthetics with sculptural organic silhouette.",
+      "style": "Abstract Minimalist",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "steel blue",
+        "warm beige",
+        "off-white"
+      ],
+      "tags": [
+        "abstract",
+        "minimalist",
+        "organic shape",
+        "Matisse cutout",
+        "textured paint"
+      ],
+      "mood": "calm",
+      "rooms": [
+        "bedroom",
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/blue-leaf-paint-brushes-matisse-style-botanical-shapes-printable-art/blue-leaf-paint-brushes-matisse-style-botanical-shapes-printable-art-sm.jpg",
+        "md": "/designs/blue-leaf-paint-brushes-matisse-style-botanical-shapes-printable-art/blue-leaf-paint-brushes-matisse-style-botanical-shapes-printable-art-md.jpg",
+        "lg": "/designs/blue-leaf-paint-brushes-matisse-style-botanical-shapes-printable-art/blue-leaf-paint-brushes-matisse-style-botanical-shapes-printable-art-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/blue-leaf-paint-brushes-matisse-style-botanical-shapes-printable-art/blue-leaf-paint-brushes-matisse-style-botanical-shapes-printable-art-sm.jpg",
+        "md": "/designs/blue-leaf-paint-brushes-matisse-style-botanical-shapes-printable-art/blue-leaf-paint-brushes-matisse-style-botanical-shapes-printable-art-md.jpg",
+        "lg": "/designs/blue-leaf-paint-brushes-matisse-style-botanical-shapes-printable-art/blue-leaf-paint-brushes-matisse-style-botanical-shapes-printable-art-lg.jpg"
+      }
+    },
+    {
+      "id": "blue-leaf-paint-brushes-matisse-style-botanical-shapes-printable-art (1)",
+      "category": "Botanical",
+      "title": "Cobalt Blue Abstract Form \u2013 Bold Minimalist Print",
+      "slug": "blue-leaf-paint-brushes-matisse-style-botanical-sh",
+      "description": "A bold, hand-like abstract form in vivid cobalt blue rises against textured neutral beige background. Striking minimalist artwork makes a confident statement with intense blue hue and gestural energy.",
+      "style": "Abstract Expressionist Minimalism",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "cobalt blue",
+        "warm beige",
+        "ivory"
+      ],
+      "tags": [
+        "abstract",
+        "cobalt blue",
+        "minimalist",
+        "Klein blue",
+        "gestural art"
+      ],
+      "mood": "bold",
+      "rooms": [
+        "living room",
+        "home office"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/blue-leaf-paint-brushes-matisse-style-botanical-shapes-printable-art (1)/blue-leaf-paint-brushes-matisse-style-botanical-shapes-printable-art (1)-sm.jpg",
+        "md": "/designs/blue-leaf-paint-brushes-matisse-style-botanical-shapes-printable-art (1)/blue-leaf-paint-brushes-matisse-style-botanical-shapes-printable-art (1)-md.jpg",
+        "lg": "/designs/blue-leaf-paint-brushes-matisse-style-botanical-shapes-printable-art (1)/blue-leaf-paint-brushes-matisse-style-botanical-shapes-printable-art (1)-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/blue-leaf-paint-brushes-matisse-style-botanical-shapes-printable-art (1)/blue-leaf-paint-brushes-matisse-style-botanical-shapes-printable-art (1)-sm.jpg",
+        "md": "/designs/blue-leaf-paint-brushes-matisse-style-botanical-shapes-printable-art (1)/blue-leaf-paint-brushes-matisse-style-botanical-shapes-printable-art (1)-md.jpg",
+        "lg": "/designs/blue-leaf-paint-brushes-matisse-style-botanical-shapes-printable-art (1)/blue-leaf-paint-brushes-matisse-style-botanical-shapes-printable-art (1)-lg.jpg"
+      }
+    },
+    {
+      "id": "blue-leaf-paint-brushes-matisse-style-botanical-shapes-printable-art (2)",
+      "category": "Botanical",
+      "title": "Navy Blue Matisse Leaf on Beige Textured Background",
+      "slug": "blue-leaf-paint-brushes-matisse-style-botanical-sh",
+      "description": "A bold navy blue organic leaf form painted with visible brushstrokes on a textured beige background. Matisse-inspired cutout design brings timeless French modern art elegance.",
+      "style": "Matisse cutout",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "navy blue",
+        "beige",
+        "cream"
+      ],
+      "tags": [
+        "Matisse",
+        "abstract leaf",
+        "organic shape",
+        "textured painting",
+        "French modern art"
+      ],
+      "mood": "bold",
+      "rooms": [
+        "living room",
+        "bedroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/blue-leaf-paint-brushes-matisse-style-botanical-shapes-printable-art (2)/blue-leaf-paint-brushes-matisse-style-botanical-shapes-printable-art (2)-sm.jpg",
+        "md": "/designs/blue-leaf-paint-brushes-matisse-style-botanical-shapes-printable-art (2)/blue-leaf-paint-brushes-matisse-style-botanical-shapes-printable-art (2)-md.jpg",
+        "lg": "/designs/blue-leaf-paint-brushes-matisse-style-botanical-shapes-printable-art (2)/blue-leaf-paint-brushes-matisse-style-botanical-shapes-printable-art (2)-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/blue-leaf-paint-brushes-matisse-style-botanical-shapes-printable-art (2)/blue-leaf-paint-brushes-matisse-style-botanical-shapes-printable-art (2)-sm.jpg",
+        "md": "/designs/blue-leaf-paint-brushes-matisse-style-botanical-shapes-printable-art (2)/blue-leaf-paint-brushes-matisse-style-botanical-shapes-printable-art (2)-md.jpg",
+        "lg": "/designs/blue-leaf-paint-brushes-matisse-style-botanical-shapes-printable-art (2)/blue-leaf-paint-brushes-matisse-style-botanical-shapes-printable-art (2)-lg.jpg"
+      }
+    },
+    {
+      "id": "botanical-abstract-pastel-retro-shapes-modern-bohemian-art",
+      "category": "Botanical",
+      "title": "Red Coral Botanical Art Print - Exhibition Poster",
+      "slug": "botanical-abstract-pastel-retro-shapes-modern-bohe",
+      "description": "A striking coral-red abstract botanical form with flowing, organic curves set against soft blush pink background. Exhibition-style poster pairs Matisse-inspired shapes with clean modern typography.",
+      "style": "Modern Exhibition Poster",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "coral red",
+        "blush pink",
+        "cream"
+      ],
+      "tags": [
+        "botanical art",
+        "Matisse inspired",
+        "coral shape",
+        "exhibition poster",
+        "modern art"
+      ],
+      "mood": "warm",
+      "rooms": [
+        "living room",
+        "dining room"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/botanical-abstract-pastel-retro-shapes-modern-bohemian-art/botanical-abstract-pastel-retro-shapes-modern-bohemian-art-sm.jpg",
+        "md": "/designs/botanical-abstract-pastel-retro-shapes-modern-bohemian-art/botanical-abstract-pastel-retro-shapes-modern-bohemian-art-md.jpg",
+        "lg": "/designs/botanical-abstract-pastel-retro-shapes-modern-bohemian-art/botanical-abstract-pastel-retro-shapes-modern-bohemian-art-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/botanical-abstract-pastel-retro-shapes-modern-bohemian-art/botanical-abstract-pastel-retro-shapes-modern-bohemian-art-sm.jpg",
+        "md": "/designs/botanical-abstract-pastel-retro-shapes-modern-bohemian-art/botanical-abstract-pastel-retro-shapes-modern-bohemian-art-md.jpg",
+        "lg": "/designs/botanical-abstract-pastel-retro-shapes-modern-bohemian-art/botanical-abstract-pastel-retro-shapes-modern-bohemian-art-lg.jpg"
+      }
+    },
+    {
+      "id": "botanical-abstract-pastel-retro-shapes-modern-bohemian-art (3)",
+      "category": "Botanical",
+      "title": "Sage Green Abstract Botanical Art Print",
+      "slug": "botanical-abstract-pastel-retro-shapes-modern-bohe",
+      "description": "A sinuous sage green organic form winds gracefully across a pale pink background in this modern botanical poster. Fluid, serpentine shape evokes seaweed or trailing vines.",
+      "style": "Modern Exhibition Poster",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "sage green",
+        "blush pink",
+        "cream"
+      ],
+      "tags": [
+        "botanical art",
+        "abstract plant",
+        "organic curves",
+        "muted tones",
+        "Scandinavian decor"
+      ],
+      "mood": "calm",
+      "rooms": [
+        "bedroom",
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (3)/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (3)-sm.jpg",
+        "md": "/designs/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (3)/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (3)-md.jpg",
+        "lg": "/designs/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (3)/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (3)-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (3)/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (3)-sm.jpg",
+        "md": "/designs/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (3)/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (3)-md.jpg",
+        "lg": "/designs/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (3)/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (3)-lg.jpg"
+      }
+    },
+    {
+      "id": "botanical-abstract-pastel-retro-shapes-modern-bohemian-art (4)",
+      "category": "Botanical",
+      "title": "Black Botanical Cutout Art Print",
+      "slug": "botanical-abstract-pastel-retro-shapes-modern-bohe",
+      "description": "A dramatic black coral-like botanical silhouette commands attention against a warm beige background. High-contrast Matisse-inspired poster delivers bold graphic impact.",
+      "style": "Modern Exhibition Poster",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "black",
+        "beige",
+        "cream"
+      ],
+      "tags": [
+        "botanical art",
+        "black silhouette",
+        "Matisse cutout",
+        "minimalist",
+        "high contrast"
+      ],
+      "mood": "bold",
+      "rooms": [
+        "office",
+        "living room"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (4)/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (4)-sm.jpg",
+        "md": "/designs/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (4)/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (4)-md.jpg",
+        "lg": "/designs/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (4)/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (4)-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (4)/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (4)-sm.jpg",
+        "md": "/designs/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (4)/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (4)-md.jpg",
+        "lg": "/designs/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (4)/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (4)-lg.jpg"
+      }
+    },
+    {
+      "id": "botanical-abstract-pastel-retro-shapes-modern-bohemian-art (5)",
+      "category": "Botanical",
+      "title": "Muted Sage Leaf Botanical Art Print",
+      "slug": "botanical-abstract-pastel-retro-shapes-modern-bohe",
+      "description": "A delicate sage green abstract leaf form floats gracefully on a warm off-white background. Soft, muted palette and fluid organic shape create a gentle, nature-inspired aesthetic.",
+      "style": "Modern Exhibition Poster",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "sage green",
+        "off-white",
+        "warm gray"
+      ],
+      "tags": [
+        "botanical art",
+        "minimalist leaf",
+        "neutral tones",
+        "organic form",
+        "soft aesthetic"
+      ],
+      "mood": "gentle",
+      "rooms": [
+        "bedroom",
+        "nursery"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (5)/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (5)-sm.jpg",
+        "md": "/designs/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (5)/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (5)-md.jpg",
+        "lg": "/designs/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (5)/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (5)-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (5)/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (5)-sm.jpg",
+        "md": "/designs/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (5)/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (5)-md.jpg",
+        "lg": "/designs/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (5)/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (5)-lg.jpg"
+      }
+    },
+    {
+      "id": "botanical-abstract-pastel-retro-shapes-modern-bohemian-art (6)",
+      "category": "Botanical",
+      "title": "Botanical Art Paris Abstract Mauve Coral Print",
+      "slug": "botanical-abstract-pastel-retro-shapes-modern-bohe",
+      "description": "A Matisse-inspired abstract botanical form in muted mauve against a soft ivory background. Minimalist exhibition-style poster features organic flowing shapes.",
+      "style": "Abstract Minimalist",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "dusty mauve",
+        "ivory",
+        "black"
+      ],
+      "tags": [
+        "Matisse cutout",
+        "botanical abstract",
+        "Paris poster",
+        "organic shapes",
+        "minimalist wall art"
+      ],
+      "mood": "sophisticated",
+      "rooms": [
+        "living room",
+        "bedroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (6)/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (6)-sm.jpg",
+        "md": "/designs/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (6)/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (6)-md.jpg",
+        "lg": "/designs/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (6)/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (6)-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (6)/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (6)-sm.jpg",
+        "md": "/designs/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (6)/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (6)-md.jpg",
+        "lg": "/designs/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (6)/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (6)-lg.jpg"
+      }
+    },
+    {
+      "id": "botanical-abstract-pastel-retro-shapes-modern-bohemian-art (7)",
+      "category": "Botanical",
+      "title": "Botanical Art Peach Leaf with Golden Sun Print",
+      "slug": "botanical-abstract-pastel-retro-shapes-modern-bohe",
+      "description": "An abstract coral-like leaf form in warm peach tones complemented by a golden brown sun motif. Matisse-inspired botanical poster evokes sun-kissed Mediterranean aesthetic.",
+      "style": "Abstract Minimalist",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "peach",
+        "warm gold",
+        "off-white"
+      ],
+      "tags": [
+        "Matisse cutout",
+        "botanical leaf",
+        "sun motif",
+        "Paris exhibition poster",
+        "neutral tones"
+      ],
+      "mood": "warm",
+      "rooms": [
+        "living room",
+        "hallway"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (7)/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (7)-sm.jpg",
+        "md": "/designs/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (7)/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (7)-md.jpg",
+        "lg": "/designs/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (7)/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (7)-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (7)/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (7)-sm.jpg",
+        "md": "/designs/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (7)/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (7)-md.jpg",
+        "lg": "/designs/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (7)/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (7)-lg.jpg"
+      }
+    },
+    {
+      "id": "botanical-abstract-pastel-retro-shapes-modern-bohemian-art (8)",
+      "category": "Botanical",
+      "title": "Botanical Art Abstract Tulip Blush Pink Poster",
+      "slug": "botanical-abstract-pastel-retro-shapes-modern-bohe",
+      "description": "A stylized tulip or fan-shaped botanical form rendered in soft blush pink with elegant linear cutouts. Minimalist Paris exhibition poster brings gentle organic elegance.",
+      "style": "Abstract Minimalist",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "blush pink",
+        "cream",
+        "black"
+      ],
+      "tags": [
+        "abstract tulip",
+        "Matisse inspired",
+        "blush decor",
+        "Paris poster",
+        "organic form"
+      ],
+      "mood": "gentle",
+      "rooms": [
+        "bedroom",
+        "nursery"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (8)/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (8)-sm.jpg",
+        "md": "/designs/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (8)/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (8)-md.jpg",
+        "lg": "/designs/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (8)/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (8)-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (8)/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (8)-sm.jpg",
+        "md": "/designs/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (8)/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (8)-md.jpg",
+        "lg": "/designs/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (8)/botanical-abstract-pastel-retro-shapes-modern-bohemian-art (8)-lg.jpg"
+      }
+    },
+    {
+      "id": "botanical-floral-matisse-style-artistic-brushstroke-hand-painted-printable-canvas-art",
+      "category": "Botanical",
+      "title": "Pink Coral Branch Matisse-Style Painted Print",
+      "slug": "botanical-floral-matisse-style-artistic-brushstrok",
+      "description": "A vibrant coral-pink botanical branch with visible brushstroke texture on warm beige background. Painterly interpretation of a Matisse cutout adds bold organic energy.",
+      "style": "Modern Painterly",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "coral pink",
+        "warm beige",
+        "rose"
+      ],
+      "tags": [
+        "Matisse cutout",
+        "painted texture",
+        "coral branch",
+        "bold botanical",
+        "impasto style"
+      ],
+      "mood": "bold",
+      "rooms": [
+        "living room",
+        "dining room"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/botanical-floral-matisse-style-artistic-brushstroke-hand-painted-printable-canvas-art/botanical-floral-matisse-style-artistic-brushstroke-hand-painted-printable-canvas-art-sm.jpg",
+        "md": "/designs/botanical-floral-matisse-style-artistic-brushstroke-hand-painted-printable-canvas-art/botanical-floral-matisse-style-artistic-brushstroke-hand-painted-printable-canvas-art-md.jpg",
+        "lg": "/designs/botanical-floral-matisse-style-artistic-brushstroke-hand-painted-printable-canvas-art/botanical-floral-matisse-style-artistic-brushstroke-hand-painted-printable-canvas-art-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/botanical-floral-matisse-style-artistic-brushstroke-hand-painted-printable-canvas-art/botanical-floral-matisse-style-artistic-brushstroke-hand-painted-printable-canvas-art-sm.jpg",
+        "md": "/designs/botanical-floral-matisse-style-artistic-brushstroke-hand-painted-printable-canvas-art/botanical-floral-matisse-style-artistic-brushstroke-hand-painted-printable-canvas-art-md.jpg",
+        "lg": "/designs/botanical-floral-matisse-style-artistic-brushstroke-hand-painted-printable-canvas-art/botanical-floral-matisse-style-artistic-brushstroke-hand-painted-printable-canvas-art-lg.jpg"
+      }
+    },
+    {
+      "id": "flower-market-paris-matisse-style-modern-abstract-botanical-shapes-printable",
+      "category": "Botanical",
+      "title": "Flower Market Paris Black Coral Leaf Poster",
+      "slug": "flower-market-paris-matisse-style-modern-abstract-",
+      "description": "A striking black abstract coral silhouette set against warm tan background with refined serif typography. High-contrast flower market poster with Matisse-inspired botanicals.",
+      "style": "Modern Graphic",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "black",
+        "warm tan",
+        "dark brown"
+      ],
+      "tags": [
+        "flower market poster",
+        "Matisse cutout",
+        "black botanical",
+        "Paris print",
+        "high contrast"
+      ],
+      "mood": "elegant",
+      "rooms": [
+        "office",
+        "living room"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/flower-market-paris-matisse-style-modern-abstract-botanical-shapes-printable/flower-market-paris-matisse-style-modern-abstract-botanical-shapes-printable-sm.jpg",
+        "md": "/designs/flower-market-paris-matisse-style-modern-abstract-botanical-shapes-printable/flower-market-paris-matisse-style-modern-abstract-botanical-shapes-printable-md.jpg",
+        "lg": "/designs/flower-market-paris-matisse-style-modern-abstract-botanical-shapes-printable/flower-market-paris-matisse-style-modern-abstract-botanical-shapes-printable-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/flower-market-paris-matisse-style-modern-abstract-botanical-shapes-printable/flower-market-paris-matisse-style-modern-abstract-botanical-shapes-printable-sm.jpg",
+        "md": "/designs/flower-market-paris-matisse-style-modern-abstract-botanical-shapes-printable/flower-market-paris-matisse-style-modern-abstract-botanical-shapes-printable-md.jpg",
+        "lg": "/designs/flower-market-paris-matisse-style-modern-abstract-botanical-shapes-printable/flower-market-paris-matisse-style-modern-abstract-botanical-shapes-printable-lg.jpg"
+      }
+    },
+    {
+      "id": "flower-market-paris-matisse-style-modern-abstract-botanical-shapes-printable (1)",
+      "category": "Botanical",
+      "title": "Flower Market Paris Abstract Botanical Poster",
+      "slug": "flower-market-paris-matisse-style-modern-abstract-",
+      "description": "A bold Matisse-inspired poster featuring a symmetrical navy blue leaf motif against a soft pink background. Stylish flower market print captures the elegance of Paris.",
+      "style": "Modern Minimalist",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "blush pink",
+        "navy blue",
+        "black"
+      ],
+      "tags": [
+        "flower market",
+        "Paris",
+        "Matisse inspired",
+        "botanical abstract",
+        "typography poster"
+      ],
+      "mood": "chic",
+      "rooms": [
+        "living room",
+        "bedroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/flower-market-paris-matisse-style-modern-abstract-botanical-shapes-printable (1)/flower-market-paris-matisse-style-modern-abstract-botanical-shapes-printable (1)-sm.jpg",
+        "md": "/designs/flower-market-paris-matisse-style-modern-abstract-botanical-shapes-printable (1)/flower-market-paris-matisse-style-modern-abstract-botanical-shapes-printable (1)-md.jpg",
+        "lg": "/designs/flower-market-paris-matisse-style-modern-abstract-botanical-shapes-printable (1)/flower-market-paris-matisse-style-modern-abstract-botanical-shapes-printable (1)-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/flower-market-paris-matisse-style-modern-abstract-botanical-shapes-printable (1)/flower-market-paris-matisse-style-modern-abstract-botanical-shapes-printable (1)-sm.jpg",
+        "md": "/designs/flower-market-paris-matisse-style-modern-abstract-botanical-shapes-printable (1)/flower-market-paris-matisse-style-modern-abstract-botanical-shapes-printable (1)-md.jpg",
+        "lg": "/designs/flower-market-paris-matisse-style-modern-abstract-botanical-shapes-printable (1)/flower-market-paris-matisse-style-modern-abstract-botanical-shapes-printable (1)-lg.jpg"
+      }
+    },
+    {
+      "id": "gardenposter_26",
+      "category": "Botanical",
+      "title": "Matisse Coral and Sage Leaf Cut-Out Collection",
+      "slug": "gardenposter-26-botanical",
+      "description": "A vibrant arrangement of organic leaf and seaweed shapes in harmonious greens and terracotta tones. Inspired by Matisse paper cut-outs, brings lively botanical energy.",
+      "style": "Matisse Cut-Out",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "sage green",
+        "terracotta",
+        "cream"
+      ],
+      "tags": [
+        "Matisse cut-outs",
+        "abstract leaves",
+        "botanical art",
+        "organic shapes",
+        "mid-century modern"
+      ],
+      "mood": "warm",
+      "rooms": [
+        "dining room",
+        "living room"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/gardenposter_26/gardenposter_26-sm.jpg",
+        "md": "/designs/gardenposter_26/gardenposter_26-md.jpg",
+        "lg": "/designs/gardenposter_26/gardenposter_26-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/gardenposter_26/gardenposter_26-sm.jpg",
+        "md": "/designs/gardenposter_26/gardenposter_26-md.jpg",
+        "lg": "/designs/gardenposter_26/gardenposter_26-lg.jpg"
+      }
+    },
+    {
+      "id": "gardenposter_27",
+      "category": "Botanical",
+      "title": "Peach Coral Duo Abstract Botanical Print",
+      "slug": "gardenposter-27-botanical",
+      "description": "Two flowing coral-like leaf forms in soft peach and warm terracotta tones create a serene yet dynamic composition. Organic silhouettes evoke calming coastal aesthetic.",
+      "style": "Abstract Botanical",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "peach",
+        "terracotta",
+        "off-white"
+      ],
+      "tags": [
+        "coral shapes",
+        "tonal art",
+        "organic forms",
+        "neutral palette",
+        "Matisse inspired"
+      ],
+      "mood": "serene",
+      "rooms": [
+        "bedroom",
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/gardenposter_27/gardenposter_27-sm.jpg",
+        "md": "/designs/gardenposter_27/gardenposter_27-md.jpg",
+        "lg": "/designs/gardenposter_27/gardenposter_27-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/gardenposter_27/gardenposter_27-sm.jpg",
+        "md": "/designs/gardenposter_27/gardenposter_27-md.jpg",
+        "lg": "/designs/gardenposter_27/gardenposter_27-lg.jpg"
+      }
+    },
+    {
+      "id": "gardenposter_28",
+      "category": "Botanical",
+      "title": "Potted Plants and Vases Botanical Still Life",
+      "slug": "gardenposter-28-botanical",
+      "description": "A charming flat illustration of lush green plants in decorative terracotta pots alongside a navy ceramic vase. Playful mix of organic foliage creates a cozy indoor garden feel.",
+      "style": "Scandinavian Illustration",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "forest green",
+        "sage green",
+        "navy blue"
+      ],
+      "tags": [
+        "potted plants",
+        "vase illustration",
+        "indoor garden",
+        "boho decor",
+        "flat illustration"
+      ],
+      "mood": "cozy",
+      "rooms": [
+        "kitchen",
+        "living room"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/gardenposter_28/gardenposter_28-sm.jpg",
+        "md": "/designs/gardenposter_28/gardenposter_28-md.jpg",
+        "lg": "/designs/gardenposter_28/gardenposter_28-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/gardenposter_28/gardenposter_28-sm.jpg",
+        "md": "/designs/gardenposter_28/gardenposter_28-md.jpg",
+        "lg": "/designs/gardenposter_28/gardenposter_28-lg.jpg"
+      }
+    },
+    {
+      "id": "gardenposter_29",
+      "category": "Botanical",
+      "title": "Tropical Leaves Minimalist Green Botanical Art",
+      "slug": "gardenposter-29-botanical",
+      "description": "Elegant tropical leaves in layered shades of green rise gracefully against clean ivory background with beige geometric accent. Fresh, nature-inspired contemporary look.",
+      "style": "Contemporary Botanical",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "sage green",
+        "forest green",
+        "beige"
+      ],
+      "tags": [
+        "tropical leaves",
+        "minimalist botanical",
+        "green wall art",
+        "nature print",
+        "geometric accent"
+      ],
+      "mood": "calm",
+      "rooms": [
+        "office",
+        "living room"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/gardenposter_29/gardenposter_29-sm.jpg",
+        "md": "/designs/gardenposter_29/gardenposter_29-md.jpg",
+        "lg": "/designs/gardenposter_29/gardenposter_29-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/gardenposter_29/gardenposter_29-sm.jpg",
+        "md": "/designs/gardenposter_29/gardenposter_29-md.jpg",
+        "lg": "/designs/gardenposter_29/gardenposter_29-lg.jpg"
+      }
+    },
+    {
+      "id": "gardenposter_30",
+      "category": "Botanical",
+      "title": "Tropical Monstera Leaves with Sunset Peach Accent",
+      "slug": "gardenposter-30-botanical",
+      "description": "A serene botanical illustration featuring monstera and banana leaves layered against soft peach geometric shapes. Tropical greens and warm coral tones create a balanced composition.",
+      "style": "Modern Botanical Illustration",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "sage green",
+        "peach",
+        "ivory"
+      ],
+      "tags": [
+        "monstera",
+        "tropical leaves",
+        "botanical print",
+        "minimalist art",
+        "plant lover"
+      ],
+      "mood": "calm",
+      "rooms": [
+        "living room",
+        "bedroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/gardenposter_30/gardenposter_30-sm.jpg",
+        "md": "/designs/gardenposter_30/gardenposter_30-md.jpg",
+        "lg": "/designs/gardenposter_30/gardenposter_30-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/gardenposter_30/gardenposter_30-sm.jpg",
+        "md": "/designs/gardenposter_30/gardenposter_30-md.jpg",
+        "lg": "/designs/gardenposter_30/gardenposter_30-lg.jpg"
+      }
+    },
+    {
+      "id": "gardenposter_31",
+      "category": "Botanical",
+      "title": "Desert Cactus and Fern with Coral Sun",
+      "slug": "gardenposter-31-botanical",
+      "description": "A bold modern illustration pairing tall columnar cacti with an organic Matisse-inspired fern leaf against a vibrant coral sun. Layered greens and terracotta create dynamic desert-meets-jungle aesthetic.",
+      "style": "Modern Minimalist Botanical",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "forest green",
+        "coral red",
+        "cream"
+      ],
+      "tags": [
+        "cactus art",
+        "botanical poster",
+        "Matisse inspired",
+        "desert plants",
+        "mid-century modern"
+      ],
+      "mood": "vibrant",
+      "rooms": [
+        "home office",
+        "living room"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/gardenposter_31/gardenposter_31-sm.jpg",
+        "md": "/designs/gardenposter_31/gardenposter_31-md.jpg",
+        "lg": "/designs/gardenposter_31/gardenposter_31-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/gardenposter_31/gardenposter_31-sm.jpg",
+        "md": "/designs/gardenposter_31/gardenposter_31-md.jpg",
+        "lg": "/designs/gardenposter_31/gardenposter_31-lg.jpg"
+      }
+    },
+    {
+      "id": "gardenposter_32",
+      "category": "Botanical",
+      "title": "Cheerful Garden Summer Vibes Palm Leaf Print",
+      "slug": "gardenposter-32-botanical",
+      "description": "A warm, sun-kissed illustration of a stylized palm frond in graduating shades of peach and terracotta. Organic flowing form evokes carefree summer days and Mediterranean gardens.",
+      "style": "Matisse-Inspired Botanical",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "terracotta",
+        "blush peach",
+        "cream"
+      ],
+      "tags": [
+        "palm leaf",
+        "Matisse cutout",
+        "summer art",
+        "warm tones",
+        "organic shapes"
+      ],
+      "mood": "cheerful",
+      "rooms": [
+        "bedroom",
+        "dining room"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/gardenposter_32/gardenposter_32-sm.jpg",
+        "md": "/designs/gardenposter_32/gardenposter_32-md.jpg",
+        "lg": "/designs/gardenposter_32/gardenposter_32-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/gardenposter_32/gardenposter_32-sm.jpg",
+        "md": "/designs/gardenposter_32/gardenposter_32-md.jpg",
+        "lg": "/designs/gardenposter_32/gardenposter_32-lg.jpg"
+      }
+    },
+    {
+      "id": "gardenposter_33",
+      "category": "Botanical",
+      "title": "Navy Vase with Tropical Leaves Symmetrical Print",
+      "slug": "gardenposter-33-botanical",
+      "description": "An elegant symmetrical composition featuring a navy blue vase holding broad tropical leaves, flanked by delicate sage palm fronds. Balanced design brings refined botanical charm.",
+      "style": "Contemporary Botanical Poster",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "navy blue",
+        "sage green",
+        "ivory"
+      ],
+      "tags": [
+        "vase illustration",
+        "plant print",
+        "symmetrical art",
+        "botanical poster",
+        "Scandinavian style"
+      ],
+      "mood": "sophisticated",
+      "rooms": [
+        "hallway",
+        "living room"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/gardenposter_33/gardenposter_33-sm.jpg",
+        "md": "/designs/gardenposter_33/gardenposter_33-md.jpg",
+        "lg": "/designs/gardenposter_33/gardenposter_33-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/gardenposter_33/gardenposter_33-sm.jpg",
+        "md": "/designs/gardenposter_33/gardenposter_33-md.jpg",
+        "lg": "/designs/gardenposter_33/gardenposter_33-lg.jpg"
+      }
+    },
+    {
+      "id": "gardenposter_34",
+      "category": "Botanical",
+      "title": "Coral Palm Frond with Navy Blooms Garden Print",
+      "slug": "gardenposter-34-botanical",
+      "description": "A striking botanical poster featuring a sweeping coral-toned palm frond arching over tiny navy blue flowers. Bold contrast between warm terracotta and deep indigo creates a dramatic statement piece.",
+      "style": "Modern Graphic Botanical",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "coral",
+        "navy blue",
+        "cream"
+      ],
+      "tags": [
+        "palm frond",
+        "floral art",
+        "bold botanical",
+        "graphic poster",
+        "contemporary print"
+      ],
+      "mood": "bold",
+      "rooms": [
+        "entryway",
+        "bedroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/gardenposter_34/gardenposter_34-sm.jpg",
+        "md": "/designs/gardenposter_34/gardenposter_34-md.jpg",
+        "lg": "/designs/gardenposter_34/gardenposter_34-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/gardenposter_34/gardenposter_34-sm.jpg",
+        "md": "/designs/gardenposter_34/gardenposter_34-md.jpg",
+        "lg": "/designs/gardenposter_34/gardenposter_34-lg.jpg"
+      }
+    },
+    {
+      "id": "gardenposter_35",
+      "category": "Botanical",
+      "title": "Abstract Green Palm Frond Botanical Art Print",
+      "slug": "gardenposter-35-botanical",
+      "description": "A bold, oversized palm frond rendered in organic flowing lines creates a striking Matisse-inspired botanical statement. Soft sage green against warm cream brings natural elegance.",
+      "style": "Matisse-inspired modern botanical",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "sage green",
+        "cream",
+        "forest green"
+      ],
+      "tags": [
+        "botanical print",
+        "palm leaf",
+        "Matisse cutout",
+        "organic shapes",
+        "minimalist art"
+      ],
+      "mood": "calm",
+      "rooms": [
+        "living room",
+        "bedroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/gardenposter_35/gardenposter_35-sm.jpg",
+        "md": "/designs/gardenposter_35/gardenposter_35-md.jpg",
+        "lg": "/designs/gardenposter_35/gardenposter_35-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/gardenposter_35/gardenposter_35-sm.jpg",
+        "md": "/designs/gardenposter_35/gardenposter_35-md.jpg",
+        "lg": "/designs/gardenposter_35/gardenposter_35-lg.jpg"
+      }
+    },
+    {
+      "id": "gardenposter_36",
+      "category": "Botanical",
+      "title": "Tropical Palm Leaves and Monstera Botanical Duo",
+      "slug": "gardenposter-36-botanical",
+      "description": "Layered palm fronds in deep and muted greens intertwine with abstract Matisse-style monstera shapes for a lush tropical composition. Two-tone green palette adds depth.",
+      "style": "Contemporary botanical illustration",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "dark sage green",
+        "mint green",
+        "ivory"
+      ],
+      "tags": [
+        "tropical leaves",
+        "monstera",
+        "palm fronds",
+        "green wall art",
+        "botanical duo"
+      ],
+      "mood": "lush",
+      "rooms": [
+        "living room",
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/gardenposter_36/gardenposter_36-sm.jpg",
+        "md": "/designs/gardenposter_36/gardenposter_36-md.jpg",
+        "lg": "/designs/gardenposter_36/gardenposter_36-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/gardenposter_36/gardenposter_36-sm.jpg",
+        "md": "/designs/gardenposter_36/gardenposter_36-md.jpg",
+        "lg": "/designs/gardenposter_36/gardenposter_36-lg.jpg"
+      }
+    },
+    {
+      "id": "gardenposter_37",
+      "category": "Botanical",
+      "title": "Desert Garden Moonrise Succulent Illustration",
+      "slug": "gardenposter-37-botanical",
+      "description": "A dreamy desert garden scene framed within a geometric arch features yucca plants, succulents, and stones beneath a soft lavender moon. Muted pastel palette evokes peaceful twilight oasis.",
+      "style": "Modern flat illustration",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "lavender",
+        "sage green",
+        "soft beige"
+      ],
+      "tags": [
+        "desert garden",
+        "succulent art",
+        "moonrise",
+        "arch window",
+        "boho decor"
+      ],
+      "mood": "dreamy",
+      "rooms": [
+        "bedroom",
+        "home office"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/gardenposter_37/gardenposter_37-sm.jpg",
+        "md": "/designs/gardenposter_37/gardenposter_37-md.jpg",
+        "lg": "/designs/gardenposter_37/gardenposter_37-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/gardenposter_37/gardenposter_37-sm.jpg",
+        "md": "/designs/gardenposter_37/gardenposter_37-md.jpg",
+        "lg": "/designs/gardenposter_37/gardenposter_37-lg.jpg"
+      }
+    },
+    {
+      "id": "gardenposter_38",
+      "category": "Botanical",
+      "title": "Matisse-Style Green Leaf Cutout Art Print",
+      "slug": "gardenposter-38-botanical",
+      "description": "A striking botanical leaf form bursts from an abstract coral-patterned frame in a design inspired by Matisse iconic paper cutouts. Rich sage green and cream delivers bold graphic impact.",
+      "style": "Matisse paper cutout",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "sage green",
+        "cream",
+        "olive green"
+      ],
+      "tags": [
+        "Matisse cutout",
+        "abstract leaf",
+        "graphic botanical",
+        "mid-century modern",
+        "green art"
+      ],
+      "mood": "bold",
+      "rooms": [
+        "dining room",
+        "hallway"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/gardenposter_38/gardenposter_38-sm.jpg",
+        "md": "/designs/gardenposter_38/gardenposter_38-md.jpg",
+        "lg": "/designs/gardenposter_38/gardenposter_38-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/gardenposter_38/gardenposter_38-sm.jpg",
+        "md": "/designs/gardenposter_38/gardenposter_38-md.jpg",
+        "lg": "/designs/gardenposter_38/gardenposter_38-lg.jpg"
+      }
+    },
+    {
+      "id": "gardenposter_39",
+      "category": "Botanical",
+      "title": "Terracotta Ferns and Navy Blossoms Floral Print",
+      "slug": "gardenposter-39-botanical",
+      "description": "Warm terracotta fern fronds frame clusters of deep navy flowers with coral-red centers in this vibrant Matisse-inspired composition. Bold color contrast brings energetic warmth.",
+      "style": "Matisse-inspired floral",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "terracotta",
+        "navy blue",
+        "cream"
+      ],
+      "tags": [
+        "floral art",
+        "terracotta decor",
+        "Matisse style",
+        "abstract flowers",
+        "boho wall art"
+      ],
+      "mood": "warm",
+      "rooms": [
+        "living room",
+        "entryway"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/gardenposter_39/gardenposter_39-sm.jpg",
+        "md": "/designs/gardenposter_39/gardenposter_39-md.jpg",
+        "lg": "/designs/gardenposter_39/gardenposter_39-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/gardenposter_39/gardenposter_39-sm.jpg",
+        "md": "/designs/gardenposter_39/gardenposter_39-md.jpg",
+        "lg": "/designs/gardenposter_39/gardenposter_39-lg.jpg"
+      }
+    },
+    {
+      "id": "gardenposter_40",
+      "category": "Botanical",
+      "title": "Navy Blue Botanical Leaves Matisse-Inspired Print",
+      "slug": "gardenposter-40-botanical",
+      "description": "Elegant navy and periwinkle botanical cutout shapes arranged in a lush, layered composition on cream background. Organic leaf and coral forms bring sophisticated coastal energy.",
+      "style": "Matisse cutout",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "navy blue",
+        "periwinkle",
+        "cream"
+      ],
+      "tags": [
+        "botanical",
+        "Matisse-inspired",
+        "leaf print",
+        "organic shapes",
+        "minimalist"
+      ],
+      "mood": "sophisticated",
+      "rooms": [
+        "living room",
+        "bedroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/gardenposter_40/gardenposter_40-sm.jpg",
+        "md": "/designs/gardenposter_40/gardenposter_40-md.jpg",
+        "lg": "/designs/gardenposter_40/gardenposter_40-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/gardenposter_40/gardenposter_40-sm.jpg",
+        "md": "/designs/gardenposter_40/gardenposter_40-md.jpg",
+        "lg": "/designs/gardenposter_40/gardenposter_40-lg.jpg"
+      }
+    },
+    {
+      "id": "handdrawn-leaf-matisse-style-botanical-modern-painting",
+      "category": "Botanical",
+      "title": "Blue Coral Leaf with Pastel Dots Textured Print",
+      "slug": "handdrawn-leaf-matisse-style-botanical-modern-pain",
+      "description": "A bold cornflower blue organic leaf form rises against warm beige textured background, surrounded by playful pink and yellow painted dots. Impasto-style brushwork adds tactile depth.",
+      "style": "Matisse cutout with painted texture",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "cornflower blue",
+        "beige",
+        "pink"
+      ],
+      "tags": [
+        "organic shape",
+        "textured art",
+        "pastel dots",
+        "Matisse-inspired",
+        "playful"
+      ],
+      "mood": "cheerful",
+      "rooms": [
+        "nursery",
+        "kitchen"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/handdrawn-leaf-matisse-style-botanical-modern-painting/handdrawn-leaf-matisse-style-botanical-modern-painting-sm.jpg",
+        "md": "/designs/handdrawn-leaf-matisse-style-botanical-modern-painting/handdrawn-leaf-matisse-style-botanical-modern-painting-md.jpg",
+        "lg": "/designs/handdrawn-leaf-matisse-style-botanical-modern-painting/handdrawn-leaf-matisse-style-botanical-modern-painting-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/handdrawn-leaf-matisse-style-botanical-modern-painting/handdrawn-leaf-matisse-style-botanical-modern-painting-sm.jpg",
+        "md": "/designs/handdrawn-leaf-matisse-style-botanical-modern-painting/handdrawn-leaf-matisse-style-botanical-modern-painting-md.jpg",
+        "lg": "/designs/handdrawn-leaf-matisse-style-botanical-modern-painting/handdrawn-leaf-matisse-style-botanical-modern-painting-lg.jpg"
+      }
+    },
+    {
+      "id": "handdrawn-leaf-matisse-style-botanical-modern-painting (1)",
+      "category": "Botanical",
+      "title": "Magenta Coral Shape with Blue and Orange Dots",
+      "slug": "handdrawn-leaf-matisse-style-botanical-modern-pain",
+      "description": "A vibrant magenta organic coral form sprawls boldly across cream canvas, accented by scattered cobalt blue and marigold orange dots. Thick painted texture creates energetic statement piece.",
+      "style": "Matisse cutout with painted texture",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "magenta",
+        "cobalt blue",
+        "marigold orange"
+      ],
+      "tags": [
+        "bold abstract",
+        "coral shape",
+        "Matisse-inspired",
+        "vibrant",
+        "statement art"
+      ],
+      "mood": "bold",
+      "rooms": [
+        "living room",
+        "dining room"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/handdrawn-leaf-matisse-style-botanical-modern-painting (1)/handdrawn-leaf-matisse-style-botanical-modern-painting (1)-sm.jpg",
+        "md": "/designs/handdrawn-leaf-matisse-style-botanical-modern-painting (1)/handdrawn-leaf-matisse-style-botanical-modern-painting (1)-md.jpg",
+        "lg": "/designs/handdrawn-leaf-matisse-style-botanical-modern-painting (1)/handdrawn-leaf-matisse-style-botanical-modern-painting (1)-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/handdrawn-leaf-matisse-style-botanical-modern-painting (1)/handdrawn-leaf-matisse-style-botanical-modern-painting (1)-sm.jpg",
+        "md": "/designs/handdrawn-leaf-matisse-style-botanical-modern-painting (1)/handdrawn-leaf-matisse-style-botanical-modern-painting (1)-md.jpg",
+        "lg": "/designs/handdrawn-leaf-matisse-style-botanical-modern-painting (1)/handdrawn-leaf-matisse-style-botanical-modern-painting (1)-lg.jpg"
+      }
+    },
+    {
+      "id": "handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale",
+      "category": "Botanical",
+      "title": "Retro Striped Abstract Shape on Teal Background",
+      "slug": "handdrawn-painted-melerei-abstract-nature-leaf-sha",
+      "description": "A sinuous teal form weaves through a red-and-cream striped organic blob, creating striking figure-ground interplay. Retro-inspired abstract combines vintage stripes with modern organic shapes.",
+      "style": "Retro abstract",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "teal",
+        "terracotta red",
+        "cream"
+      ],
+      "tags": [
+        "striped pattern",
+        "retro art",
+        "abstract form",
+        "mid-century",
+        "organic shapes"
+      ],
+      "mood": "playful",
+      "rooms": [
+        "home office",
+        "living room"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale-sm.jpg",
+        "md": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale-md.jpg",
+        "lg": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale-sm.jpg",
+        "md": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale-md.jpg",
+        "lg": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale-lg.jpg"
+      }
+    },
+    {
+      "id": "handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (1)",
+      "category": "Botanical",
+      "title": "Terracotta Red Coral Form on Teal Blue Art Print",
+      "slug": "handdrawn-painted-melerei-abstract-nature-leaf-sha",
+      "description": "A bold terracotta red abstract coral shape with delicate cream outline commands attention against muted teal blue background. Minimalist organic form evokes undersea coral.",
+      "style": "Modern abstract",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "terracotta red",
+        "teal blue",
+        "cream"
+      ],
+      "tags": [
+        "coral shape",
+        "abstract minimalist",
+        "organic form",
+        "two-tone",
+        "coastal"
+      ],
+      "mood": "warm",
+      "rooms": [
+        "bathroom",
+        "bedroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (1)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (1)-sm.jpg",
+        "md": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (1)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (1)-md.jpg",
+        "lg": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (1)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (1)-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (1)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (1)-sm.jpg",
+        "md": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (1)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (1)-md.jpg",
+        "lg": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (1)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (1)-lg.jpg"
+      }
+    },
+    {
+      "id": "handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (10)",
+      "category": "Botanical",
+      "title": "Spotted Terracotta Leaf Botanical Art Print",
+      "slug": "handdrawn-painted-melerei-abstract-nature-leaf-sha",
+      "description": "A bold botanical leaf form in warm terracotta adorned with hand-painted black polka dots against soft cream background. Playful yet sophisticated print merges organic shapes with graphic pattern.",
+      "style": "Modern Botanical",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "terracotta",
+        "black",
+        "cream"
+      ],
+      "tags": [
+        "botanical print",
+        "polka dot art",
+        "terracotta wall art",
+        "abstract leaf",
+        "modern organic"
+      ],
+      "mood": "playful",
+      "rooms": [
+        "living room",
+        "bedroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (10)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (10)-sm.jpg",
+        "md": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (10)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (10)-md.jpg",
+        "lg": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (10)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (10)-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (10)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (10)-sm.jpg",
+        "md": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (10)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (10)-md.jpg",
+        "lg": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (10)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (10)-lg.jpg"
+      }
+    },
+    {
+      "id": "handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (11)",
+      "category": "Botanical",
+      "title": "Pink Striped Coral Matisse-Inspired Cut-Out Print",
+      "slug": "handdrawn-painted-melerei-abstract-nature-leaf-sha",
+      "description": "A vibrant coral or seaweed form filled with pink and orange vertical stripes on warm sand-colored background. Brings joyful Mediterranean energy to any space.",
+      "style": "Matisse Cut-Out",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "pink",
+        "orange-red",
+        "sand"
+      ],
+      "tags": [
+        "Matisse inspired",
+        "coral art",
+        "cut-out print",
+        "striped pattern",
+        "mid-century modern"
+      ],
+      "mood": "joyful",
+      "rooms": [
+        "living room",
+        "dining room"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (11)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (11)-sm.jpg",
+        "md": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (11)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (11)-md.jpg",
+        "lg": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (11)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (11)-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (11)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (11)-sm.jpg",
+        "md": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (11)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (11)-md.jpg",
+        "lg": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (11)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (11)-lg.jpg"
+      }
+    },
+    {
+      "id": "handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (12)",
+      "category": "Botanical",
+      "title": "Orange Hand-Drawn Stripes on Pink Abstract Print",
+      "slug": "handdrawn-painted-melerei-abstract-nature-leaf-sha",
+      "description": "Energetic hand-painted vermillion orange vertical lines dance across bubblegum pink background with raw, expressive brushwork. Minimalist yet bold abstract delivers maximum color impact.",
+      "style": "Abstract Minimalist",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "vermillion orange",
+        "bubblegum pink",
+        "coral"
+      ],
+      "tags": [
+        "abstract stripes",
+        "pink and orange",
+        "hand-drawn art",
+        "minimalist print",
+        "bold color art"
+      ],
+      "mood": "energetic",
+      "rooms": [
+        "home office",
+        "kids room"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (12)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (12)-sm.jpg",
+        "md": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (12)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (12)-md.jpg",
+        "lg": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (12)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (12)-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (12)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (12)-sm.jpg",
+        "md": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (12)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (12)-md.jpg",
+        "lg": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (12)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (12)-lg.jpg"
+      }
+    },
+    {
+      "id": "handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (13)",
+      "category": "Botanical",
+      "title": "Blue Coral Branch Matisse-Style Botanical Print",
+      "slug": "handdrawn-painted-melerei-abstract-nature-leaf-sha",
+      "description": "A striking cobalt blue organic coral or seaweed form spreads its branching fingers across neutral cream backdrop. Bold graphic print channels classic cut-out aesthetics.",
+      "style": "Matisse Cut-Out",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "cobalt blue",
+        "cream",
+        "ivory"
+      ],
+      "tags": [
+        "blue botanical",
+        "Matisse style",
+        "coral print",
+        "navy wall art",
+        "organic abstract"
+      ],
+      "mood": "sophisticated",
+      "rooms": [
+        "living room",
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (13)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (13)-sm.jpg",
+        "md": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (13)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (13)-md.jpg",
+        "lg": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (13)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (13)-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (13)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (13)-sm.jpg",
+        "md": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (13)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (13)-md.jpg",
+        "lg": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (13)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (13)-lg.jpg"
+      }
+    },
+    {
+      "id": "handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (2)",
+      "category": "Botanical",
+      "title": "Red and Teal Duo Leaf Matisse Cut-Out Art Print",
+      "slug": "handdrawn-painted-melerei-abstract-nature-leaf-sha",
+      "description": "Two overlapping organic leaf forms in warm terracotta red and cool teal blue create harmonious contrast on pale beige background. Pairs complementary colors with fluid botanical shapes.",
+      "style": "Matisse Cut-Out",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "terracotta red",
+        "teal blue",
+        "beige"
+      ],
+      "tags": [
+        "dual color art",
+        "Matisse inspired",
+        "botanical cut-out",
+        "complementary colors",
+        "modern wall art"
+      ],
+      "mood": "warm",
+      "rooms": [
+        "bedroom",
+        "entryway"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (2)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (2)-sm.jpg",
+        "md": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (2)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (2)-md.jpg",
+        "lg": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (2)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (2)-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (2)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (2)-sm.jpg",
+        "md": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (2)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (2)-md.jpg",
+        "lg": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (2)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (2)-lg.jpg"
+      }
+    },
+    {
+      "id": "handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (3)",
+      "category": "Botanical",
+      "title": "Abstract Coral Leaf in Golden Ochre and Blush Pink",
+      "slug": "handdrawn-painted-melerei-abstract-nature-leaf-sha",
+      "description": "A bold organic cutout form rises upward with flowing, rounded lobes reminiscent of coral or tropical foliage. Warm ochre shape contrasts against soft peach-pink background.",
+      "style": "Matisse-inspired cutout",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "ochre",
+        "blush pink",
+        "peach"
+      ],
+      "tags": [
+        "abstract botanical",
+        "Matisse cutout",
+        "organic shapes",
+        "mid-century modern",
+        "minimalist art"
+      ],
+      "mood": "warm",
+      "rooms": [
+        "living room",
+        "bedroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (3)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (3)-sm.jpg",
+        "md": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (3)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (3)-md.jpg",
+        "lg": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (3)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (3)-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (3)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (3)-sm.jpg",
+        "md": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (3)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (3)-md.jpg",
+        "lg": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (3)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (3)-lg.jpg"
+      }
+    },
+    {
+      "id": "handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (4)",
+      "category": "Botanical",
+      "title": "Twin Fern Fronds in Pink on Mustard Background",
+      "slug": "handdrawn-painted-melerei-abstract-nature-leaf-sha",
+      "description": "Two symmetrical fern-like forms with rounded lobes stand side by side in soft blush pink against rich mustard ground. Rhythmic repeating pattern creates balanced botanical composition.",
+      "style": "Matisse-inspired cutout",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "mustard",
+        "blush pink",
+        "soft peach"
+      ],
+      "tags": [
+        "abstract fern",
+        "botanical cutout",
+        "organic pattern",
+        "Scandinavian style",
+        "dual motif"
+      ],
+      "mood": "balanced",
+      "rooms": [
+        "dining room",
+        "hallway"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (4)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (4)-sm.jpg",
+        "md": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (4)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (4)-md.jpg",
+        "lg": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (4)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (4)-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (4)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (4)-sm.jpg",
+        "md": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (4)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (4)-md.jpg",
+        "lg": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (4)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (4)-lg.jpg"
+      }
+    },
+    {
+      "id": "handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (5)",
+      "category": "Botanical",
+      "title": "Spotted Coral Form in Pink, Black and Olive",
+      "slug": "handdrawn-painted-melerei-abstract-nature-leaf-sha",
+      "description": "A playful organic coral shape in blush pink covered with bold hand-painted black polka dots against deep olive-gold background. Pattern and biomorphic form give contemporary edge.",
+      "style": "Contemporary abstract illustration",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "olive gold",
+        "blush pink",
+        "black"
+      ],
+      "tags": [
+        "polka dots",
+        "abstract coral",
+        "bold pattern",
+        "eclectic art",
+        "hand-painted texture"
+      ],
+      "mood": "playful",
+      "rooms": [
+        "studio",
+        "kids room"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (5)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (5)-sm.jpg",
+        "md": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (5)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (5)-md.jpg",
+        "lg": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (5)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (5)-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (5)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (5)-sm.jpg",
+        "md": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (5)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (5)-md.jpg",
+        "lg": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (5)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (5)-lg.jpg"
+      }
+    },
+    {
+      "id": "handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (6)",
+      "category": "Botanical",
+      "title": "Sage Green Seaweed Cutout on Cream Background",
+      "slug": "handdrawn-painted-melerei-abstract-nature-leaf-sha",
+      "description": "Dense, interlocking organic forms in muted sage green fill the composition against warm cream backdrop, evoking underwater seaweed or coral reef patterns. Soothing palette creates calming statement.",
+      "style": "Matisse-inspired cutout",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "sage green",
+        "cream",
+        "beige"
+      ],
+      "tags": [
+        "seaweed art",
+        "botanical abstract",
+        "neutral tones",
+        "nature inspired",
+        "Matisse style"
+      ],
+      "mood": "calm",
+      "rooms": [
+        "bathroom",
+        "bedroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (6)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (6)-sm.jpg",
+        "md": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (6)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (6)-md.jpg",
+        "lg": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (6)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (6)-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (6)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (6)-sm.jpg",
+        "md": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (6)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (6)-md.jpg",
+        "lg": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (6)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (6)-lg.jpg"
+      }
+    },
+    {
+      "id": "handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (7)",
+      "category": "Botanical",
+      "title": "Cream Leaf Silhouette on Warm Amber Background",
+      "slug": "handdrawn-painted-melerei-abstract-nature-leaf-sha",
+      "description": "A large, sweeping leaf form in creamy ivory dominates against vibrant amber-orange ground with organic cutaway spaces. Bold contrast and fluid lines evoke tropical vegetation.",
+      "style": "Matisse-inspired cutout",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "amber orange",
+        "cream",
+        "ivory"
+      ],
+      "tags": [
+        "tropical leaf",
+        "abstract botanical",
+        "warm tones",
+        "graphic art",
+        "modern minimalist"
+      ],
+      "mood": "vibrant",
+      "rooms": [
+        "living room",
+        "office"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (7)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (7)-sm.jpg",
+        "md": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (7)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (7)-md.jpg",
+        "lg": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (7)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (7)-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (7)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (7)-sm.jpg",
+        "md": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (7)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (7)-md.jpg",
+        "lg": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (7)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (7)-lg.jpg"
+      }
+    },
+    {
+      "id": "handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (8)",
+      "category": "Botanical",
+      "title": "Sage Green Matisse Leaf Cutout Art Print",
+      "slug": "handdrawn-painted-melerei-abstract-nature-leaf-sha",
+      "description": "A bold organic leaf form in creamy beige floats against muted sage green background, inspired by Matisse iconic paper cutouts. Minimalist botanical silhouette brings effortless sophistication.",
+      "style": "Matisse cutout",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "sage green",
+        "cream",
+        "beige"
+      ],
+      "tags": [
+        "matisse",
+        "organic shapes",
+        "botanical",
+        "minimalist",
+        "cutout art"
+      ],
+      "mood": "calm",
+      "rooms": [
+        "living room",
+        "bedroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (8)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (8)-sm.jpg",
+        "md": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (8)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (8)-md.jpg",
+        "lg": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (8)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (8)-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (8)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (8)-sm.jpg",
+        "md": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (8)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (8)-md.jpg",
+        "lg": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (8)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (8)-lg.jpg"
+      }
+    },
+    {
+      "id": "handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (9)",
+      "category": "Botanical",
+      "title": "Terracotta Matisse Coral Leaf Abstract Print",
+      "slug": "handdrawn-painted-melerei-abstract-nature-leaf-sha",
+      "description": "A warm terracotta organic coral-like form spreads across soft cream background in this Matisse-inspired cutout composition. Earthy burnt sienna tones create grounding artistic statement.",
+      "style": "Matisse cutout",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "terracotta",
+        "burnt sienna",
+        "cream"
+      ],
+      "tags": [
+        "matisse",
+        "terracotta",
+        "abstract",
+        "earth tones",
+        "organic form"
+      ],
+      "mood": "warm",
+      "rooms": [
+        "living room",
+        "dining room"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (9)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (9)-sm.jpg",
+        "md": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (9)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (9)-md.jpg",
+        "lg": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (9)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (9)-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (9)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (9)-sm.jpg",
+        "md": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (9)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (9)-md.jpg",
+        "lg": "/designs/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (9)/handdrawn-painted-melerei-abstract-nature-leaf-shapes-printable-ready-sale (9)-lg.jpg"
+      }
+    },
+    {
+      "id": "house-plant-illustration-floral-art",
+      "category": "Botanical",
+      "title": "Monstera Plant Bold Green Botanical Block Print",
+      "slug": "house-plant-illustration-floral-art-botanical",
+      "description": "Lush monstera leaves rendered in deep forest green create striking graphic composition against warm ivory background. Bold linocut-style botanical captures wild beauty of tropical foliage.",
+      "style": "Block print linocut",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "forest green",
+        "dark green",
+        "ivory"
+      ],
+      "tags": [
+        "monstera",
+        "tropical",
+        "botanical",
+        "block print",
+        "plant art"
+      ],
+      "mood": "vibrant",
+      "rooms": [
+        "living room",
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/house-plant-illustration-floral-art/house-plant-illustration-floral-art-sm.jpg",
+        "md": "/designs/house-plant-illustration-floral-art/house-plant-illustration-floral-art-md.jpg",
+        "lg": "/designs/house-plant-illustration-floral-art/house-plant-illustration-floral-art-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/house-plant-illustration-floral-art/house-plant-illustration-floral-art-sm.jpg",
+        "md": "/designs/house-plant-illustration-floral-art/house-plant-illustration-floral-art-md.jpg",
+        "lg": "/designs/house-plant-illustration-floral-art/house-plant-illustration-floral-art-lg.jpg"
+      }
+    },
+    {
+      "id": "mid-century-modern-matisse-style-handdrawn-abstract-printable-art",
+      "category": "Botanical",
+      "title": "Pink and Coral Abstract Bloom Art Print",
+      "slug": "mid-century-modern-matisse-style-handdrawn-abstrac",
+      "description": "A radiant abstract flower bursts upward in layers of coral red and soft pink against pale peach background. Playful organic petals fan out from bold central disc evoking joy.",
+      "style": "Modern abstract",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "coral red",
+        "dusty pink",
+        "pale peach"
+      ],
+      "tags": [
+        "abstract flower",
+        "coral",
+        "pink",
+        "modern art",
+        "organic shapes"
+      ],
+      "mood": "joyful",
+      "rooms": [
+        "bedroom",
+        "nursery"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/mid-century-modern-matisse-style-handdrawn-abstract-printable-art/mid-century-modern-matisse-style-handdrawn-abstract-printable-art-sm.jpg",
+        "md": "/designs/mid-century-modern-matisse-style-handdrawn-abstract-printable-art/mid-century-modern-matisse-style-handdrawn-abstract-printable-art-md.jpg",
+        "lg": "/designs/mid-century-modern-matisse-style-handdrawn-abstract-printable-art/mid-century-modern-matisse-style-handdrawn-abstract-printable-art-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/mid-century-modern-matisse-style-handdrawn-abstract-printable-art/mid-century-modern-matisse-style-handdrawn-abstract-printable-art-sm.jpg",
+        "md": "/designs/mid-century-modern-matisse-style-handdrawn-abstract-printable-art/mid-century-modern-matisse-style-handdrawn-abstract-printable-art-md.jpg",
+        "lg": "/designs/mid-century-modern-matisse-style-handdrawn-abstract-printable-art/mid-century-modern-matisse-style-handdrawn-abstract-printable-art-lg.jpg"
+      }
+    },
+    {
+      "id": "mid-century-modern-matisse-style-handdrawn-abstract-printable-art (1)",
+      "category": "Botanical",
+      "title": "Coral Bloom with Black Sketch Lines Art Print",
+      "slug": "mid-century-modern-matisse-style-handdrawn-abstrac",
+      "description": "An expressive abstract flower in coral and pink features dynamic black hand-drawn lines adding texture and depth. Mixed-media style pairs bold organic shapes with sketchy details.",
+      "style": "Mixed media abstract",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "coral red",
+        "dusty pink",
+        "black"
+      ],
+      "tags": [
+        "abstract flower",
+        "mixed media",
+        "textured",
+        "contemporary",
+        "hand-drawn"
+      ],
+      "mood": "energetic",
+      "rooms": [
+        "studio",
+        "living room"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/mid-century-modern-matisse-style-handdrawn-abstract-printable-art (1)/mid-century-modern-matisse-style-handdrawn-abstract-printable-art (1)-sm.jpg",
+        "md": "/designs/mid-century-modern-matisse-style-handdrawn-abstract-printable-art (1)/mid-century-modern-matisse-style-handdrawn-abstract-printable-art (1)-md.jpg",
+        "lg": "/designs/mid-century-modern-matisse-style-handdrawn-abstract-printable-art (1)/mid-century-modern-matisse-style-handdrawn-abstract-printable-art (1)-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/mid-century-modern-matisse-style-handdrawn-abstract-printable-art (1)/mid-century-modern-matisse-style-handdrawn-abstract-printable-art (1)-sm.jpg",
+        "md": "/designs/mid-century-modern-matisse-style-handdrawn-abstract-printable-art (1)/mid-century-modern-matisse-style-handdrawn-abstract-printable-art (1)-md.jpg",
+        "lg": "/designs/mid-century-modern-matisse-style-handdrawn-abstract-printable-art (1)/mid-century-modern-matisse-style-handdrawn-abstract-printable-art (1)-lg.jpg"
+      }
+    },
+    {
+      "id": "mid-century-modern-matisse-style-handdrawn-abstract-printable-art (2)",
+      "category": "Botanical",
+      "title": "Abstract Olive Leaf on Warm Neutral Background",
+      "slug": "mid-century-modern-matisse-style-handdrawn-abstrac",
+      "description": "A Matisse-inspired abstract botanical form in olive green dominates the composition, layered over soft pink and burnt orange shapes on textured cream background. Painterly texture brings artistic sophistication.",
+      "style": "Matisse cutout",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "olive green",
+        "blush pink",
+        "burnt orange"
+      ],
+      "tags": [
+        "abstract botanical",
+        "Matisse inspired",
+        "organic shapes",
+        "textured painting",
+        "earth tones"
+      ],
+      "mood": "warm",
+      "rooms": [
+        "living room",
+        "bedroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/mid-century-modern-matisse-style-handdrawn-abstract-printable-art (2)/mid-century-modern-matisse-style-handdrawn-abstract-printable-art (2)-sm.jpg",
+        "md": "/designs/mid-century-modern-matisse-style-handdrawn-abstract-printable-art (2)/mid-century-modern-matisse-style-handdrawn-abstract-printable-art (2)-md.jpg",
+        "lg": "/designs/mid-century-modern-matisse-style-handdrawn-abstract-printable-art (2)/mid-century-modern-matisse-style-handdrawn-abstract-printable-art (2)-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/mid-century-modern-matisse-style-handdrawn-abstract-printable-art (2)/mid-century-modern-matisse-style-handdrawn-abstract-printable-art (2)-sm.jpg",
+        "md": "/designs/mid-century-modern-matisse-style-handdrawn-abstract-printable-art (2)/mid-century-modern-matisse-style-handdrawn-abstract-printable-art (2)-md.jpg",
+        "lg": "/designs/mid-century-modern-matisse-style-handdrawn-abstract-printable-art (2)/mid-century-modern-matisse-style-handdrawn-abstract-printable-art (2)-lg.jpg"
+      }
+    },
+    {
+      "id": "mid-century-modern-retro-linocut-art-floral-botanical-illustration-leaf",
+      "category": "Botanical",
+      "title": "Bold Blue Fern on Vibrant Orange",
+      "slug": "mid-century-modern-retro-linocut-art-floral-botani",
+      "description": "A striking cerulean blue fern frond stretches diagonally across vivid orange textured background, creating bold complementary color contrast. Simplified leaf shapes evoke modern tropical energy.",
+      "style": "Modern graphic botanical",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "cerulean blue",
+        "vibrant orange",
+        "azure"
+      ],
+      "tags": [
+        "tropical fern",
+        "bold colors",
+        "complementary contrast",
+        "botanical print",
+        "statement art"
+      ],
+      "mood": "energetic",
+      "rooms": [
+        "home office",
+        "dining room"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/mid-century-modern-retro-linocut-art-floral-botanical-illustration-leaf/mid-century-modern-retro-linocut-art-floral-botanical-illustration-leaf-sm.jpg",
+        "md": "/designs/mid-century-modern-retro-linocut-art-floral-botanical-illustration-leaf/mid-century-modern-retro-linocut-art-floral-botanical-illustration-leaf-md.jpg",
+        "lg": "/designs/mid-century-modern-retro-linocut-art-floral-botanical-illustration-leaf/mid-century-modern-retro-linocut-art-floral-botanical-illustration-leaf-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/mid-century-modern-retro-linocut-art-floral-botanical-illustration-leaf/mid-century-modern-retro-linocut-art-floral-botanical-illustration-leaf-sm.jpg",
+        "md": "/designs/mid-century-modern-retro-linocut-art-floral-botanical-illustration-leaf/mid-century-modern-retro-linocut-art-floral-botanical-illustration-leaf-md.jpg",
+        "lg": "/designs/mid-century-modern-retro-linocut-art-floral-botanical-illustration-leaf/mid-century-modern-retro-linocut-art-floral-botanical-illustration-leaf-lg.jpg"
+      }
+    },
+    {
+      "id": "mid-century-modern-retro-linocut-art-floral-botanical-illustration-leaf (1)",
+      "category": "Botanical",
+      "title": "Golden Fern Silhouette on Royal Blue",
+      "slug": "mid-century-modern-retro-linocut-art-floral-botani",
+      "description": "A symmetrical golden-yellow fern leaf rendered in elegant silhouette against rich royal blue textured background. Flowing leaflets and centered composition create regal, balanced print.",
+      "style": "Botanical silhouette",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "golden yellow",
+        "royal blue",
+        "amber"
+      ],
+      "tags": [
+        "fern silhouette",
+        "bold duo-tone",
+        "elegant botanical",
+        "luxurious colors",
+        "symmetrical design"
+      ],
+      "mood": "sophisticated",
+      "rooms": [
+        "entryway",
+        "living room"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/mid-century-modern-retro-linocut-art-floral-botanical-illustration-leaf (1)/mid-century-modern-retro-linocut-art-floral-botanical-illustration-leaf (1)-sm.jpg",
+        "md": "/designs/mid-century-modern-retro-linocut-art-floral-botanical-illustration-leaf (1)/mid-century-modern-retro-linocut-art-floral-botanical-illustration-leaf (1)-md.jpg",
+        "lg": "/designs/mid-century-modern-retro-linocut-art-floral-botanical-illustration-leaf (1)/mid-century-modern-retro-linocut-art-floral-botanical-illustration-leaf (1)-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/mid-century-modern-retro-linocut-art-floral-botanical-illustration-leaf (1)/mid-century-modern-retro-linocut-art-floral-botanical-illustration-leaf (1)-sm.jpg",
+        "md": "/designs/mid-century-modern-retro-linocut-art-floral-botanical-illustration-leaf (1)/mid-century-modern-retro-linocut-art-floral-botanical-illustration-leaf (1)-md.jpg",
+        "lg": "/designs/mid-century-modern-retro-linocut-art-floral-botanical-illustration-leaf (1)/mid-century-modern-retro-linocut-art-floral-botanical-illustration-leaf (1)-lg.jpg"
+      }
+    },
+    {
+      "id": "modern-flat-design-matisse-style-illustration-printable (1)",
+      "category": "Botanical",
+      "title": "Navy Organic Abstract on Golden Yellow",
+      "slug": "modern-flat-design-matisse-style-illustration-prin",
+      "description": "Fluid, amoeba-like navy blue shapes wind and curl across warm golden-yellow background in playful abstract composition. Biomorphic forms evoke mid-century modern art with contemporary twist.",
+      "style": "Biomorphic abstract",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "navy blue",
+        "golden yellow",
+        "indigo"
+      ],
+      "tags": [
+        "biomorphic",
+        "mid-century modern",
+        "fluid shapes",
+        "abstract art",
+        "contemporary print"
+      ],
+      "mood": "playful",
+      "rooms": [
+        "studio",
+        "living room"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/modern-flat-design-matisse-style-illustration-printable (1)/modern-flat-design-matisse-style-illustration-printable (1)-sm.jpg",
+        "md": "/designs/modern-flat-design-matisse-style-illustration-printable (1)/modern-flat-design-matisse-style-illustration-printable (1)-md.jpg",
+        "lg": "/designs/modern-flat-design-matisse-style-illustration-printable (1)/modern-flat-design-matisse-style-illustration-printable (1)-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/modern-flat-design-matisse-style-illustration-printable (1)/modern-flat-design-matisse-style-illustration-printable (1)-sm.jpg",
+        "md": "/designs/modern-flat-design-matisse-style-illustration-printable (1)/modern-flat-design-matisse-style-illustration-printable (1)-md.jpg",
+        "lg": "/designs/modern-flat-design-matisse-style-illustration-printable (1)/modern-flat-design-matisse-style-illustration-printable (1)-lg.jpg"
+      }
+    },
+    {
+      "id": "modern-flat-design-matisse-style-illustration-printable (10)",
+      "category": "Botanical",
+      "title": "Pink Coral Abstract on Warm Terracotta",
+      "slug": "modern-flat-design-matisse-style-illustration-prin",
+      "description": "Soft pink organic forms twist and branch across warm terracotta brown background, resembling abstract coral or seaweed. Flowing biomorphic shapes and warm feminine palette create inviting piece.",
+      "style": "Biomorphic abstract",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "baby pink",
+        "terracotta brown",
+        "rose"
+      ],
+      "tags": [
+        "organic forms",
+        "feminine art",
+        "coral shapes",
+        "warm tones",
+        "contemporary abstract"
+      ],
+      "mood": "warm",
+      "rooms": [
+        "bedroom",
+        "nursery"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/modern-flat-design-matisse-style-illustration-printable (10)/modern-flat-design-matisse-style-illustration-printable (10)-sm.jpg",
+        "md": "/designs/modern-flat-design-matisse-style-illustration-printable (10)/modern-flat-design-matisse-style-illustration-printable (10)-md.jpg",
+        "lg": "/designs/modern-flat-design-matisse-style-illustration-printable (10)/modern-flat-design-matisse-style-illustration-printable (10)-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/modern-flat-design-matisse-style-illustration-printable (10)/modern-flat-design-matisse-style-illustration-printable (10)-sm.jpg",
+        "md": "/designs/modern-flat-design-matisse-style-illustration-printable (10)/modern-flat-design-matisse-style-illustration-printable (10)-md.jpg",
+        "lg": "/designs/modern-flat-design-matisse-style-illustration-printable (10)/modern-flat-design-matisse-style-illustration-printable (10)-lg.jpg"
+      }
+    },
+    {
+      "id": "modern-flat-design-matisse-style-illustration-printable (2)",
+      "category": "Botanical",
+      "title": "Black and White Abstract Coral Cutout Print",
+      "slug": "modern-flat-design-matisse-style-illustration-prin",
+      "description": "Bold white organic shapes intertwine against deep charcoal background, evoking the fluidity of coral and seaweed forms. Striking monochrome piece brings high-contrast energy.",
+      "style": "Matisse-inspired cutout",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "charcoal black",
+        "white",
+        "dark gray"
+      ],
+      "tags": [
+        "abstract",
+        "monochrome",
+        "organic shapes",
+        "Matisse cutout",
+        "black and white"
+      ],
+      "mood": "bold",
+      "rooms": [
+        "living room",
+        "office"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/modern-flat-design-matisse-style-illustration-printable (2)/modern-flat-design-matisse-style-illustration-printable (2)-sm.jpg",
+        "md": "/designs/modern-flat-design-matisse-style-illustration-printable (2)/modern-flat-design-matisse-style-illustration-printable (2)-md.jpg",
+        "lg": "/designs/modern-flat-design-matisse-style-illustration-printable (2)/modern-flat-design-matisse-style-illustration-printable (2)-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/modern-flat-design-matisse-style-illustration-printable (2)/modern-flat-design-matisse-style-illustration-printable (2)-sm.jpg",
+        "md": "/designs/modern-flat-design-matisse-style-illustration-printable (2)/modern-flat-design-matisse-style-illustration-printable (2)-md.jpg",
+        "lg": "/designs/modern-flat-design-matisse-style-illustration-printable (2)/modern-flat-design-matisse-style-illustration-printable (2)-lg.jpg"
+      }
+    },
+    {
+      "id": "modern-flat-design-matisse-style-illustration-printable (3)",
+      "category": "Botanical",
+      "title": "Beige and Black Wavy Abstract Art Print",
+      "slug": "modern-flat-design-matisse-style-illustration-prin",
+      "description": "Flowing black undulating forms cascade across warm sandy beige background, creating mesmerizing visual rhythm. Earthy neutral palette makes this organic abstract effortlessly versatile.",
+      "style": "Modern abstract",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "sand beige",
+        "black",
+        "tan"
+      ],
+      "tags": [
+        "abstract",
+        "wavy lines",
+        "neutral tones",
+        "organic",
+        "earth tones"
+      ],
+      "mood": "sophisticated",
+      "rooms": [
+        "bedroom",
+        "living room"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/modern-flat-design-matisse-style-illustration-printable (3)/modern-flat-design-matisse-style-illustration-printable (3)-sm.jpg",
+        "md": "/designs/modern-flat-design-matisse-style-illustration-printable (3)/modern-flat-design-matisse-style-illustration-printable (3)-md.jpg",
+        "lg": "/designs/modern-flat-design-matisse-style-illustration-printable (3)/modern-flat-design-matisse-style-illustration-printable (3)-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/modern-flat-design-matisse-style-illustration-printable (3)/modern-flat-design-matisse-style-illustration-printable (3)-sm.jpg",
+        "md": "/designs/modern-flat-design-matisse-style-illustration-printable (3)/modern-flat-design-matisse-style-illustration-printable (3)-md.jpg",
+        "lg": "/designs/modern-flat-design-matisse-style-illustration-printable (3)/modern-flat-design-matisse-style-illustration-printable (3)-lg.jpg"
+      }
+    },
+    {
+      "id": "modern-flat-design-matisse-style-illustration-printable (6)",
+      "category": "Botanical",
+      "title": "Abstract Art Paris 2022 Exhibition Poster Print",
+      "slug": "modern-flat-design-matisse-style-illustration-prin",
+      "description": "A sinuous black biomorphic form spirals across pale gray background in this gallery-style exhibition poster. Elegant typography and Parisian art show aesthetic brings curated sophistication.",
+      "style": "Exhibition poster",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "light gray",
+        "black",
+        "off-white"
+      ],
+      "tags": [
+        "exhibition poster",
+        "Paris",
+        "biomorphic",
+        "gallery wall",
+        "abstract art"
+      ],
+      "mood": "minimalist",
+      "rooms": [
+        "living room",
+        "hallway"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/modern-flat-design-matisse-style-illustration-printable (6)/modern-flat-design-matisse-style-illustration-printable (6)-sm.jpg",
+        "md": "/designs/modern-flat-design-matisse-style-illustration-printable (6)/modern-flat-design-matisse-style-illustration-printable (6)-md.jpg",
+        "lg": "/designs/modern-flat-design-matisse-style-illustration-printable (6)/modern-flat-design-matisse-style-illustration-printable (6)-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/modern-flat-design-matisse-style-illustration-printable (6)/modern-flat-design-matisse-style-illustration-printable (6)-sm.jpg",
+        "md": "/designs/modern-flat-design-matisse-style-illustration-printable (6)/modern-flat-design-matisse-style-illustration-printable (6)-md.jpg",
+        "lg": "/designs/modern-flat-design-matisse-style-illustration-printable (6)/modern-flat-design-matisse-style-illustration-printable (6)-lg.jpg"
+      }
+    },
+    {
+      "id": "modern-flat-design-matisse-style-illustration-printable (8)",
+      "category": "Botanical",
+      "title": "Botanical Art Floral Coral Pink and Yellow Print",
+      "slug": "modern-flat-design-matisse-style-illustration-prin",
+      "description": "A symmetrical blush pink botanical form fans upward against warm golden yellow background in cheerful exhibition-style poster. Paris 2022 print blends organic shapes with sunny palette.",
+      "style": "Botanical exhibition poster",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "golden yellow",
+        "blush pink",
+        "white"
+      ],
+      "tags": [
+        "botanical",
+        "floral",
+        "pastel",
+        "exhibition poster",
+        "symmetrical"
+      ],
+      "mood": "cheerful",
+      "rooms": [
+        "nursery",
+        "kitchen"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/modern-flat-design-matisse-style-illustration-printable (8)/modern-flat-design-matisse-style-illustration-printable (8)-sm.jpg",
+        "md": "/designs/modern-flat-design-matisse-style-illustration-printable (8)/modern-flat-design-matisse-style-illustration-printable (8)-md.jpg",
+        "lg": "/designs/modern-flat-design-matisse-style-illustration-printable (8)/modern-flat-design-matisse-style-illustration-printable (8)-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/modern-flat-design-matisse-style-illustration-printable (8)/modern-flat-design-matisse-style-illustration-printable (8)-sm.jpg",
+        "md": "/designs/modern-flat-design-matisse-style-illustration-printable (8)/modern-flat-design-matisse-style-illustration-printable (8)-md.jpg",
+        "lg": "/designs/modern-flat-design-matisse-style-illustration-printable (8)/modern-flat-design-matisse-style-illustration-printable (8)-lg.jpg"
+      }
+    },
+    {
+      "id": "modern-flat-design-matisse-style-illustration-printable (9)",
+      "category": "Botanical",
+      "title": "Blue and Pink Abstract Seaweed Coral Art Print",
+      "slug": "modern-flat-design-matisse-style-illustration-prin",
+      "description": "Soft peach-pink coral branches reach upward against rich teal blue background, capturing graceful movement of underwater flora. Coastal-inspired piece brings calming oceanic serenity.",
+      "style": "Matisse-inspired cutout",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "teal blue",
+        "blush pink",
+        "peach"
+      ],
+      "tags": [
+        "coral",
+        "seaweed",
+        "coastal",
+        "Matisse cutout",
+        "ocean"
+      ],
+      "mood": "calm",
+      "rooms": [
+        "bathroom",
+        "bedroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/modern-flat-design-matisse-style-illustration-printable (9)/modern-flat-design-matisse-style-illustration-printable (9)-sm.jpg",
+        "md": "/designs/modern-flat-design-matisse-style-illustration-printable (9)/modern-flat-design-matisse-style-illustration-printable (9)-md.jpg",
+        "lg": "/designs/modern-flat-design-matisse-style-illustration-printable (9)/modern-flat-design-matisse-style-illustration-printable (9)-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/modern-flat-design-matisse-style-illustration-printable (9)/modern-flat-design-matisse-style-illustration-printable (9)-sm.jpg",
+        "md": "/designs/modern-flat-design-matisse-style-illustration-printable (9)/modern-flat-design-matisse-style-illustration-printable (9)-md.jpg",
+        "lg": "/designs/modern-flat-design-matisse-style-illustration-printable (9)/modern-flat-design-matisse-style-illustration-printable (9)-lg.jpg"
+      }
+    },
+    {
+      "id": "paint-brushes-matisse-style-botanical-shapes-printable-art",
+      "category": "Botanical",
+      "title": "Golden Coral Forms on Textured Beige",
+      "slug": "paint-brushes-matisse-style-botanical-shapes-print",
+      "description": "Two bold saffron-yellow organic shapes reminiscent of coral or seaweed dance across creamy textured background. Thick impasto brushstrokes give this Matisse-inspired piece handcrafted quality.",
+      "style": "Abstract Organic Matisse",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "saffron yellow",
+        "warm beige",
+        "cream"
+      ],
+      "tags": [
+        "abstract botanical",
+        "Matisse style",
+        "organic shapes",
+        "impasto texture",
+        "minimalist art"
+      ],
+      "mood": "cheerful",
+      "rooms": [
+        "living room",
+        "dining room"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/paint-brushes-matisse-style-botanical-shapes-printable-art/paint-brushes-matisse-style-botanical-shapes-printable-art-sm.jpg",
+        "md": "/designs/paint-brushes-matisse-style-botanical-shapes-printable-art/paint-brushes-matisse-style-botanical-shapes-printable-art-md.jpg",
+        "lg": "/designs/paint-brushes-matisse-style-botanical-shapes-printable-art/paint-brushes-matisse-style-botanical-shapes-printable-art-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/paint-brushes-matisse-style-botanical-shapes-printable-art/paint-brushes-matisse-style-botanical-shapes-printable-art-sm.jpg",
+        "md": "/designs/paint-brushes-matisse-style-botanical-shapes-printable-art/paint-brushes-matisse-style-botanical-shapes-printable-art-md.jpg",
+        "lg": "/designs/paint-brushes-matisse-style-botanical-shapes-printable-art/paint-brushes-matisse-style-botanical-shapes-printable-art-lg.jpg"
+      }
+    },
+    {
+      "id": "paint-brushes-matisse-style-botanical-shapes-printable-art (1)",
+      "category": "Botanical",
+      "title": "Burnt Sienna Abstract Coral on Cream",
+      "slug": "paint-brushes-matisse-style-botanical-shapes-print",
+      "description": "A flowing burnt sienna biomorphic form twists and branches across pale textured canvas, evoking underwater coral. Rich terracotta hue and visible paint texture create warm, earthy statement.",
+      "style": "Abstract Organic Matisse",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "burnt sienna",
+        "warm beige",
+        "cream"
+      ],
+      "tags": [
+        "abstract art",
+        "biomorphic",
+        "earth tones",
+        "organic form",
+        "textured painting"
+      ],
+      "mood": "warm",
+      "rooms": [
+        "bedroom",
+        "hallway"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/paint-brushes-matisse-style-botanical-shapes-printable-art (1)/paint-brushes-matisse-style-botanical-shapes-printable-art (1)-sm.jpg",
+        "md": "/designs/paint-brushes-matisse-style-botanical-shapes-printable-art (1)/paint-brushes-matisse-style-botanical-shapes-printable-art (1)-md.jpg",
+        "lg": "/designs/paint-brushes-matisse-style-botanical-shapes-printable-art (1)/paint-brushes-matisse-style-botanical-shapes-printable-art (1)-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/paint-brushes-matisse-style-botanical-shapes-printable-art (1)/paint-brushes-matisse-style-botanical-shapes-printable-art (1)-sm.jpg",
+        "md": "/designs/paint-brushes-matisse-style-botanical-shapes-printable-art (1)/paint-brushes-matisse-style-botanical-shapes-printable-art (1)-md.jpg",
+        "lg": "/designs/paint-brushes-matisse-style-botanical-shapes-printable-art (1)/paint-brushes-matisse-style-botanical-shapes-printable-art (1)-lg.jpg"
+      }
+    },
+    {
+      "id": "paint-brushes-matisse-style-botanical-shapes-printable-art (2)",
+      "category": "Botanical",
+      "title": "Olive Green Seaweed with Colorful Dots",
+      "slug": "paint-brushes-matisse-style-botanical-shapes-print",
+      "description": "A lush olive-green botanical form spreads rounded fronds across beige ground, accented by playful pink, blue, yellow, and red dots. Whimsical composition blends Matisse-style cutouts with confetti energy.",
+      "style": "Abstract Botanical Modern",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "olive green",
+        "warm beige",
+        "multicolor accents"
+      ],
+      "tags": [
+        "botanical abstract",
+        "colorful dots",
+        "Matisse inspired",
+        "playful art",
+        "green leaf"
+      ],
+      "mood": "playful",
+      "rooms": [
+        "kids room",
+        "living room"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/paint-brushes-matisse-style-botanical-shapes-printable-art (2)/paint-brushes-matisse-style-botanical-shapes-printable-art (2)-sm.jpg",
+        "md": "/designs/paint-brushes-matisse-style-botanical-shapes-printable-art (2)/paint-brushes-matisse-style-botanical-shapes-printable-art (2)-md.jpg",
+        "lg": "/designs/paint-brushes-matisse-style-botanical-shapes-printable-art (2)/paint-brushes-matisse-style-botanical-shapes-printable-art (2)-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/paint-brushes-matisse-style-botanical-shapes-printable-art (2)/paint-brushes-matisse-style-botanical-shapes-printable-art (2)-sm.jpg",
+        "md": "/designs/paint-brushes-matisse-style-botanical-shapes-printable-art (2)/paint-brushes-matisse-style-botanical-shapes-printable-art (2)-md.jpg",
+        "lg": "/designs/paint-brushes-matisse-style-botanical-shapes-printable-art (2)/paint-brushes-matisse-style-botanical-shapes-printable-art (2)-lg.jpg"
+      }
+    },
+    {
+      "id": "paint-brushes-matisse-style-botanical-shapes-printable-art (3)",
+      "category": "Botanical",
+      "title": "Mint Green Abstract Figures on Beige",
+      "slug": "paint-brushes-matisse-style-botanical-shapes-print",
+      "description": "Soft mint-green flowing lines form abstract cactus-like figures and serpentine shapes on muted beige background. Delicate pastel palette and loose brushwork create fresh contemporary feel.",
+      "style": "Abstract Line Art Contemporary",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "mint green",
+        "light beige",
+        "sage"
+      ],
+      "tags": [
+        "pastel abstract",
+        "line art",
+        "organic shapes",
+        "contemporary art",
+        "soft green"
+      ],
+      "mood": "calm",
+      "rooms": [
+        "bathroom",
+        "nursery"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/paint-brushes-matisse-style-botanical-shapes-printable-art (3)/paint-brushes-matisse-style-botanical-shapes-printable-art (3)-sm.jpg",
+        "md": "/designs/paint-brushes-matisse-style-botanical-shapes-printable-art (3)/paint-brushes-matisse-style-botanical-shapes-printable-art (3)-md.jpg",
+        "lg": "/designs/paint-brushes-matisse-style-botanical-shapes-printable-art (3)/paint-brushes-matisse-style-botanical-shapes-printable-art (3)-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/paint-brushes-matisse-style-botanical-shapes-printable-art (3)/paint-brushes-matisse-style-botanical-shapes-printable-art (3)-sm.jpg",
+        "md": "/designs/paint-brushes-matisse-style-botanical-shapes-printable-art (3)/paint-brushes-matisse-style-botanical-shapes-printable-art (3)-md.jpg",
+        "lg": "/designs/paint-brushes-matisse-style-botanical-shapes-printable-art (3)/paint-brushes-matisse-style-botanical-shapes-printable-art (3)-lg.jpg"
+      }
+    },
+    {
+      "id": "paint-brushes-matisse-style-botanical-shapes-printable-art (7)",
+      "category": "Botanical",
+      "title": "Taupe Botanical Silhouette on Cream",
+      "slug": "paint-brushes-matisse-style-botanical-shapes-print",
+      "description": "A muted taupe coral-branch silhouette rises elegantly against soft cream textured background in tone-on-tone composition. Subtle earth-toned palette makes this versatile sophisticated neutral statement.",
+      "style": "Abstract Botanical Tonal",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "taupe",
+        "warm beige",
+        "cream"
+      ],
+      "tags": [
+        "neutral art",
+        "tone on tone",
+        "botanical silhouette",
+        "minimalist decor",
+        "earth tones"
+      ],
+      "mood": "serene",
+      "rooms": [
+        "bedroom",
+        "office"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/paint-brushes-matisse-style-botanical-shapes-printable-art (7)/paint-brushes-matisse-style-botanical-shapes-printable-art (7)-sm.jpg",
+        "md": "/designs/paint-brushes-matisse-style-botanical-shapes-printable-art (7)/paint-brushes-matisse-style-botanical-shapes-printable-art (7)-md.jpg",
+        "lg": "/designs/paint-brushes-matisse-style-botanical-shapes-printable-art (7)/paint-brushes-matisse-style-botanical-shapes-printable-art (7)-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/paint-brushes-matisse-style-botanical-shapes-printable-art (7)/paint-brushes-matisse-style-botanical-shapes-printable-art (7)-sm.jpg",
+        "md": "/designs/paint-brushes-matisse-style-botanical-shapes-printable-art (7)/paint-brushes-matisse-style-botanical-shapes-printable-art (7)-md.jpg",
+        "lg": "/designs/paint-brushes-matisse-style-botanical-shapes-printable-art (7)/paint-brushes-matisse-style-botanical-shapes-printable-art (7)-lg.jpg"
+      }
+    },
+    {
+      "id": "paint-brushes-matisse-style-botanical-shapes-printable-art (8)",
+      "category": "Botanical",
+      "title": "Sage Green Coral Branch on Beige Textured Print",
+      "slug": "paint-brushes-matisse-style-botanical-shapes-print",
+      "description": "A soft sage green coral-like botanical form painted with visible brushstrokes on warm beige textured background. Matisse-inspired cutout brings organic elegance and coastal charm.",
+      "style": "Modern Abstract Botanical",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "sage green",
+        "beige",
+        "cream"
+      ],
+      "tags": [
+        "Matisse cutout",
+        "coral branch",
+        "botanical art",
+        "textured painting",
+        "organic shapes"
+      ],
+      "mood": "calm",
+      "rooms": [
+        "living room",
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/paint-brushes-matisse-style-botanical-shapes-printable-art (8)/paint-brushes-matisse-style-botanical-shapes-printable-art (8)-sm.jpg",
+        "md": "/designs/paint-brushes-matisse-style-botanical-shapes-printable-art (8)/paint-brushes-matisse-style-botanical-shapes-printable-art (8)-md.jpg",
+        "lg": "/designs/paint-brushes-matisse-style-botanical-shapes-printable-art (8)/paint-brushes-matisse-style-botanical-shapes-printable-art (8)-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/paint-brushes-matisse-style-botanical-shapes-printable-art (8)/paint-brushes-matisse-style-botanical-shapes-printable-art (8)-sm.jpg",
+        "md": "/designs/paint-brushes-matisse-style-botanical-shapes-printable-art (8)/paint-brushes-matisse-style-botanical-shapes-printable-art (8)-md.jpg",
+        "lg": "/designs/paint-brushes-matisse-style-botanical-shapes-printable-art (8)/paint-brushes-matisse-style-botanical-shapes-printable-art (8)-lg.jpg"
+      }
+    },
+    {
+      "id": "paint-brushes-matisse-style-botanical-shapes-printable-art (9)",
+      "category": "Botanical",
+      "title": "Bold Green Abstract Seaweed Form Art Print",
+      "slug": "paint-brushes-matisse-style-botanical-shapes-print",
+      "description": "A striking emerald green organic shape with curving tendrils and playful spiral, painted in thick impasto strokes on neutral beige ground. Bold biomorphic form evokes underwater seaweed.",
+      "style": "Modern Abstract Botanical",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "emerald green",
+        "beige",
+        "cream"
+      ],
+      "tags": [
+        "abstract art",
+        "biomorphic",
+        "seaweed",
+        "Matisse inspired",
+        "impasto texture"
+      ],
+      "mood": "playful",
+      "rooms": [
+        "living room",
+        "office"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/paint-brushes-matisse-style-botanical-shapes-printable-art (9)/paint-brushes-matisse-style-botanical-shapes-printable-art (9)-sm.jpg",
+        "md": "/designs/paint-brushes-matisse-style-botanical-shapes-printable-art (9)/paint-brushes-matisse-style-botanical-shapes-printable-art (9)-md.jpg",
+        "lg": "/designs/paint-brushes-matisse-style-botanical-shapes-printable-art (9)/paint-brushes-matisse-style-botanical-shapes-printable-art (9)-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/paint-brushes-matisse-style-botanical-shapes-printable-art (9)/paint-brushes-matisse-style-botanical-shapes-printable-art (9)-sm.jpg",
+        "md": "/designs/paint-brushes-matisse-style-botanical-shapes-printable-art (9)/paint-brushes-matisse-style-botanical-shapes-printable-art (9)-md.jpg",
+        "lg": "/designs/paint-brushes-matisse-style-botanical-shapes-printable-art (9)/paint-brushes-matisse-style-botanical-shapes-printable-art (9)-lg.jpg"
+      }
+    },
+    {
+      "id": "painting-botanical-floral-shapes-retro-farmhouse-nature-painted-art (1)",
+      "category": "Botanical",
+      "title": "Dark Green Tropical Plant Silhouette Art Print",
+      "slug": "painting-botanical-floral-shapes-retro-farmhouse-n",
+      "description": "A deep forest green tropical plant with elongated leaves fans upward against soft beige textured background. Bold simplified botanical silhouette captures lush natural beauty.",
+      "style": "Modern Minimalist Botanical",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "forest green",
+        "beige",
+        "cream"
+      ],
+      "tags": [
+        "tropical plant",
+        "botanical silhouette",
+        "minimalist art",
+        "leaf print",
+        "nature art"
+      ],
+      "mood": "serene",
+      "rooms": [
+        "bedroom",
+        "hallway"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/painting-botanical-floral-shapes-retro-farmhouse-nature-painted-art (1)/painting-botanical-floral-shapes-retro-farmhouse-nature-painted-art (1)-sm.jpg",
+        "md": "/designs/painting-botanical-floral-shapes-retro-farmhouse-nature-painted-art (1)/painting-botanical-floral-shapes-retro-farmhouse-nature-painted-art (1)-md.jpg",
+        "lg": "/designs/painting-botanical-floral-shapes-retro-farmhouse-nature-painted-art (1)/painting-botanical-floral-shapes-retro-farmhouse-nature-painted-art (1)-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/painting-botanical-floral-shapes-retro-farmhouse-nature-painted-art (1)/painting-botanical-floral-shapes-retro-farmhouse-nature-painted-art (1)-sm.jpg",
+        "md": "/designs/painting-botanical-floral-shapes-retro-farmhouse-nature-painted-art (1)/painting-botanical-floral-shapes-retro-farmhouse-nature-painted-art (1)-md.jpg",
+        "lg": "/designs/painting-botanical-floral-shapes-retro-farmhouse-nature-painted-art (1)/painting-botanical-floral-shapes-retro-farmhouse-nature-painted-art (1)-lg.jpg"
+      }
+    },
+    {
+      "id": "painting-botanical-floral-shapes-retro-farmhouse-nature-painted-art (2)",
+      "category": "Botanical",
+      "title": "Terracotta Red Leaf Branch on Beige Art Print",
+      "slug": "painting-botanical-floral-shapes-retro-farmhouse-n",
+      "description": "Warm terracotta-red rounded leaves branch symmetrically from central stem, painted with expressive brushstrokes on soft beige textured surface. Earthy botanical radiates warmth.",
+      "style": "Modern Abstract Botanical",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "terracotta red",
+        "beige",
+        "cream"
+      ],
+      "tags": [
+        "terracotta art",
+        "leaf branch",
+        "earth tones",
+        "boho wall art",
+        "warm botanical"
+      ],
+      "mood": "warm",
+      "rooms": [
+        "living room",
+        "dining room"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/painting-botanical-floral-shapes-retro-farmhouse-nature-painted-art (2)/painting-botanical-floral-shapes-retro-farmhouse-nature-painted-art (2)-sm.jpg",
+        "md": "/designs/painting-botanical-floral-shapes-retro-farmhouse-nature-painted-art (2)/painting-botanical-floral-shapes-retro-farmhouse-nature-painted-art (2)-md.jpg",
+        "lg": "/designs/painting-botanical-floral-shapes-retro-farmhouse-nature-painted-art (2)/painting-botanical-floral-shapes-retro-farmhouse-nature-painted-art (2)-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/painting-botanical-floral-shapes-retro-farmhouse-nature-painted-art (2)/painting-botanical-floral-shapes-retro-farmhouse-nature-painted-art (2)-sm.jpg",
+        "md": "/designs/painting-botanical-floral-shapes-retro-farmhouse-nature-painted-art (2)/painting-botanical-floral-shapes-retro-farmhouse-nature-painted-art (2)-md.jpg",
+        "lg": "/designs/painting-botanical-floral-shapes-retro-farmhouse-nature-painted-art (2)/painting-botanical-floral-shapes-retro-farmhouse-nature-painted-art (2)-lg.jpg"
+      }
+    },
+    {
+      "id": "painting-botanical-floral-shapes-retro-farmhouse-nature-painted-art (3)",
+      "category": "Botanical",
+      "title": "Cobalt Blue Botanical Leaf Stem Art Print",
+      "slug": "painting-botanical-floral-shapes-retro-farmhouse-n",
+      "description": "Vivid cobalt blue leaves cascade along curving stem, rendered in sweeping painterly brushstrokes against neutral beige textured background. Bold Matisse-inspired print makes striking statement.",
+      "style": "Modern Abstract Botanical",
+      "sizes": [
+        "8x10",
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "cobalt blue",
+        "beige",
+        "cream"
+      ],
+      "tags": [
+        "cobalt blue art",
+        "Matisse inspired",
+        "bold botanical",
+        "blue leaf print",
+        "statement art"
+      ],
+      "mood": "bold",
+      "rooms": [
+        "bedroom",
+        "living room"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "8x10": 29.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/painting-botanical-floral-shapes-retro-farmhouse-nature-painted-art (3)/painting-botanical-floral-shapes-retro-farmhouse-nature-painted-art (3)-sm.jpg",
+        "md": "/designs/painting-botanical-floral-shapes-retro-farmhouse-nature-painted-art (3)/painting-botanical-floral-shapes-retro-farmhouse-nature-painted-art (3)-md.jpg",
+        "lg": "/designs/painting-botanical-floral-shapes-retro-farmhouse-nature-painted-art (3)/painting-botanical-floral-shapes-retro-farmhouse-nature-painted-art (3)-lg.jpg"
+      },
+      "thumbnails": {
+        "sm": "/designs/painting-botanical-floral-shapes-retro-farmhouse-nature-painted-art (3)/painting-botanical-floral-shapes-retro-farmhouse-nature-painted-art (3)-sm.jpg",
+        "md": "/designs/painting-botanical-floral-shapes-retro-farmhouse-nature-painted-art (3)/painting-botanical-floral-shapes-retro-farmhouse-nature-painted-art (3)-md.jpg",
+        "lg": "/designs/painting-botanical-floral-shapes-retro-farmhouse-nature-painted-art (3)/painting-botanical-floral-shapes-retro-farmhouse-nature-painted-art (3)-lg.jpg"
+      }
+    }
+  ],
+  "total": 100,
+  "categories": [
+    "Botanical"
+  ]
+}
