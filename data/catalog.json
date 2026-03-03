@@ -1,5 +1,3350 @@
 {
-  "designs": [],
-  "total": 0,
-  "categories": []
+  "designs": [
+    {
+      "id": "4930",
+      "category": "Star Wars Bathroom",
+      "title": "Baby Space Sage in Bathtub \u2013 Funny Sci-Fi Bathroom Wall Art Print",
+      "slug": "4930-star-wars-bathroom",
+      "description": "This charming vintage-style oil painting features an adorable little green alien creature relaxing in a clawfoot bathtub with a washcloth draped over the edge. A perfect blend of sci-fi whimsy and classical art that adds instant character to any bathroom.",
+      "style": "Pop Culture - Grogu (Baby Yoda)",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "sage green",
+        "dusty blue",
+        "warm beige",
+        "golden brown"
+      ],
+      "tags": [
+        "vintage painting",
+        "sci-fi bathroom decor",
+        "vintage painting style",
+        "space nursery decor",
+        "green creature art",
+        "whimsical bathroom humor",
+        "baby alien bathtub",
+        "Mandalorian",
+        "bathroom wall art",
+        "bathtub art",
+        "funny bathroom print",
+        "Star Wars bathroom",
+        "Grogu",
+        "Baby Yoda"
+      ],
+      "mood": "Adorable",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/4930/4930-sm.jpg",
+        "md": "/designs/4930/4930-md.jpg",
+        "lg": "/designs/4930/4930-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "4931",
+      "category": "Star Wars Bathroom",
+      "title": "Armored Bounty Hunter Reading Newspaper on Toilet \u2013 Funny Sci-Fi Bathroom Art",
+      "slug": "4931-star-wars-bathroom",
+      "description": "A battle-worn galactic bounty hunter in iconic green and brown armor takes a well-deserved break, casually reading the newspaper while seated on the toilet. This grunge-bordered vintage illustration is the ultimate conversation starter for any sci-fi fan's bathroom.",
+      "style": "Pop Culture - Boba Fett",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "hunter green",
+        "worn brown",
+        "antique beige",
+        "dark maroon"
+      ],
+      "tags": [
+        "bounty hunter",
+        "geeky wall decor",
+        "funny wall art",
+        "reading newspaper toilet",
+        "funny toilet print",
+        "man cave bathroom",
+        "armored warrior art",
+        "vintage grunge poster",
+        "Boba Fett",
+        "sci-fi bathroom humor",
+        "vintage poster",
+        "toilet humor",
+        "Star Wars bathroom",
+        "bounty hunter bathroom art",
+        "newspaper reading"
+      ],
+      "mood": "Irreverent",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/4931/4931-sm.jpg",
+        "md": "/designs/4931/4931-md.jpg",
+        "lg": "/designs/4931/4931-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "4932",
+      "category": "Star Wars Bathroom",
+      "title": "Galaxy Bounty Hunter on Toilet with Newspaper \u2013 Vintage Sci-Fi Bathroom Print",
+      "slug": "4932-star-wars-bathroom",
+      "description": "A heavily armored space mercenary squeezes into a small bathtub-style toilet while catching up on the daily news in this detailed watercolor-style artwork. The weathered, rustic aesthetic and warm earth tones make this humorous print feel like a discovered relic from a galaxy far away.",
+      "style": "Pop Culture - Boba Fett",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "teal green",
+        "warm brown",
+        "mustard yellow",
+        "parchment beige"
+      ],
+      "tags": [
+        "Star Wars humor",
+        "geek gift idea",
+        "toilet art",
+        "watercolor style",
+        "reading newspaper",
+        "space warrior art",
+        "newspaper bathroom print",
+        "bathroom art",
+        "bounty hunter toilet humor",
+        "Boba Fett",
+        "sci-fi bathroom wall art",
+        "rustic bathroom art",
+        "vintage watercolor print",
+        "funny restroom decor",
+        "man cave decor"
+      ],
+      "mood": "Comedic",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/4932/4932-sm.jpg",
+        "md": "/designs/4932/4932-md.jpg",
+        "lg": "/designs/4932/4932-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "4933",
+      "category": "Star Wars Bathroom",
+      "title": "Space Mercenary Reading on Toilet \u2013 Distressed Sci-Fi Bathroom Wall Decor",
+      "slug": "4933-star-wars-bathroom",
+      "description": "This weathered illustration depicts a helmeted galactic enforcer in battered green and yellow armor calmly reading the paper on a vintage toilet, with aged newspaper clippings on the wall behind. The muted, rusty color palette and distressed finish give this humorous bathroom print a gritty, lived-in charm.",
+      "style": "Pop Culture - Boba Fett",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "muted green",
+        "mustard yellow",
+        "rust brown",
+        "warm gray"
+      ],
+      "tags": [
+        "Star Wars print",
+        "funny wall art",
+        "industrial bathroom style",
+        "distressed bathroom art",
+        "vintage restroom decor",
+        "geek bathroom print",
+        "armored helmet warrior",
+        "sci-fi toilet humor",
+        "industrial decor",
+        "Boba Fett",
+        "sketch style",
+        "toilet humor",
+        "space mercenary print",
+        "rustic art",
+        "bathroom decor"
+      ],
+      "mood": "Gritty",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/4933/4933-sm.jpg",
+        "md": "/designs/4933/4933-md.jpg",
+        "lg": "/designs/4933/4933-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "4934",
+      "category": "Star Wars Bathroom",
+      "title": "Galactic Bounty Hunter Reading Newspaper \u2013 Dark Moody Sci-Fi Bathroom Art Print",
+      "slug": "4934-star-wars-bathroom",
+      "description": "Seated on a teal-green throne-like toilet surrounded by scattered newspapers, this battle-scarred space hunter in iconic armor enjoys a quiet moment with the daily paper. The rich, painterly oil-painting style with deep shadows and warm tones creates a cinematic, moody atmosphere perfect for bold bathroom decor.",
+      "style": "Pop Culture - Boba Fett",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "deep teal",
+        "chocolate brown",
+        "burnt orange",
+        "olive green"
+      ],
+      "tags": [
+        "bounty hunter",
+        "fine art print",
+        "moody bathroom art",
+        "space warrior toilet humor",
+        "cinematic wall art",
+        "oil painting style",
+        "sci-fi oil painting style",
+        "newspaper reading art",
+        "bounty hunter wall print",
+        "bold restroom print",
+        "Boba Fett",
+        "dark humor",
+        "Star Wars bathroom",
+        "moody art",
+        "dark bathroom decor"
+      ],
+      "mood": "Cinematic",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/4934/4934-sm.jpg",
+        "md": "/designs/4934/4934-md.jpg",
+        "lg": "/designs/4934/4934-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "4935",
+      "category": "Star Wars Bathroom",
+      "title": "The Furry Co-Pilot's Morning Routine",
+      "slug": "4935-star-wars-bathroom",
+      "description": "A towering furry space warrior takes a quiet moment on the toilet, casually reading the morning newspaper. The watercolor-style illustration contrasts the creature's wild mane with the calm, tiled bathroom setting.",
+      "style": "Pop Culture - Chewbacca",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "chestnut brown",
+        "soft cream",
+        "sage green",
+        "silver gray"
+      ],
+      "tags": [
+        "Star Wars humor",
+        "toilet art",
+        "bathroom humor",
+        "watercolor style",
+        "clean design",
+        "furry creature",
+        "Chewbacca",
+        "bathroom art",
+        "Wookiee",
+        "newspaper reading",
+        "minimalist print",
+        "funny bathroom decor",
+        "sci-fi parody"
+      ],
+      "mood": "Comical",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/4935/4935-sm.jpg",
+        "md": "/designs/4935/4935-md.jpg",
+        "lg": "/designs/4935/4935-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "4936",
+      "category": "Star Wars Bathroom",
+      "title": "Galactic Sasquatch's Quiet Time",
+      "slug": "4936-star-wars-bathroom",
+      "description": "A shaggy, bandolier-wearing beast sits comfortably on a white porcelain toilet reading a newspaper in a blue-tiled bathroom. The detailed watercolor painting captures every strand of auburn fur against the cool, clean restroom environment.",
+      "style": "Pop Culture - Chewbacca",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "auburn brown",
+        "slate blue",
+        "ivory white",
+        "charcoal gray"
+      ],
+      "tags": [
+        "funny bathroom",
+        "funny wall art",
+        "pop culture parody",
+        "watercolor painting",
+        "Chewbacca",
+        "bathroom art",
+        "watercolor art",
+        "newspaper",
+        "sci-fi creature",
+        "Wookiee",
+        "toilet humor",
+        "restroom decor",
+        "toilet reading",
+        "gift for him",
+        "Star Wars decor"
+      ],
+      "mood": "Relaxed",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/4936/4936-sm.jpg",
+        "md": "/designs/4936/4936-md.jpg",
+        "lg": "/designs/4936/4936-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "4937",
+      "category": "Star Wars Bathroom",
+      "title": "The Dark Lord's Daily News",
+      "slug": "4937-star-wars-bathroom",
+      "description": "A menacing helmeted villain in a flowing black cape sits on the toilet reading a newspaper, his polished boots firmly planted on the tile floor. The vintage watercolor aesthetic gives this humorous bathroom scene a surprisingly elegant, old-world charm.",
+      "style": "Pop Culture - Darth Vader",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "jet black",
+        "antique beige",
+        "warm taupe",
+        "dark brown"
+      ],
+      "tags": [
+        "Star Wars humor",
+        "funny decor",
+        "bathroom humor",
+        "toilet art",
+        "caped figure",
+        "dark villain",
+        "watercolor print",
+        "bathroom art",
+        "Sith Lord",
+        "Darth Vader",
+        "vintage illustration",
+        "toilet reading",
+        "sci-fi parody",
+        "vintage style",
+        "newspaper reading"
+      ],
+      "mood": "Ironic",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/4937/4937-sm.jpg",
+        "md": "/designs/4937/4937-md.jpg",
+        "lg": "/designs/4937/4937-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "4938",
+      "category": "Star Wars Bathroom",
+      "title": "The Emperor of the Powder Room",
+      "slug": "4938-star-wars-bathroom",
+      "description": "A dark-armored overlord draped in a sweeping black cape reads the morning paper while seated in an ornate bathroom with classical furnishings. The rich oil-painting style blends Renaissance grandeur with absurd domestic comedy, complete with a red blanket and vintage side table.",
+      "style": "Pop Culture - Darth Vader",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "deep black",
+        "crimson red",
+        "warm umber",
+        "muted gold"
+      ],
+      "tags": [
+        "Renaissance art",
+        "classical humor",
+        "luxury decor",
+        "oil painting style",
+        "renaissance mashup",
+        "fine art bathroom",
+        "bathroom art",
+        "dark knight parody",
+        "Darth Vader",
+        "classical painting",
+        "toilet humor",
+        "ornate decor",
+        "funny elegant art",
+        "Star Wars portrait",
+        "villain portrait"
+      ],
+      "mood": "Regal",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/4938/4938-sm.jpg",
+        "md": "/designs/4938/4938-md.jpg",
+        "lg": "/designs/4938/4938-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "4939",
+      "category": "Star Wars Bathroom",
+      "title": "The Masked Reader's Throne",
+      "slug": "4939-star-wars-bathroom",
+      "description": "A powerful armored figure in a glossy black helmet and cape sits on a toilet reading a broadsheet newspaper against weathered tan tiles. The close-up composition and realistic painting technique emphasize the absurd contrast between galactic menace and mundane morning ritual.",
+      "style": "Pop Culture - Darth Vader",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "glossy black",
+        "warm sandstone",
+        "charcoal gray",
+        "aged cream"
+      ],
+      "tags": [
+        "funny art print",
+        "close-up portrait",
+        "bold wall art",
+        "villain parody",
+        "photorealistic",
+        "bathroom wall art",
+        "statement piece",
+        "realistic painting",
+        "Darth Vader",
+        "toilet humor",
+        "Star Wars bathroom",
+        "sci-fi decor",
+        "newspaper reading"
+      ],
+      "mood": "Stoic",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/4939/4939-sm.jpg",
+        "md": "/designs/4939/4939-md.jpg",
+        "lg": "/designs/4939/4939-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "4940",
+      "category": "Star Wars Bathroom",
+      "title": "The Dark Lord's Morning Routine",
+      "slug": "4940-star-wars-bathroom",
+      "description": "A menacing armored villain enjoys a quiet moment reading the newspaper while seated on the throne of all thrones. The retro tiled bathroom with checkered floors adds a charmingly domestic contrast to the imposing dark figure.",
+      "style": "Pop Culture - Darth Vader",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "black",
+        "cream",
+        "steel blue",
+        "burnt orange"
+      ],
+      "tags": [
+        "sci-fi humor",
+        "Star Wars humor",
+        "toilet art",
+        "funny wall art",
+        "bathroom humor",
+        "checkered floor",
+        "bathroom art",
+        "retro bathroom",
+        "dark knight parody",
+        "Darth Vader",
+        "newspaper reading",
+        "villain on toilet"
+      ],
+      "mood": "Whimsical",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/4940/4940-sm.jpg",
+        "md": "/designs/4940/4940-md.jpg",
+        "lg": "/designs/4940/4940-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "4941",
+      "category": "Star Wars Bathroom",
+      "title": "Galactic News Break",
+      "slug": "4941-star-wars-bathroom",
+      "description": "A dark-armored space villain sits absorbed in the daily paper against a vibrant collage wall of newsprint and bold color blocks. The glossy teal floor tiles reflect his imposing silhouette in this pop-art inspired bathroom scene.",
+      "style": "Pop Culture - Darth Vader",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "black",
+        "teal",
+        "coral red",
+        "cream"
+      ],
+      "tags": [
+        "modern art",
+        "Star Wars print",
+        "collage wall",
+        "collage style",
+        "teal tiles",
+        "pop art bathroom",
+        "newspaper art",
+        "funny toilet art",
+        "Darth Vader",
+        "modern art style",
+        "funny bathroom print",
+        "bold colors",
+        "pop art",
+        "bathroom decor",
+        "villain reading"
+      ],
+      "mood": "Bold",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/4941/4941-sm.jpg",
+        "md": "/designs/4941/4941-md.jpg",
+        "lg": "/designs/4941/4941-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "4942",
+      "category": "Star Wars Bathroom",
+      "title": "The Empire Sits Back",
+      "slug": "4942-star-wars-bathroom",
+      "description": "A caped dark warrior takes a well-deserved break on a white porcelain throne, casually flipping through the morning paper. The striking red terracotta floor and teal striped walls create a retro-modern bathroom with undeniable charm.",
+      "style": "Pop Culture - Darth Vader",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "black",
+        "vermillion red",
+        "teal",
+        "cream"
+      ],
+      "tags": [
+        "red floor tiles",
+        "magazine reading",
+        "villain relaxing",
+        "teal walls",
+        "retro bathroom",
+        "Darth Vader",
+        "wall print",
+        "toilet humor",
+        "newspaper reading",
+        "colorful bathroom art",
+        "midcentury style",
+        "bold colors",
+        "Star Wars decor"
+      ],
+      "mood": "Relaxed",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/4942/4942-sm.jpg",
+        "md": "/designs/4942/4942-md.jpg",
+        "lg": "/designs/4942/4942-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "4943",
+      "category": "Star Wars Bathroom",
+      "title": "Dark Throne Reflections",
+      "slug": "4943-star-wars-bathroom",
+      "description": "A helmeted dark figure sits barefoot on a bold red seat, gazing at photos pinned to the collage-covered walls in quiet contemplation. The reflective blue floor and dangling red thread add an abstract, melancholic depth to this intimate bathroom scene.",
+      "style": "Pop Culture - Darth Vader",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "black",
+        "cerulean blue",
+        "red",
+        "pale gold"
+      ],
+      "tags": [
+        "red toilet",
+        "Star Wars art",
+        "barefoot villain",
+        "collage background",
+        "collage print",
+        "blue floor",
+        "contemplative",
+        "abstract art",
+        "bathroom wall art",
+        "mixed media",
+        "Darth Vader",
+        "contemporary bathroom",
+        "mixed media style"
+      ],
+      "mood": "Contemplative",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/4943/4943-sm.jpg",
+        "md": "/designs/4943/4943-md.jpg",
+        "lg": "/designs/4943/4943-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "4944",
+      "category": "Star Wars Bathroom",
+      "title": "Quiet Time on the Porcelain Throne",
+      "slug": "4944-star-wars-bathroom",
+      "description": "A dark-suited space commander perches on a sleek white seat, reading documents against a wall papered with vintage newsprint clippings. The vivid orange-red tiled floor and pink-tinged gridlines give this bathroom portrait a warm, editorial aesthetic.",
+      "style": "Pop Culture - Darth Vader",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "black",
+        "orange-red",
+        "blush pink",
+        "cream"
+      ],
+      "tags": [
+        "orange tiles",
+        "bathroom humor",
+        "newspaper collage",
+        "Star Wars fan art",
+        "reading on toilet",
+        "editorial style",
+        "gallery wall art",
+        "orange decor",
+        "Darth Vader",
+        "toilet print",
+        "pop art style",
+        "vintage newsprint",
+        "warm tones",
+        "villain portrait"
+      ],
+      "mood": "Sophisticated",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/4944/4944-sm.jpg",
+        "md": "/designs/4944/4944-md.jpg",
+        "lg": "/designs/4944/4944-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "4945",
+      "category": "Star Wars Bathroom",
+      "title": "Dark Lord's Morning Routine",
+      "slug": "4945-star-wars-bathroom",
+      "description": "A dark armored villain sits on the toilet reading a newspaper in a warm, elegantly tiled bathroom with ornate wall sconces. The Renaissance-inspired oil painting style lends an air of classical sophistication to this absurdly mundane domestic scene.",
+      "style": "Pop Culture - Darth Vader",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "black",
+        "warm beige",
+        "terracotta red",
+        "antique gold"
+      ],
+      "tags": [
+        "sci-fi villain",
+        "Victorian style",
+        "bathroom humor",
+        "toilet art",
+        "vintage bathroom",
+        "luxury bathroom art",
+        "classical humor",
+        "oil painting style",
+        "pop culture parody",
+        "elegant bathroom",
+        "Darth Vader",
+        "funny bathroom print",
+        "newspaper reading",
+        "Star Wars decor"
+      ],
+      "mood": "Warm",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/4945/4945-sm.jpg",
+        "md": "/designs/4945/4945-md.jpg",
+        "lg": "/designs/4945/4945-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "4946",
+      "category": "Star Wars Bathroom",
+      "title": "The Empire Reads Back",
+      "slug": "4946-star-wars-bathroom",
+      "description": "A dark-suited sci-fi villain casually reads a broadsheet newspaper while seated on the toilet in a cool-toned green and grey tiled bathroom. The moody, cinematic lighting and realistic painting style create a dramatic contrast with the everyday bathroom setting.",
+      "style": "Pop Culture - Darth Vader",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "black",
+        "sage green",
+        "cool grey",
+        "muted teal"
+      ],
+      "tags": [
+        "sci-fi villain",
+        "bathroom humor",
+        "toilet art",
+        "vintage bathroom",
+        "funny wall art",
+        "green bathroom",
+        "pop culture parody",
+        "green tiles",
+        "realistic painting",
+        "cinematic painting",
+        "Darth Vader",
+        "toilet humor",
+        "newspaper reading",
+        "moody art",
+        "Star Wars collectible"
+      ],
+      "mood": "Cool",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/4946/4946-sm.jpg",
+        "md": "/designs/4946/4946-md.jpg",
+        "lg": "/designs/4946/4946-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "4947",
+      "category": "Star Wars Bathroom",
+      "title": "The Dark Side of Downtime",
+      "slug": "4947-star-wars-bathroom",
+      "description": "A dark armored figure perches on a toilet reading the newspaper in a modern beige-tiled bathroom with striking red mosaic flooring. The hyper-realistic digital painting style and direct frontal composition give the piece a bold, confrontational sense of humor.",
+      "style": "Pop Culture - Darth Vader",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "black",
+        "warm tan",
+        "deep red",
+        "ivory"
+      ],
+      "tags": [
+        "sci-fi villain",
+        "toilet reading",
+        "geek decor",
+        "bathroom humor",
+        "toilet art",
+        "Star Wars gift",
+        "modern bathroom",
+        "realistic art",
+        "Darth Vader",
+        "funny wall decor",
+        "newspaper reading",
+        "cozy bathroom",
+        "pop culture",
+        "funny print",
+        "warm tones"
+      ],
+      "mood": "Bold",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/4947/4947-sm.jpg",
+        "md": "/designs/4947/4947-md.jpg",
+        "lg": "/designs/4947/4947-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "4948",
+      "category": "Star Wars Bathroom",
+      "title": "Imperial Powder Room",
+      "slug": "4948-star-wars-bathroom",
+      "description": "A dark-armored villain reads a newspaper on the toilet inside a lavish Victorian-style restroom adorned with crimson damask wallpaper and a flickering candle sconce. The opulent red and mahogany setting transforms an ordinary bathroom moment into a scene of theatrical grandeur.",
+      "style": "Pop Culture - Darth Vader",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "black",
+        "crimson red",
+        "dark mahogany",
+        "warm gold"
+      ],
+      "tags": [
+        "sci-fi villain",
+        "bathroom humor",
+        "toilet art",
+        "pop culture parody",
+        "Star Wars bathroom",
+        "powder room art",
+        "newspaper reading",
+        "elegant humor",
+        "Darth Vader",
+        "luxury bathroom",
+        "red damask",
+        "dramatic lighting",
+        "Victorian decor",
+        "luxury art"
+      ],
+      "mood": "Dramatic",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/4948/4948-sm.jpg",
+        "md": "/designs/4948/4948-md.jpg",
+        "lg": "/designs/4948/4948-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "4949",
+      "category": "Star Wars Bathroom",
+      "title": "Dark Warrior's Day Off",
+      "slug": "4949-star-wars-bathroom",
+      "description": "A dark-helmeted villain sits on a white toilet reading a newspaper in a teal-tiled bathroom, sporting unexpectedly bright orange-red shoes and bare hands. The loose, expressive brushwork and bold color palette give this piece a contemporary pop-art energy that stands apart from its more realistic counterparts.",
+      "style": "Pop Culture - Darth Vader",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "teal blue",
+        "black",
+        "bright orange-red",
+        "white"
+      ],
+      "tags": [
+        "sci-fi villain",
+        "modern art",
+        "bathroom humor",
+        "toilet art",
+        "contemporary painting",
+        "colorful bathroom decor",
+        "teal bathroom",
+        "red shoes",
+        "Darth Vader",
+        "painted art print",
+        "pop art style",
+        "newspaper reading",
+        "Star Wars style",
+        "quirky fashion"
+      ],
+      "mood": "Playful",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/4949/4949-sm.jpg",
+        "md": "/designs/4949/4949-md.jpg",
+        "lg": "/designs/4949/4949-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "4950",
+      "category": "Star Wars Bathroom",
+      "title": "Dark Villain Reading Newspaper on Toilet \u2013 Green Tile Bathroom",
+      "slug": "4950-star-wars-bathroom",
+      "description": "The dark lord takes a leisurely break on a white porcelain toilet, casually reading a newspaper in a vintage green-tiled bathroom. Small orange flowers and decorative red tile accents add unexpected charm to this humorous scene of galactic villainy meeting everyday life.",
+      "style": "Pop Culture - Darth Vader",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "black",
+        "emerald green",
+        "white",
+        "terracotta"
+      ],
+      "tags": [
+        "geek decor",
+        "Star Wars print",
+        "funny wall art",
+        "bathroom humor",
+        "toilet art",
+        "vintage bathroom",
+        "bathroom art",
+        "green tiles",
+        "newspaper",
+        "Darth Vader",
+        "toilet humor",
+        "newspaper reading",
+        "pop culture",
+        "villain portrait"
+      ],
+      "mood": "Humorous",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/4950/4950-sm.jpg",
+        "md": "/designs/4950/4950-md.jpg",
+        "lg": "/designs/4950/4950-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "4951",
+      "category": "Star Wars Bathroom",
+      "title": "Dark Villain on the Toilet \u2013 Dark Moody Bathroom Scene",
+      "slug": "4951-star-wars-bathroom",
+      "description": "A cinematic and moody portrayal of a dark villain seated on a toilet reading a newspaper in a dimly lit, beige-tiled restroom. The dramatic lighting and realistic rendering give this comedic bathroom scene an almost Renaissance painting quality.",
+      "style": "Pop Culture - Darth Vader",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "black",
+        "dark beige",
+        "charcoal gray",
+        "cream"
+      ],
+      "tags": [
+        "renaissance style",
+        "Star Wars art",
+        "dark side",
+        "bathroom art",
+        "newspaper",
+        "moody lighting",
+        "dark humor",
+        "Darth Vader",
+        "toilet humor",
+        "moody print",
+        "cinematic",
+        "bathroom decor",
+        "villain portrait"
+      ],
+      "mood": "Dramatic",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/4951/4951-sm.jpg",
+        "md": "/designs/4951/4951-md.jpg",
+        "lg": "/designs/4951/4951-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "4952",
+      "category": "Star Wars Bathroom",
+      "title": "Dark Villain Bathtub Soak \u2013 Sunset City View Illustration",
+      "slug": "4952-star-wars-bathroom",
+      "description": "In this dreamy illustrated scene, a dark villain relaxes in a large bathtub gazing out a window at a warm sunset cityscape. The soft pastel tones and gentle water droplets create a surprisingly serene and contemplative moment for the iconic villain.",
+      "style": "Pop Culture - Darth Vader",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "teal blue",
+        "peach",
+        "black",
+        "soft pink"
+      ],
+      "tags": [
+        "illustration",
+        "contemplative",
+        "Star Wars illustration",
+        "bathroom wall art",
+        "serene",
+        "self-care",
+        "bathtub art",
+        "Darth Vader",
+        "bathtub",
+        "cityscape",
+        "sunset",
+        "relaxation",
+        "bathroom decor"
+      ],
+      "mood": "Serene",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/4952/4952-sm.jpg",
+        "md": "/designs/4952/4952-md.jpg",
+        "lg": "/designs/4952/4952-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "4953",
+      "category": "Star Wars Bathroom",
+      "title": "Space Trooper Reading Newspaper on Toilet \u2013 Vintage Bathroom",
+      "slug": "4953-star-wars-bathroom",
+      "description": "A space trooper takes a well-deserved break from galactic duties, sitting on a toilet and reading a newspaper in a grungy, worn-out vintage bathroom. The detailed painterly style and yellowed tile walls give the piece a nostalgic, lived-in atmosphere full of comedic charm.",
+      "style": "Pop Culture - Stormtrooper",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "white",
+        "mustard yellow",
+        "olive green",
+        "brown"
+      ],
+      "tags": [
+        "Star Wars print",
+        "bathroom humor",
+        "toilet art",
+        "vintage bathroom",
+        "retro",
+        "realist painting",
+        "bathroom art",
+        "newspaper",
+        "space trooper",
+        "Stormtrooper",
+        "toilet humor",
+        "newspaper reading",
+        "grungy style",
+        "funny print",
+        "vintage style"
+      ],
+      "mood": "Witty",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/4953/4953-sm.jpg",
+        "md": "/designs/4953/4953-md.jpg",
+        "lg": "/designs/4953/4953-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "4954",
+      "category": "Star Wars Bathroom",
+      "title": "Space Trooper on Toilet \u2013 Classic Oil Painting Style",
+      "slug": "4954-star-wars-bathroom",
+      "description": "Rendered in a rich, old-master oil painting style, a space trooper sits on a toilet reading a colorful comic newspaper in a dark, intimate bathroom setting. The dramatic chiaroscuro lighting and meticulous detail elevate this comedic bathroom print into fine art territory.",
+      "style": "Pop Culture - Stormtrooper",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "white",
+        "deep black",
+        "tan",
+        "warm brown"
+      ],
+      "tags": [
+        "toilet art",
+        "Star Wars art",
+        "oil painting style",
+        "fine art",
+        "chiaroscuro",
+        "bathroom art",
+        "Renaissance style",
+        "classical",
+        "space trooper",
+        "Stormtrooper",
+        "toilet humor",
+        "comic newspaper",
+        "dark background",
+        "bathroom decor"
+      ],
+      "mood": "Sophisticated",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/4954/4954-sm.jpg",
+        "md": "/designs/4954/4954-md.jpg",
+        "lg": "/designs/4954/4954-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "4955",
+      "category": "Star Wars Bathroom",
+      "title": "Space Trooper Reading on the Throne",
+      "slug": "4955-star-wars-bathroom",
+      "description": "A white-armored space trooper sits casually on a toilet reading a newspaper in a gritty, realistic bathroom setting. The hyper-detailed painting contrasts the soldier's imposing armor with the mundane vulnerability of the everyday moment.",
+      "style": "Pop Culture - Stormtrooper",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "white",
+        "gray",
+        "black",
+        "beige"
+      ],
+      "tags": [
+        "magazine",
+        "bathroom humor",
+        "hyperrealistic",
+        "toilet art",
+        "funny wall art",
+        "armored soldier",
+        "bathroom print",
+        "bathroom wall art",
+        "space trooper",
+        "Stormtrooper",
+        "toilet humor",
+        "newspaper reading",
+        "detailed art",
+        "sci-fi parody",
+        "Star Wars decor"
+      ],
+      "mood": "Humorous",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/4955/4955-sm.jpg",
+        "md": "/designs/4955/4955-md.jpg",
+        "lg": "/designs/4955/4955-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "4956",
+      "category": "Star Wars Bathroom",
+      "title": "Space Trooper in the Blue Bathtub",
+      "slug": "4956-star-wars-bathroom",
+      "description": "A white-armored trooper lounges in a classic clawfoot bathtub set against a vibrant blue-tiled bathroom with bold floral wallpaper. The ornate vintage decor creates a whimsical contrast with the futuristic soldier enjoying a quiet soak.",
+      "style": "Pop Culture - Stormtrooper",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "deep blue",
+        "white",
+        "orange",
+        "teal"
+      ],
+      "tags": [
+        "colorful decor",
+        "sci-fi humor",
+        "Star Wars print",
+        "floral wallpaper",
+        "vintage bathroom",
+        "clawfoot tub",
+        "bathtub art",
+        "space trooper",
+        "Stormtrooper",
+        "pop art",
+        "bathroom decor"
+      ],
+      "mood": "Whimsical",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/4956/4956-sm.jpg",
+        "md": "/designs/4956/4956-md.jpg",
+        "lg": "/designs/4956/4956-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "4957",
+      "category": "Star Wars Bathroom",
+      "title": "Space Trooper Soaking in the Manor",
+      "slug": "4957-star-wars-bathroom",
+      "description": "A space trooper relaxes in a white clawfoot bathtub filled with water inside an elegant green-paneled Victorian bathroom. Classic paintings on the walls and checkered floor tiles lend a refined old-world atmosphere to this absurd scene.",
+      "style": "Pop Culture - Stormtrooper",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "olive green",
+        "white",
+        "teal blue",
+        "brown"
+      ],
+      "tags": [
+        "Star Wars art",
+        "victorian bathroom",
+        "Victorian bathroom",
+        "clawfoot tub",
+        "checkered floor",
+        "clawfoot bathtub",
+        "oil painting style",
+        "bathroom art",
+        "space trooper",
+        "painterly",
+        "elegant decor",
+        "Stormtrooper",
+        "sci-fi parody"
+      ],
+      "mood": "Contemplative",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/4957/4957-sm.jpg",
+        "md": "/designs/4957/4957-md.jpg",
+        "lg": "/designs/4957/4957-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "4958",
+      "category": "Star Wars Bathroom",
+      "title": "Space Trooper in the Tropical Bath",
+      "slug": "4958-star-wars-bathroom",
+      "description": "A small armored trooper peeks out from a pale blue bathtub in an open-air tropical bathroom surrounded by lush palm trees and colorful mosaic tiles. The sun-drenched scene blends resort paradise vibes with playful sci-fi imagery.",
+      "style": "Pop Culture - Stormtrooper",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "turquoise",
+        "green",
+        "peach",
+        "white"
+      ],
+      "tags": [
+        "tropical bathroom",
+        "sci-fi humor",
+        "palm trees",
+        "outdoor bath",
+        "bathtub art",
+        "resort style",
+        "paradise",
+        "Stormtrooper",
+        "space trooper",
+        "mosaic tiles",
+        "colorful art",
+        "vacation vibes",
+        "Star Wars decor"
+      ],
+      "mood": "Playful",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/4958/4958-sm.jpg",
+        "md": "/designs/4958/4958-md.jpg",
+        "lg": "/designs/4958/4958-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "4959",
+      "category": "Star Wars Bathroom",
+      "title": "Wise Alien Master's Bath Time",
+      "slug": "4959-star-wars-bathroom",
+      "description": "A small green wise alien creature sits wrapped in a plush green towel inside a white bathtub in a bright green-tiled bathroom. The cozy scene with its shower curtain backdrop and warm lighting gives the ancient sage a charming domestic softness.",
+      "style": "Pop Culture - Yoda",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "green",
+        "teal",
+        "white",
+        "pink"
+      ],
+      "tags": [
+        "retro tiles",
+        "bathroom humor",
+        "green decor",
+        "cute print",
+        "cute creature",
+        "bathtub art",
+        "towel wrap",
+        "wise alien",
+        "green bathroom",
+        "Star Wars bathroom",
+        "Yoda",
+        "Jedi master",
+        "towel",
+        "sci-fi parody"
+      ],
+      "mood": "Endearing",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/4959/4959-sm.jpg",
+        "md": "/designs/4959/4959-md.jpg",
+        "lg": "/designs/4959/4959-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "5650",
+      "category": "Star Wars Bathroom",
+      "title": "Little Space Sage Bath Time",
+      "slug": "5650-star-wars-bathroom",
+      "description": "An adorable green-skinned alien youngling with oversized ears relaxes in a vintage clawfoot bathtub, wrapped in a tiny brown robe. Water drips gently over the edge of the sage-green tub onto dark tile flooring in this cozy, dimly lit bathroom scene.",
+      "style": "Pop Culture - Grogu",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "sage green",
+        "dark brown",
+        "warm bronze",
+        "cream"
+      ],
+      "tags": [
+        "sci-fi humor",
+        "cute alien",
+        "Star Wars print",
+        "nursery decor",
+        "funny wall art",
+        "vintage bathroom",
+        "clawfoot tub",
+        "bathroom art",
+        "Mandalorian",
+        "space creature",
+        "bathtub art",
+        "bathtub",
+        "Grogu",
+        "Baby Yoda"
+      ],
+      "mood": "Adorable",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/5650/5650-sm.jpg",
+        "md": "/designs/5650/5650-md.jpg",
+        "lg": "/designs/5650/5650-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "5651",
+      "category": "Star Wars Bathroom",
+      "title": "Armored Bounty Hunter Reading on the Throne",
+      "slug": "5651-star-wars-bathroom",
+      "description": "A battle-worn bounty hunter in green and yellow armor sits casually on a toilet reading a newspaper, with scattered pages on the floor around his boots. The warm, muted tones and relaxed posture create a hilariously relatable scene of even the toughest warriors needing a break.",
+      "style": "Pop Culture - Boba Fett",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "hunter green",
+        "mustard yellow",
+        "warm brown",
+        "grey"
+      ],
+      "tags": [
+        "bounty hunter",
+        "sci-fi comedy",
+        "restroom decor",
+        "Star Wars funny",
+        "bathroom art",
+        "funny bathroom print",
+        "bathroom wall art",
+        "Boba Fett",
+        "toilet humor",
+        "newspaper reading",
+        "armored warrior"
+      ],
+      "mood": "Humorous",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/5651/5651-sm.jpg",
+        "md": "/designs/5651/5651-md.jpg",
+        "lg": "/designs/5651/5651-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "5652",
+      "category": "Star Wars Bathroom",
+      "title": "Galactic Hunter's Morning Paper",
+      "slug": "5652-star-wars-bathroom",
+      "description": "A heavily armored space mercenary with a weathered T-visor helmet sits on a modern toilet engrossed in a newspaper, surrounded by discarded pages and a crumpled cape at his feet. The gritty industrial bathroom setting with grey-green tiles enhances the rugged, lived-in feel of this comedic scene.",
+      "style": "Pop Culture - Boba Fett",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "dark green",
+        "olive gold",
+        "steel grey",
+        "brown"
+      ],
+      "tags": [
+        "bounty hunter",
+        "funny wall art",
+        "reading newspaper",
+        "space mercenary",
+        "gritty",
+        "bathroom art",
+        "man cave",
+        "Boba Fett",
+        "toilet humor",
+        "industrial bathroom",
+        "gritty art",
+        "sci-fi parody",
+        "Star Wars decor"
+      ],
+      "mood": "Gritty",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/5652/5652-sm.jpg",
+        "md": "/designs/5652/5652-md.jpg",
+        "lg": "/designs/5652/5652-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "5653",
+      "category": "Star Wars Bathroom",
+      "title": "Bounty Hunter's Vintage Soak",
+      "slug": "5653-star-wars-bathroom",
+      "description": "A helmeted armored warrior lounges fully suited in a turquoise clawfoot bathtub inside a charming vintage bathroom with green floral wallpaper and golden tiles. Water overflows onto the worn tile floor as the exhausted hunter takes a well-deserved soak in this richly detailed, painterly composition.",
+      "style": "Pop Culture - Boba Fett",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "teal green",
+        "golden yellow",
+        "warm brown",
+        "dusty rose"
+      ],
+      "tags": [
+        "sci-fi humor",
+        "Star Wars print",
+        "vintage bathroom",
+        "clawfoot tub",
+        "retro decor",
+        "painterly style",
+        "bathroom art",
+        "Boba Fett",
+        "bathtub art",
+        "bathtub",
+        "armored warrior",
+        "Mandalorian"
+      ],
+      "mood": "Whimsical",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/5653/5653-sm.jpg",
+        "md": "/designs/5653/5653-md.jpg",
+        "lg": "/designs/5653/5653-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "5654",
+      "category": "Star Wars Bathroom",
+      "title": "Golden Protocol Droid's Luxurious Bath",
+      "slug": "5654-star-wars-bathroom",
+      "description": "A gleaming gold protocol droid reclines elegantly in a stunning gold mosaic clawfoot bathtub within an opulent gilded bathroom adorned with ornate fixtures and sparkling bubbles. The monochromatic gold palette and luxurious setting create a scene of over-the-top robotic indulgence and glamour.",
+      "style": "Pop Culture - C-3PO",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "rich gold",
+        "warm yellow",
+        "cream white",
+        "black"
+      ],
+      "tags": [
+        "glamorous",
+        "sci-fi humor",
+        "golden robot",
+        "C-3PO",
+        "luxury art",
+        "bathtub print",
+        "bathroom art",
+        "mosaic tub",
+        "bathtub",
+        "luxury bathroom",
+        "droid art",
+        "gold bathroom",
+        "opulent decor",
+        "Star Wars decor"
+      ],
+      "mood": "Luxurious",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/5654/5654-sm.jpg",
+        "md": "/designs/5654/5654-md.jpg",
+        "lg": "/designs/5654/5654-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "5655",
+      "category": "Star Wars Bathroom",
+      "title": "Golden Protocol Droid in a Victorian Bathtub",
+      "slug": "5655-star-wars-bathroom",
+      "description": "A gleaming golden protocol droid sits upright in an ornate gold clawfoot bathtub within a lavish Victorian-style bathroom. Warm sunlight streams through a window illuminating vintage paintings, patterned wallpaper, and elegant wooden furniture.",
+      "style": "Pop Culture - C-3PO",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "gold",
+        "warm amber",
+        "deep blue",
+        "cream"
+      ],
+      "tags": [
+        "droid",
+        "sci-fi humor",
+        "Star Wars art",
+        "golden bathtub",
+        "C-3PO",
+        "Victorian bathroom",
+        "clawfoot tub",
+        "golden",
+        "Victorian",
+        "bathroom art",
+        "bathtub",
+        "elegant decor",
+        "robot",
+        "vintage interior",
+        "warm tones"
+      ],
+      "mood": "Luxurious",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/5655/5655-sm.jpg",
+        "md": "/designs/5655/5655-md.jpg",
+        "lg": "/designs/5655/5655-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "5656",
+      "category": "Star Wars Bathroom",
+      "title": "Golden Droid Soaking in a Retro Bathroom",
+      "slug": "5656-star-wars-bathroom",
+      "description": "A golden humanoid robot reclines in a clawfoot bathtub filled with water inside a pale green-tiled vintage bathroom. The retro mosaic floor, brass fixtures, and soft overhead light create a cozy mid-century atmosphere.",
+      "style": "Pop Culture - C-3PO",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "olive green",
+        "gold",
+        "terracotta",
+        "soft cream"
+      ],
+      "tags": [
+        "sci-fi humor",
+        "Star Wars print",
+        "mid-century",
+        "pastel",
+        "Wes Anderson style",
+        "C-3PO",
+        "vintage decor",
+        "bath time",
+        "vintage tiles",
+        "clawfoot tub",
+        "retro bathroom",
+        "droid art",
+        "robot",
+        "relaxation"
+      ],
+      "mood": "Relaxed",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/5656/5656-sm.jpg",
+        "md": "/designs/5656/5656-md.jpg",
+        "lg": "/designs/5656/5656-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "5657",
+      "category": "Star Wars Bathroom",
+      "title": "Furry Giant Reading on the Toilet \u2014 Yellow Walls",
+      "slug": "5657-star-wars-bathroom",
+      "description": "A tall, shaggy-furred creature sits on a teal toilet reading a newspaper in a gritty yellow-tiled restroom. A poster hangs on the worn wall and an open door hints at a dimly lit hallway beyond.",
+      "style": "Pop Culture - Chewbacca",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "mustard yellow",
+        "brown",
+        "teal green",
+        "dark olive"
+      ],
+      "tags": [
+        "sci-fi humor",
+        "vintage restroom",
+        "reading",
+        "Star Wars funny",
+        "furry creature",
+        "bathroom art",
+        "Chewbacca",
+        "gritty",
+        "newspaper",
+        "retro bathroom",
+        "Wookiee",
+        "toilet humor"
+      ],
+      "mood": "Grungy",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/5657/5657-sm.jpg",
+        "md": "/designs/5657/5657-md.jpg",
+        "lg": "/designs/5657/5657-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "5658",
+      "category": "Star Wars Bathroom",
+      "title": "Furry Beast Reading the Paper \u2014 Green Wainscoting",
+      "slug": "5658-star-wars-bathroom",
+      "description": "A large fur-covered humanoid sits on a white toilet reading an old broadsheet newspaper in a rustic bathroom with sage-green beadboard walls. Checkered floor tiles, hanging towels, and scattered papers add lived-in charm to the scene.",
+      "style": "Pop Culture - Chewbacca",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "sage green",
+        "chestnut brown",
+        "cream",
+        "grey"
+      ],
+      "tags": [
+        "toilet art",
+        "vintage bathroom",
+        "vintage",
+        "reading",
+        "checkered floor",
+        "furry creature",
+        "Chewbacca",
+        "farmhouse style",
+        "bathroom art",
+        "newspaper",
+        "rustic",
+        "Wookiee",
+        "toilet humor",
+        "newspaper reading",
+        "Star Wars decor"
+      ],
+      "mood": "Charming",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/5658/5658-sm.jpg",
+        "md": "/designs/5658/5658-md.jpg",
+        "lg": "/designs/5658/5658-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "5659",
+      "category": "Star Wars Bathroom",
+      "title": "Furry Giant Reading on the Toilet \u2014 Dark Tile",
+      "slug": "5659-star-wars-bathroom",
+      "description": "A massive, long-haired creature hunches over a newspaper while seated on a white toilet in a moody, dark-tiled bathroom. Scattered newspaper pages on the wet black floor and slate-grey walls lend a dramatic, cinematic quality to the humorous scene.",
+      "style": "Pop Culture - Chewbacca",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "slate grey",
+        "auburn brown",
+        "black",
+        "off-white"
+      ],
+      "tags": [
+        "sci-fi humor",
+        "Star Wars art",
+        "dark bathroom",
+        "moody",
+        "dark aesthetic",
+        "moody decor",
+        "Chewbacca",
+        "furry creature",
+        "bathroom art",
+        "newspaper",
+        "Wookiee",
+        "toilet humor",
+        "industrial style",
+        "cinematic"
+      ],
+      "mood": "Moody",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/5659/5659-sm.jpg",
+        "md": "/designs/5659/5659-md.jpg",
+        "lg": "/designs/5659/5659-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "5660",
+      "category": "Star Wars Bathroom",
+      "title": "Dark Villain Reading Newspaper in Tiled Bathroom",
+      "slug": "5660-star-wars-bathroom",
+      "description": "A dark-armored sci-fi villain in a plaid robe sits on a chair beside a bathtub, casually reading a newspaper in a retro tiled bathroom. The walls are covered with newspaper clippings and the checkered floor adds a vintage charm to this whimsical domestic scene.",
+      "style": "Pop Culture - Darth Vader",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "black",
+        "sage green",
+        "slate blue",
+        "cream"
+      ],
+      "tags": [
+        "vintage bathroom illustration",
+        "bathroom humor",
+        "funny bathroom wall art",
+        "Star Wars bathroom print",
+        "sci-fi bathroom decor",
+        "Darth Vader bathroom art",
+        "villain",
+        "checkered floor",
+        "whimsical art",
+        "newspaper",
+        "retro bathroom print",
+        "retro bathroom",
+        "bathtub",
+        "pop culture",
+        "Vader reading newspaper"
+      ],
+      "mood": "Whimsical",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/5660/5660-sm.jpg",
+        "md": "/designs/5660/5660-md.jpg",
+        "lg": "/designs/5660/5660-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "5661",
+      "category": "Star Wars Bathroom",
+      "title": "Armored Space Villain Reading the Morning Paper",
+      "slug": "5661-star-wars-bathroom",
+      "description": "A glossy black-armored antagonist sits on a small wooden stool reading a vintage newspaper against a wall papered with old news clippings. The photorealistic style and warm sepia-toned backdrop create an amusing contrast between menacing armor and mundane domesticity.",
+      "style": "Pop Culture - Darth Vader",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "black",
+        "sepia",
+        "warm beige",
+        "brown"
+      ],
+      "tags": [
+        "domestic life",
+        "sepia tone art print",
+        "Darth Vader wall art",
+        "Star Wars bathroom decor",
+        "vintage newspaper wall",
+        "funny toilet humor art",
+        "bathroom humor",
+        "villain",
+        "vintage",
+        "photorealistic",
+        "newspaper",
+        "sci-fi home decor",
+        "sepia tone",
+        "pop culture",
+        "Vader reading print"
+      ],
+      "mood": "Cinematic",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/5661/5661-sm.jpg",
+        "md": "/designs/5661/5661-md.jpg",
+        "lg": "/designs/5661/5661-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "5662",
+      "category": "Star Wars Bathroom",
+      "title": "Dark Knight of the Galaxy on the Throne",
+      "slug": "5662-star-wars-bathroom",
+      "description": "A fearsome armored figure sits on a toilet reading a newspaper, rendered in a rich oil-painting style with warm amber and burnt orange tones. The dramatic brushwork and classical painting aesthetic elevate this comedic bathroom scene into fine art territory.",
+      "style": "Pop Culture - Darth Vader",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "black",
+        "burnt orange",
+        "amber",
+        "cream"
+      ],
+      "tags": [
+        "fine art parody",
+        "funny wall art",
+        "bathroom humor",
+        "toilet",
+        "gallery style bathroom art",
+        "oil painting style",
+        "villain",
+        "Vader on toilet",
+        "Darth Vader toilet art",
+        "Star Wars bathroom humor",
+        "newspaper",
+        "orange bathroom decor",
+        "oil painting style print",
+        "dramatic",
+        "warm tones"
+      ],
+      "mood": "Dramatic",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/5662/5662-sm.jpg",
+        "md": "/designs/5662/5662-md.jpg",
+        "lg": "/designs/5662/5662-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "5663",
+      "category": "Star Wars Bathroom",
+      "title": "Galactic Villain's Bathroom Break on Terrazzo Floor",
+      "slug": "5663-star-wars-bathroom",
+      "description": "A helmeted dark warrior perches on a bidet in a modern tiled bathroom, absorbed in reading a broadsheet newspaper. The cool grey newspaper-print wall tiles and colorful terrazzo floor create a clean, contemporary setting for this absurd and endearing scene.",
+      "style": "Pop Culture - Darth Vader",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "black",
+        "light grey",
+        "pale blue",
+        "terracotta"
+      ],
+      "tags": [
+        "bathroom humor",
+        "bidet",
+        "villain",
+        "Vader newspaper print",
+        "modern bathroom",
+        "newspaper",
+        "Star Wars wall decor",
+        "minimalist sci-fi art",
+        "modern bathroom art",
+        "contemporary bathroom humor",
+        "Darth Vader print",
+        "terrazzo floor art",
+        "contemporary art",
+        "pop culture",
+        "terrazzo"
+      ],
+      "mood": "Cool",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/5663/5663-sm.jpg",
+        "md": "/designs/5663/5663-md.jpg",
+        "lg": "/designs/5663/5663-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "5664",
+      "category": "Star Wars Bathroom",
+      "title": "Dark Lord Reading News in Victorian Lavatory",
+      "slug": "5664-star-wars-bathroom",
+      "description": "A caped dark warrior reads a newspaper while seated in a stately Victorian-style bathroom with rich brown wainscoting and checkerboard marble floors. The moody, cinematic lighting and elegant period details lend a dignified atmosphere to this delightfully absurd scene.",
+      "style": "Pop Culture - Darth Vader",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "black",
+        "chocolate brown",
+        "cream",
+        "teal grey"
+      ],
+      "tags": [
+        "checkered floor art",
+        "bathroom humor",
+        "villain",
+        "Star Wars toilet humor",
+        "dramatic Vader print",
+        "victorian",
+        "newspaper",
+        "checkerboard floor",
+        "moody lighting",
+        "elegant",
+        "cinematic",
+        "Victorian bathroom art",
+        "gothic bathroom decor",
+        "Darth Vader cinematic print",
+        "dark moody wall art"
+      ],
+      "mood": "Distinguished",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/5664/5664-sm.jpg",
+        "md": "/designs/5664/5664-md.jpg",
+        "lg": "/designs/5664/5664-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "5665",
+      "category": "Star Wars Bathroom",
+      "title": "Dark Villain Reading Newspaper on the Toilet",
+      "slug": "5665-star-wars-bathroom",
+      "description": "A black-armored dark lord sits on a white toilet reading a broadsheet newspaper in a warm-toned tiled bathroom. The classical painting style and mundane domestic setting create a striking contrast with the imposing sci-fi figure.",
+      "style": "Pop Culture - Darth Vader",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "black",
+        "tan",
+        "terracotta",
+        "cream"
+      ],
+      "tags": [
+        "bathroom humor",
+        "terracotta tile art",
+        "toilet",
+        "funny wall art",
+        "pop culture parody",
+        "villain",
+        "bathroom print",
+        "sci-fi character",
+        "Tuscan bathroom decor",
+        "newspaper",
+        "warm bathroom wall print",
+        "funny Vader print",
+        "classic bathroom humor",
+        "Darth Vader oil painting",
+        "Star Wars toilet art"
+      ],
+      "mood": "Humorous",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/5665/5665-sm.jpg",
+        "md": "/designs/5665/5665-md.jpg",
+        "lg": "/designs/5665/5665-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "5666",
+      "category": "Star Wars Bathroom",
+      "title": "Darth Vader Reading in Elegant Green & Gold Bathroom - Vintage Botanical Art Print",
+      "slug": "5666-star-wars-bathroom",
+      "description": "Vader takes a moment of peace in a lavish bathroom adorned with green botanical wallpaper, gold brass fixtures, and elegant wainscoting in this richly detailed art print. The lush green and cream palette creates a sophisticated, old-world atmosphere as the Dark Lord casually peruses his newspaper. A stunning piece that merges Star Wars iconography with classic interior elegance.",
+      "style": "Pop Culture - Darth Vader",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "forest green",
+        "black",
+        "gold",
+        "cream"
+      ],
+      "tags": [
+        "botanical bathroom art",
+        "Darth Vader elegant print",
+        "green bathroom decor",
+        "Star Wars vintage art",
+        "Victorian toilet humor",
+        "gold accent wall art",
+        "luxury bathroom print"
+      ],
+      "mood": "elegant",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/5666/5666-sm.jpg",
+        "md": "/designs/5666/5666-md.jpg",
+        "lg": "/designs/5666/5666-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "5667",
+      "category": "Star Wars Bathroom",
+      "title": "Dark Villain Reading Comics on the Toilet in Red Bathroom",
+      "slug": "5667-star-wars-bathroom",
+      "description": "A menacing armored figure in a flowing black cape sits on a toilet reading comic strips, surrounded by vivid red-orange mosaic wall tiles and a grey mosaic floor. The bold color palette and relaxed posture turn an iconic space villain into a relatable everyday character.",
+      "style": "Pop Culture - Darth Vader",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "red-orange",
+        "black",
+        "grey",
+        "cream"
+      ],
+      "tags": [
+        "red bathroom wall art",
+        "Star Wars colorful art",
+        "bold bathroom decor",
+        "mosaic tile art print",
+        "bathroom humor",
+        "toilet",
+        "reading",
+        "villain",
+        "pop culture parody",
+        "bold colors",
+        "Darth Vader mosaic print",
+        "Vader toilet humor",
+        "vibrant bathroom print",
+        "mosaic tiles",
+        "funny art"
+      ],
+      "mood": "Playful",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/5667/5667-sm.jpg",
+        "md": "/designs/5667/5667-md.jpg",
+        "lg": "/designs/5667/5667-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "5668",
+      "category": "Star Wars Bathroom",
+      "title": "Dark Villain Relaxing in a Red Tiled Bathtub",
+      "slug": "5668-star-wars-bathroom",
+      "description": "A glossy black-helmeted villain sits inside a dark clawfoot bathtub, raising one gloved hand as if testing the water, in a retro red-tiled bathroom with checkered flooring. Warm ambient lighting from wall sconces gives the scene an unexpectedly cozy and cinematic atmosphere.",
+      "style": "Pop Culture - Darth Vader",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "red",
+        "black",
+        "white",
+        "chrome"
+      ],
+      "tags": [
+        "red bathroom decor",
+        "cinematic bathroom wall art",
+        "villain",
+        "Darth Vader bathtub art",
+        "checkered floor",
+        "art deco sci-fi print",
+        "Star Wars bath art",
+        "bathroom decor",
+        "retro bathroom print",
+        "retro bathroom",
+        "Vader in bathtub",
+        "bathtub",
+        "cinematic",
+        "sci-fi parody",
+        "funny art"
+      ],
+      "mood": "Whimsical",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/5668/5668-sm.jpg",
+        "md": "/designs/5668/5668-md.jpg",
+        "lg": "/designs/5668/5668-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "5669",
+      "category": "Star Wars Bathroom",
+      "title": "Dark Villain Soaking in a Pink Victorian Bathtub",
+      "slug": "5669-star-wars-bathroom",
+      "description": "A dark-armored figure sits in an overflowing pink clawfoot bathtub inside an elegant Victorian bathroom with pink walls, teal wainscoting, and a checkered floor. The juxtaposition of the fearsome character with the delicate pastel decor and framed landscape painting creates a deeply comedic scene.",
+      "style": "Pop Culture - Darth Vader",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "pink",
+        "teal",
+        "black",
+        "gold"
+      ],
+      "tags": [
+        "feminine bathroom humor",
+        "funny wall art",
+        "Darth Vader bathtub print",
+        "bathroom humor",
+        "villain",
+        "Victorian bathroom",
+        "clawfoot tub",
+        "clawfoot tub art print",
+        "whimsical Star Wars art",
+        "pink bathroom art",
+        "pastel bathroom decor",
+        "pastel decor",
+        "elegant",
+        "bathtub",
+        "Vader pastel print"
+      ],
+      "mood": "Charming",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/5669/5669-sm.jpg",
+        "md": "/designs/5669/5669-md.jpg",
+        "lg": "/designs/5669/5669-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "5670",
+      "category": "Star Wars Bathroom",
+      "title": "Dark Villain in a Bathrobe in Blue Tiled Bathroom",
+      "slug": "5670-star-wars-bathroom",
+      "description": "A helmeted dark figure draped in a patterned bathrobe lounges in an elegant black clawfoot tub set against turquoise tiled walls with ornate gold trim and a checkered terracotta floor. The luxurious vintage bathroom setting and casual robe create a scene of unexpected domestic leisure.",
+      "style": "Pop Culture - Darth Vader",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "teal",
+        "terracotta",
+        "black",
+        "gold"
+      ],
+      "tags": [
+        "geek bathroom humor",
+        "turquoise tiles",
+        "Star Wars bathroom art",
+        "vintage bathroom",
+        "villain",
+        "bathrobe",
+        "clawfoot tub",
+        "Darth Vader bathtub",
+        "relaxation",
+        "bathtub",
+        "funny bathroom print",
+        "clawfoot tub art",
+        "sci-fi wall art",
+        "Victorian bathroom decor",
+        "funny art"
+      ],
+      "mood": "Leisurely",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/5670/5670-sm.jpg",
+        "md": "/designs/5670/5670-md.jpg",
+        "lg": "/designs/5670/5670-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "5671",
+      "category": "Star Wars Bathroom",
+      "title": "Dark Villain Relaxing in a Vintage Bathtub",
+      "slug": "5671-star-wars-bathroom",
+      "description": "A dark-helmeted sci-fi villain in a black robe sits in an ornate coral-patterned clawfoot bathtub within a beautifully tiled vintage bathroom. The scene features decorative checkered floors, patterned wall tiles, and a gilded picture frame, blending menace with domestic tranquility.",
+      "style": "Pop Culture - Darth Vader",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "coral",
+        "black",
+        "teal blue",
+        "cream"
+      ],
+      "tags": [
+        "eclectic wall art",
+        "vintage bathroom print",
+        "retro tiles",
+        "Star Wars bathroom decor",
+        "humorous print",
+        "vintage bathroom",
+        "funny wall art",
+        "Moroccan tile bathroom",
+        "villain",
+        "bathroom art",
+        "bathtub",
+        "nerdy home decor",
+        "sci-fi parody",
+        "Darth Vader art print",
+        "funny bathtub art"
+      ],
+      "mood": "Whimsical",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/5671/5671-sm.jpg",
+        "md": "/designs/5671/5671-md.jpg",
+        "lg": "/designs/5671/5671-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "5672",
+      "category": "Star Wars Bathroom",
+      "title": "Armored Soldier Reading Newspaper on the Toilet",
+      "slug": "5672-star-wars-bathroom",
+      "description": "A white-armored space soldier sits casually on a steel toilet reading a broadsheet newspaper in a narrow restroom stall with golden-yellow mosaic tiles. The industrial bathroom setting with dark pipes and worn floor tiles creates an amusing contrast with the futuristic armor.",
+      "style": "Pop Culture - Stormtrooper",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "mustard yellow",
+        "white",
+        "charcoal gray",
+        "black"
+      ],
+      "tags": [
+        "Star Wars humor",
+        "funny bathroom wall print",
+        "bathroom humor",
+        "geeky gift idea",
+        "reading newspaper art",
+        "toilet art",
+        "newspaper",
+        "Stormtrooper toilet art",
+        "restroom decor",
+        "mosaic tiles",
+        "bathroom comedy print",
+        "funny print",
+        "sci-fi parody",
+        "armored soldier"
+      ],
+      "mood": "Humorous",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/5672/5672-sm.jpg",
+        "md": "/designs/5672/5672-md.jpg",
+        "lg": "/designs/5672/5672-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "5673",
+      "category": "Star Wars Bathroom",
+      "title": "Space Trooper's Morning Read in a Brown Marble Bathroom",
+      "slug": "5673-star-wars-bathroom",
+      "description": "A white-armored trooper sits on a porcelain toilet engrossed in a newspaper within an elegant bathroom adorned with rich brown marble tiles and ornate trim. Scattered newspaper pages on the checkered floor suggest a leisurely, unhurried morning routine.",
+      "style": "Pop Culture - Stormtrooper",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "chocolate brown",
+        "white",
+        "beige",
+        "dark olive"
+      ],
+      "tags": [
+        "vintage style wall print",
+        "Stormtrooper bathroom print",
+        "nerdy bathroom gift",
+        "newspaper reading art",
+        "Star Wars toilet humor",
+        "bathroom art",
+        "marble bathroom",
+        "space soldier",
+        "wall print",
+        "toilet humor",
+        "newspaper reading",
+        "marble bathroom art",
+        "funny decor",
+        "funny restroom decor",
+        "vintage style"
+      ],
+      "mood": "Relaxed",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/5673/5673-sm.jpg",
+        "md": "/designs/5673/5673-md.jpg",
+        "lg": "/designs/5673/5673-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "5674",
+      "category": "Star Wars Bathroom",
+      "title": "Galactic Guard Reading the Paper in a Luxury Restroom",
+      "slug": "5674-star-wars-bathroom",
+      "description": "A helmeted trooper in white armor leisurely reads a newspaper while seated on a toilet with a green tank lid in a lavish bathroom with warm terracotta tiles and dark marble wainscoting. The checkered floor and ornate wall moldings give the scene a refined old-world elegance juxtaposed with comedic absurdity.",
+      "style": "Pop Culture - Stormtrooper",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "burnt sienna",
+        "black marble",
+        "white",
+        "forest green"
+      ],
+      "tags": [
+        "Stormtrooper reading print",
+        "toilet art",
+        "armored figure",
+        "elegant geek art",
+        "bathroom print",
+        "imperial trooper art",
+        "funny toilet decor",
+        "newspaper",
+        "luxury bathroom",
+        "luxury bathroom wall art",
+        "elegant decor",
+        "Star Wars powder room art",
+        "humorous art",
+        "marble bathroom print",
+        "sci-fi parody"
+      ],
+      "mood": "Sophisticated",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/5674/5674-sm.jpg",
+        "md": "/designs/5674/5674-md.jpg",
+        "lg": "/designs/5674/5674-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "5675",
+      "category": "Star Wars Bathroom",
+      "title": "White Armored Soldier Soaking in a Modern Red Bathroom",
+      "slug": "5675-star-wars-bathroom",
+      "description": "A white-helmeted trooper relaxes in a sleek freestanding bathtub set against vibrant red wall tiles with a bold green and white geometric floor pattern. A lush green plant in the foreground and the clean pop-art style composition give this piece a contemporary, eye-catching energy.",
+      "style": "Pop Culture - Stormtrooper",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "bright red",
+        "white",
+        "emerald green",
+        "black"
+      ],
+      "tags": [
+        "funny print",
+        "contemporary decor",
+        "red bathroom decor",
+        "retro bathroom decor",
+        "Star Wars pop art",
+        "modern bathroom",
+        "Stormtrooper bathtub art",
+        "bathtub art",
+        "modern bathroom wall art",
+        "space trooper",
+        "colorful geek print",
+        "bold bathroom print",
+        "bold colors",
+        "retro modern",
+        "pop art"
+      ],
+      "mood": "Bold",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/5675/5675-sm.jpg",
+        "md": "/designs/5675/5675-md.jpg",
+        "lg": "/designs/5675/5675-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "5676",
+      "category": "Star Wars Bathroom",
+      "title": "Space Trooper in a Vintage Bathtub",
+      "slug": "5676-star-wars-bathroom",
+      "description": "A white-armored galactic soldier sits upright in an elegant clawfoot bathtub within a retro bathroom featuring teal tiles and warm paneled walls. A floral painting hangs above while a towel drapes over the tub's edge, creating a charming contrast between military rigidity and domestic comfort.",
+      "style": "Pop Culture - Stormtrooper",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "teal",
+        "warm gold",
+        "white",
+        "dark green"
+      ],
+      "tags": [
+        "sci-fi humor",
+        "retro tiles",
+        "funny wall art",
+        "vintage bathroom",
+        "Stormtrooper clawfoot tub",
+        "clawfoot bathtub",
+        "teal and gold decor",
+        "vintage bathroom art",
+        "funny Star Wars gift",
+        "trooper",
+        "bathroom art",
+        "Star Wars wall print",
+        "charming bathroom decor",
+        "antique bath art"
+      ],
+      "mood": "Whimsical",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/5676/5676-sm.jpg",
+        "md": "/designs/5676/5676-md.jpg",
+        "lg": "/designs/5676/5676-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "5677",
+      "category": "Star Wars Bathroom",
+      "title": "Armored Soldier Soaking in a Tiled Bathroom",
+      "slug": "5677-star-wars-bathroom",
+      "description": "A helmeted trooper in white armor reclines in a classic clawfoot tub filled with water, set against a soft aqua and white mosaic-tiled bathroom. Decorative wall sculptures and a hanging towel add an unexpectedly refined touch to this humorous bathing scene.",
+      "style": "Pop Culture - Stormtrooper",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "aqua blue",
+        "white",
+        "pale mint",
+        "silver"
+      ],
+      "tags": [
+        "Stormtrooper bath print",
+        "peaceful bathroom wall art",
+        "vintage style",
+        "serene bathroom art",
+        "aqua tile bathroom decor",
+        "trooper",
+        "clawfoot bathtub print",
+        "Star Wars spa art",
+        "humor print",
+        "pastel geek decor",
+        "bathtub scene",
+        "mosaic tiles",
+        "sci-fi parody",
+        "bathroom decor"
+      ],
+      "mood": "Playful",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/5677/5677-sm.jpg",
+        "md": "/designs/5677/5677-md.jpg",
+        "lg": "/designs/5677/5677-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "5678",
+      "category": "Star Wars Bathroom",
+      "title": "Armored Bounty Hunter's Bath Time",
+      "slug": "5678-star-wars-bathroom",
+      "description": "A battle-worn warrior in beskar-style armor and a T-visor helmet lounges in a clawfoot bathtub surrounded by lush houseplants, pink flowers, and colorful vintage tiles. The painterly illustration style evokes a cozy yet rugged atmosphere with scattered bath products and a draped cloth adding lived-in charm.",
+      "style": "Pop Culture - The Mandalorian",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "brown",
+        "teal",
+        "dusty pink",
+        "olive green"
+      ],
+      "tags": [
+        "bounty hunter",
+        "Boba Fett bath art",
+        "sci-fi humor",
+        "Star Wars bathtub print",
+        "Mandalorian bathroom art",
+        "vintage",
+        "clawfoot tub",
+        "lush plant bathroom decor",
+        "bathroom art",
+        "botanical bathroom decor",
+        "painted illustration",
+        "bounty hunter wall art",
+        "bohemian bathroom",
+        "plants",
+        "bohemian bathroom print"
+      ],
+      "mood": "Cozy",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/5678/5678-sm.jpg",
+        "md": "/designs/5678/5678-md.jpg",
+        "lg": "/designs/5678/5678-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "5679",
+      "category": "Star Wars Bathroom",
+      "title": "Wise Green Elder in a Rainy Bath",
+      "slug": "5679-star-wars-bathroom",
+      "description": "A small green-skinned sage wrapped in a brown robe sits contemplatively in a vibrant green clawfoot bathtub as water streams down like rain around him. The moody scene features green subway tiles, terracotta flooring, and golden claw feet, creating a meditative and atmospheric composition.",
+      "style": "Pop Culture - Yoda",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "emerald green",
+        "terracotta",
+        "brown",
+        "white"
+      ],
+      "tags": [
+        "rainy bathroom art",
+        "moody painting",
+        "Star Wars bathtub print",
+        "green creature",
+        "rainy scene",
+        "clawfoot bathtub",
+        "meditation",
+        "sci-fi art",
+        "Yoda bathroom art",
+        "bathroom wall art",
+        "Jedi master wall art",
+        "cute Star Wars print",
+        "clawfoot tub Yoda",
+        "green bathroom decor"
+      ],
+      "mood": "Contemplative",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/5679/5679-sm.jpg",
+        "md": "/designs/5679/5679-md.jpg",
+        "lg": "/designs/5679/5679-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "5680",
+      "category": "Star Wars Bathroom",
+      "title": "Wise Green Elder in a Modern Bath",
+      "slug": "5680-star-wars-bathroom",
+      "description": "A pointy-eared green sage wearing a cozy brown robe peers out from a rounded white bathtub set on glossy green tile flooring with clean white wall tiles behind. The bright, graphic illustration style and minimalist bathroom setting give this piece a fresh, contemporary feel with a touch of sci-fi humor.",
+      "style": "Pop Culture - Yoda",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "kelly green",
+        "cream white",
+        "brown",
+        "light green"
+      ],
+      "tags": [
+        "Yoda bathtub print",
+        "sci-fi humor",
+        "Star Wars bathroom art",
+        "green creature",
+        "Jedi bathroom humor",
+        "retro bathroom illustration",
+        "funny bathroom wall decor",
+        "bathroom print",
+        "modern bathroom",
+        "illustration",
+        "fun decor",
+        "bathtub art",
+        "minimalist",
+        "Star Wars fan gift"
+      ],
+      "mood": "Lighthearted",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/5680/5680-sm.jpg",
+        "md": "/designs/5680/5680-md.jpg",
+        "lg": "/designs/5680/5680-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "5681",
+      "category": "Star Wars Bathroom",
+      "title": "Wise Green Creature Relaxing in a Vintage Bathtub",
+      "slug": "5681-star-wars-bathroom",
+      "description": "A small, wise green creature wearing a brown robe sits contentedly inside an elegant freestanding bathtub in a luxurious teal bathroom. The moody, cinematic lighting and rich jewel-toned d\u00e9cor create a sophisticated and humorous bathroom scene.",
+      "style": "Pop Culture - Yoda",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "teal green",
+        "brown",
+        "olive green",
+        "cream"
+      ],
+      "tags": [
+        "cinematic bathroom decor",
+        "green creature",
+        "vintage bathroom",
+        "Star Wars gift",
+        "fantasy character",
+        "vintage bathroom art",
+        "Jedi master print",
+        "bathroom art",
+        "humorous wall art",
+        "Yoda bathroom print",
+        "funny bathroom print",
+        "bathtub scene",
+        "Star Wars wall art",
+        "sci-fi parody",
+        "dark moody art print"
+      ],
+      "mood": "Whimsical",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/5681/5681-sm.jpg",
+        "md": "/designs/5681/5681-md.jpg",
+        "lg": "/designs/5681/5681-lg.jpg"
+      },
+      "ai_analyzed": true
+    },
+    {
+      "id": "5682",
+      "category": "Star Wars Bathroom",
+      "title": "Little Green Creature's Overflowing Bath Time",
+      "slug": "5682-star-wars-bathroom",
+      "description": "An adorable small green creature wrapped in a beige robe peers over the edge of an overflowing green bathtub, with water dripping down the sides onto terracotta tile floors. The soft, muted vintage tones and charming illustration style give this bathroom print a nostalgic and endearing quality.",
+      "style": "Pop Culture - Grogu",
+      "sizes": [
+        "11x14",
+        "16x20",
+        "18x24",
+        "24x30"
+      ],
+      "colors": [
+        "sage green",
+        "terracotta brown",
+        "beige",
+        "muted cream"
+      ],
+      "tags": [
+        "vintage bathroom decor",
+        "Baby Yoda bathroom art",
+        "Star Wars nursery art",
+        "overflowing bathtub",
+        "green creature",
+        "funny wall art",
+        "whimsical d\u00e9cor",
+        "Mandalorian wall decor",
+        "bathroom art",
+        "kids bathroom art",
+        "Grogu bathtub print",
+        "cute Star Wars print",
+        "vintage illustration",
+        "fantasy character",
+        "cute bathroom print"
+      ],
+      "mood": "Adorable",
+      "rooms": [
+        "bathroom"
+      ],
+      "pricing": {
+        "digital": 12.99,
+        "11x14": 39.99,
+        "16x20": 49.99,
+        "18x24": 59.99,
+        "24x30": 79.99
+      },
+      "images": {
+        "sm": "/designs/5682/5682-sm.jpg",
+        "md": "/designs/5682/5682-md.jpg",
+        "lg": "/designs/5682/5682-lg.jpg"
+      },
+      "ai_analyzed": true
+    }
+  ],
+  "total": 63,
+  "categories": [
+    "Star Wars Bathroom"
+  ]
 }
