@@ -10,11 +10,16 @@ export default {
   theme: {
     extend: {
       colors: {
-        cream: "#FAF9F6",
-        charcoal: "#1a1a1a",
+        // Brand colors (Hybrid design)
+        paper: "#FCFCFA",
+        ink: "#141414",
+        pop: "#FF6B35",
+        // Legacy colors (for compatibility)
+        cream: "#FCFCFA",
+        charcoal: "#141414",
         warmgray: "#8B8680",
-        accent: "#E85D04",
-        "accent-dark": "#D45003",
+        accent: "#FF6B35",
+        "accent-dark": "#E85D04",
         gold: "#F4A261",
         coral: "#E76F51",
         teal: "#2A9D8F",
@@ -49,7 +54,8 @@ export default {
         ring: "hsl(var(--ring))",
       },
       fontFamily: {
-        serif: ["var(--font-playfair)", "Playfair Display", "serif"],
+        stencil: ["var(--font-bebas)", "Bebas Neue", "sans-serif"],
+        serif: ["var(--font-instrument)", "Instrument Serif", "serif"],
         sans: ["var(--font-inter)", "Inter", "sans-serif"],
       },
       borderRadius: {

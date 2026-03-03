@@ -1,108 +1,101 @@
-import { DesignCard } from "@/components/gallery/design-card";
-import type { Design } from "@/types";
+"use client";
 
-// Mock data - replace with Supabase query
-const mockDesigns: Design[] = [
-  {
-    id: "1",
-    title: "Ocean Waves Abstract",
-    slug: "ocean-waves-abstract",
-    category: "Abstract",
-    style: "Blue Tones",
-    preview_url: "https://images.unsplash.com/photo-1549887534-1541e9326642?w=400&h=533&fit=crop",
-    price_digital: 12.99,
-    downloads_count: 234,
-    views_count: 1520,
-    is_active: true,
-    is_featured: false,
-    created_at: new Date().toISOString(),
-    updated_at: new Date().toISOString(),
-  },
-  {
-    id: "2",
-    title: "Botanical Dreams",
-    slug: "botanical-dreams",
-    category: "Nature",
-    style: "Green Tones",
-    preview_url: "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=400&h=533&fit=crop",
-    price_digital: 14.99,
-    downloads_count: 456,
-    views_count: 2340,
-    is_active: true,
-    is_featured: true,
-    created_at: new Date().toISOString(),
-    updated_at: new Date().toISOString(),
-  },
-  {
-    id: "3",
-    title: "Sunset Geometry",
-    slug: "sunset-geometry",
-    category: "Abstract",
-    style: "Warm Tones",
-    preview_url: "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=400&h=533&fit=crop",
-    price_digital: 9.99,
-    downloads_count: 189,
-    views_count: 980,
-    is_active: true,
-    is_featured: false,
-    created_at: new Date().toISOString(),
-    updated_at: new Date().toISOString(),
-  },
-  {
-    id: "4",
-    title: "Modern Lines",
-    slug: "modern-lines",
-    category: "Minimal",
-    style: "Neutral",
-    preview_url: "https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=400&h=533&fit=crop",
-    price_digital: 12.99,
-    downloads_count: 312,
-    views_count: 1890,
-    is_active: true,
-    is_featured: false,
-    created_at: new Date().toISOString(),
-    updated_at: new Date().toISOString(),
-  },
+import { useState } from "react";
+import { DesignCard } from "@/components/gallery/design-card";
+
+// Sample data - in production this would come from the database
+const allDesigns = [
+  { id: "1", title: "Matisse Coral Line Art", image: "/preview-images/15001.jpeg", price: "12.99", category: "Botanical", isNew: true },
+  { id: "2", title: "Cat in Bathtub", image: "/preview-images/cat-18518.jpg", price: "12.99", category: "Whimsical", isBestseller: true },
+  { id: "3", title: "Beach Path Coastal", image: "/preview-images/beach-18952.jpg", price: "12.99", category: "Coastal" },
+  { id: "4", title: "Sage Leaf Collection", image: "/preview-images/gardenposter_26.jpg", price: "12.99", category: "Botanical" },
+  { id: "5", title: "Tropical Monstera", image: "/preview-images/gardenposter_30.jpg", price: "12.99", category: "Botanical" },
+  { id: "6", title: "Vader Sunset", image: "/preview-images/starwars-19100.jpg", price: "12.99", category: "Pop Culture" },
+  { id: "7", title: "Abstract Botanical", image: "/preview-images/15002.jpeg", price: "12.99", category: "Botanical", isNew: true },
+  { id: "8", title: "Impressionist Garden", image: "/preview-images/19001_1-49044.jpg", price: "14.99", category: "Botanical", isBestseller: true },
 ];
 
+const categories = ["All", "Botanical", "Coastal", "Whimsical", "Pop Culture", "Abstract", "Minimal"];
+const sortOptions = ["Newest", "Popular", "Price: Low to High", "Price: High to Low"];
+
 export default function GalleryPage() {
+  const [selectedCategory, setSelectedCategory] = useState("All");
+  const [selectedSort, setSelectedSort] = useState("Newest");
+
+  const filteredDesigns = selectedCategory === "All" 
+    ? allDesigns 
+    : allDesigns.filter(d => d.category === selectedCategory);
+
   return (
-    <div className="min-h-screen pt-32 pb-20 px-6 bg-cream">
+    <div className="px-8 py-12">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="mb-12">
-          <h1 className="font-serif text-4xl md:text-5xl font-medium mb-4">Browse All Designs</h1>
-          <p className="text-charcoal/60 text-lg">Discover 10,000+ original art prints and digital downloads</p>
+          <p className="text-sm text-ink/40 tracking-widest uppercase mb-2">Browse</p>
+          <h1 className="font-stencil text-5xl md:text-6xl mb-4">GALLERY</h1>
+          <p className="text-ink/50 max-w-xl">
+            Explore our curated collection of 10,000+ original artworks. Filter by style, find your perfect piece.
+          </p>
         </div>
 
-        {/* Filters - TODO */}
-        <div className="mb-8 flex flex-wrap gap-4">
-          <select className="px-4 py-2 rounded-full border border-charcoal/20 bg-white text-sm">
-            <option>All Categories</option>
-            <option>Abstract</option>
-            <option>Nature</option>
-            <option>Minimal</option>
-            <option>Typography</option>
-          </select>
-          <select className="px-4 py-2 rounded-full border border-charcoal/20 bg-white text-sm">
-            <option>All Styles</option>
-            <option>Modern</option>
-            <option>Vintage</option>
-            <option>Boho</option>
-          </select>
-          <select className="px-4 py-2 rounded-full border border-charcoal/20 bg-white text-sm">
-            <option>Sort: Popular</option>
-            <option>Sort: Newest</option>
-            <option>Sort: Price Low-High</option>
-            <option>Sort: Price High-Low</option>
-          </select>
+        {/* Filters */}
+        <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-10 pb-6 border-b border-ink/10">
+          {/* Categories */}
+          <div className="flex flex-wrap gap-2">
+            {categories.map((cat) => (
+              <button
+                key={cat}
+                onClick={() => setSelectedCategory(cat)}
+                className={`px-4 py-2 text-sm transition-colors ${
+                  selectedCategory === cat
+                    ? "bg-ink text-paper"
+                    : "bg-ink/5 text-ink/60 hover:bg-ink/10"
+                }`}
+              >
+                {cat}
+              </button>
+            ))}
+          </div>
+
+          {/* Sort */}
+          <div className="flex items-center space-x-3">
+            <span className="text-sm text-ink/40">Sort:</span>
+            <select
+              value={selectedSort}
+              onChange={(e) => setSelectedSort(e.target.value)}
+              className="bg-transparent border border-ink/20 px-3 py-2 text-sm focus:outline-none focus:border-ink"
+            >
+              {sortOptions.map((option) => (
+                <option key={option} value={option}>{option}</option>
+              ))}
+            </select>
+          </div>
         </div>
+
+        {/* Results count */}
+        <p className="text-sm text-ink/40 mb-6">{filteredDesigns.length} designs</p>
 
         {/* Grid */}
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-          {mockDesigns.map((design) => (
-            <DesignCard key={design.id} design={design} />
+          {filteredDesigns.map((design) => (
+            <DesignCard
+              key={design.id}
+              id={design.id}
+              title={design.title}
+              image={design.image}
+              price={design.price}
+              category={design.category}
+              isNew={design.isNew}
+              isBestseller={design.isBestseller}
+            />
           ))}
+        </div>
+
+        {/* Load More */}
+        <div className="mt-16 text-center">
+          <button className="border border-ink/20 px-8 py-4 text-sm font-medium hover:bg-ink hover:text-paper transition-colors">
+            Load More Designs
+          </button>
         </div>
       </div>
     </div>
