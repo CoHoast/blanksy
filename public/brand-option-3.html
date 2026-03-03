@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blanksy — Option 3: Editorial Clean</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Instrument+Serif&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            display: ['Instrument Serif', 'serif'],
+            body: ['Inter', 'sans-serif'],
+          },
+          colors: {
+            offwhite: '#FEFEFE',
+            ink: '#1A1A1A',
+            accent: '#FF5733',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .display { font-family: 'Instrument Serif', serif; }
+  </style>
+</head>
+<body class="bg-offwhite text-ink">
+
+  <!-- Option Label -->
+  <div class="fixed top-4 left-4 z-50 bg-ink text-white px-4 py-2 text-sm font-medium">
+    OPTION 3: EDITORIAL CLEAN
+  </div>
+
+  <!-- Nav -->
+  <nav class="py-8 px-8 border-b border-ink/5">
+    <div class="max-w-7xl mx-auto flex items-center justify-between">
+      <a href="#" class="display text-3xl">Blanksy</a>
+      <div class="hidden md:flex items-center space-x-10 text-sm">
+        <a href="#" class="hover:text-accent transition-colors">Gallery</a>
+        <a href="#" class="hover:text-accent transition-colors">Collections</a>
+        <a href="#" class="hover:text-accent transition-colors">Prints</a>
+        <a href="#" class="hover:text-accent transition-colors">Pricing</a>
+      </div>
+      <div class="flex items-center space-x-6">
+        <a href="#" class="text-sm hover:text-accent transition-colors">Sign In</a>
+        <a href="#" class="text-sm font-medium border-b-2 border-ink hover:border-accent hover:text-accent transition-colors pb-0.5">Start Free</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="px-8">
+    <div class="max-w-7xl mx-auto py-20 md:py-32 border-b border-ink/5">
+      <div class="grid lg:grid-cols-12 gap-12 items-end">
+        <div class="lg:col-span-7">
+          <p class="text-sm text-ink/40 mb-6 tracking-widest uppercase">Est. 2024 — 10,000+ Artworks</p>
+          <h1 class="display text-6xl md:text-7xl lg:text-8xl leading-[1] mb-8">
+            Where great art<br/>
+            meets real<br/>
+            <em class="text-accent">walls</em>
+          </h1>
+        </div>
+        <div class="lg:col-span-5">
+          <p class="text-lg text-ink/60 leading-relaxed mb-8">
+            Curated digital art for modern spaces. Download high-resolution files instantly, print at any size. Gallery-worthy art, priced for everyone.
+          </p>
+          <div class="flex items-center space-x-8">
+            <a href="#" class="bg-ink text-white px-8 py-4 text-sm font-medium hover:bg-accent transition-colors">
+              Browse Gallery
+            </a>
+            <a href="#" class="text-sm font-medium text-ink/60 hover:text-ink transition-colors">
+              From $9.99 →
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Image -->
+  <section class="px-8 py-16">
+    <div class="max-w-7xl mx-auto">
+      <div class="grid grid-cols-4 gap-4">
+        <div class="col-span-2 row-span-2 aspect-square bg-ink/5 overflow-hidden">
+          <img src="/preview-images/15001.jpeg" alt="Featured" class="w-full h-full object-cover hover:scale-105 transition-transform duration-700">
+        </div>
+        <div class="aspect-square bg-ink/5 overflow-hidden">
+          <img src="/preview-images/cat-18518.jpg" alt="Art" class="w-full h-full object-cover hover:scale-105 transition-transform duration-700">
+        </div>
+        <div class="aspect-square bg-ink/5 overflow-hidden">
+          <img src="/preview-images/beach-18952.jpg" alt="Art" class="w-full h-full object-cover hover:scale-105 transition-transform duration-700">
+        </div>
+        <div class="aspect-square bg-ink/5 overflow-hidden">
+          <img src="/preview-images/gardenposter_26.jpg" alt="Art" class="w-full h-full object-cover hover:scale-105 transition-transform duration-700">
+        </div>
+        <div class="aspect-square bg-ink/5 overflow-hidden">
+          <img src="/preview-images/gardenposter_30.jpg" alt="Art" class="w-full h-full object-cover hover:scale-105 transition-transform duration-700">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section class="px-8 py-16 border-y border-ink/5">
+    <div class="max-w-7xl mx-auto">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+        <div>
+          <p class="display text-5xl mb-2">10k+</p>
+          <p class="text-sm text-ink/40 uppercase tracking-widest">Artworks</p>
+        </div>
+        <div>
+          <p class="display text-5xl mb-2">50k+</p>
+          <p class="text-sm text-ink/40 uppercase tracking-widest">Downloads</p>
+        </div>
+        <div>
+          <p class="display text-5xl mb-2">4.9</p>
+          <p class="text-sm text-ink/40 uppercase tracking-widest">Rating</p>
+        </div>
+        <div>
+          <p class="display text-5xl mb-2 text-accent">$9.99</p>
+          <p class="text-sm text-ink/40 uppercase tracking-widest">Starting</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Collections -->
+  <section class="px-8 py-20">
+    <div class="max-w-7xl mx-auto">
+      <div class="flex items-end justify-between mb-12">
+        <div>
+          <p class="text-sm text-ink/40 uppercase tracking-widest mb-2">Curated</p>
+          <h2 class="display text-4xl md:text-5xl">Collections</h2>
+        </div>
+        <a href="#" class="text-sm text-ink/60 hover:text-ink border-b border-ink/20 hover:border-ink pb-0.5 transition-colors">View All</a>
+      </div>
+      
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="group cursor-pointer">
+          <div class="aspect-[4/5] bg-ink/5 mb-6 overflow-hidden relative">
+            <img src="/preview-images/15001.jpeg" alt="Botanical" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+            <div class="absolute inset-0 bg-ink/0 group-hover:bg-ink/10 transition-colors"></div>
+          </div>
+          <h3 class="display text-2xl mb-1">Botanical</h3>
+          <p class="text-sm text-ink/40">111 artworks</p>
+        </div>
+        <div class="group cursor-pointer">
+          <div class="aspect-[4/5] bg-ink/5 mb-6 overflow-hidden relative">
+            <img src="/preview-images/beach-18952.jpg" alt="Coastal" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+            <div class="absolute inset-0 bg-ink/0 group-hover:bg-ink/10 transition-colors"></div>
+          </div>
+          <h3 class="display text-2xl mb-1">Coastal</h3>
+          <p class="text-sm text-ink/40">50 artworks</p>
+        </div>
+        <div class="group cursor-pointer">
+          <div class="aspect-[4/5] bg-ink/5 mb-6 overflow-hidden relative">
+            <img src="/preview-images/cat-18518.jpg" alt="Whimsical" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+            <div class="absolute inset-0 bg-ink/0 group-hover:bg-ink/10 transition-colors"></div>
+          </div>
+          <h3 class="display text-2xl mb-1">Whimsical</h3>
+          <p class="text-sm text-ink/40">50 artworks</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="px-8 py-20 bg-ink text-white">
+    <div class="max-w-4xl mx-auto text-center">
+      <p class="text-sm text-white/40 uppercase tracking-widest mb-6">Start Today</p>
+      <h2 class="display text-5xl md:text-6xl lg:text-7xl mb-6 leading-[1.1]">
+        Your walls<br/>deserve <em class="text-accent">better</em>
+      </h2>
+      <p class="text-white/50 text-lg mb-10 max-w-md mx-auto">Skip the overpriced galleries. Get instant access to 10,000+ curated artworks.</p>
+      <a href="#" class="inline-block bg-white text-ink px-10 py-5 text-sm font-medium hover:bg-accent hover:text-white transition-colors">
+        Explore Gallery
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="px-8 py-12 border-t border-ink/5">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+      <a href="#" class="display text-2xl">Blanksy</a>
+      <div class="flex items-center space-x-8 text-sm text-ink/40">
+        <a href="#" class="hover:text-ink transition-colors">Terms</a>
+        <a href="#" class="hover:text-ink transition-colors">Privacy</a>
+        <a href="#" class="hover:text-ink transition-colors">Contact</a>
+      </div>
+      <p class="text-sm text-ink/40">© 2026 Blanksy</p>
+    </div>
+  </footer>
+
+</body>
+</html>

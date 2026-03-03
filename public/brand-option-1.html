@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blanksy — Option 1: One Pop</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Bebas+Neue&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            display: ['Bebas Neue', 'sans-serif'],
+            body: ['Space Grotesk', 'sans-serif'],
+          },
+          colors: {
+            cream: '#FAFAF8',
+            ink: '#111111',
+            pop: '#BFFF00',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body { font-family: 'Space Grotesk', sans-serif; }
+    .stencil { font-family: 'Bebas Neue', sans-serif; letter-spacing: 0.02em; }
+    .hover-pop:hover { background-color: #BFFF00; color: #111; }
+  </style>
+</head>
+<body class="bg-cream text-ink">
+
+  <!-- Option Label -->
+  <div class="fixed top-4 left-4 z-50 bg-pop text-ink px-4 py-2 text-sm font-bold">
+    OPTION 1: ONE POP COLOR
+  </div>
+
+  <!-- Nav -->
+  <nav class="border-b border-ink/10 py-6 px-8">
+    <div class="max-w-6xl mx-auto flex items-center justify-between">
+      <div class="flex items-center space-x-2">
+        <div class="w-10 h-10 bg-ink flex items-center justify-center">
+          <span class="text-cream stencil text-2xl">B</span>
+        </div>
+        <span class="stencil text-2xl">BLANKSY</span>
+      </div>
+      <div class="hidden md:flex items-center space-x-8 text-sm font-medium">
+        <a href="#" class="hover:text-ink/60">Shop</a>
+        <a href="#" class="hover:text-ink/60">Collections</a>
+        <a href="#" class="hover:text-ink/60">About</a>
+        <a href="#" class="hover:text-ink/60">Pricing</a>
+      </div>
+      <div class="flex items-center space-x-4">
+        <a href="#" class="text-sm font-medium hover:text-ink/60">Sign In</a>
+        <a href="#" class="bg-ink text-cream px-5 py-2.5 text-sm font-medium hover-pop transition-colors">Get Started</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="px-8 py-24 md:py-32">
+    <div class="max-w-6xl mx-auto">
+      <div class="max-w-3xl">
+        <p class="text-sm font-medium text-ink/50 mb-4 tracking-wide">10,000+ ORIGINAL DESIGNS</p>
+        <h1 class="stencil text-6xl md:text-8xl lg:text-9xl leading-[0.9] mb-6">
+          ART FOR<br/>
+          <span class="bg-pop px-2">WALLS</span><br/>
+          NOT WALLETS
+        </h1>
+        <p class="text-xl text-ink/60 max-w-lg mb-10 leading-relaxed">
+          Premium art downloads from $9.99. Print any size, anywhere. Skip the gallery markup.
+        </p>
+        <div class="flex flex-wrap gap-4">
+          <a href="#" class="bg-ink text-cream px-8 py-4 text-sm font-semibold hover-pop transition-colors inline-flex items-center space-x-2">
+            <span>Browse Gallery</span>
+            <span>→</span>
+          </a>
+          <a href="#" class="border-2 border-ink px-8 py-4 text-sm font-semibold hover:bg-ink hover:text-cream transition-colors">
+            How It Works
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Bar -->
+  <section class="border-y border-ink/10 py-8 px-8">
+    <div class="max-w-6xl mx-auto flex flex-wrap justify-between gap-8">
+      <div>
+        <p class="stencil text-4xl">10K+</p>
+        <p class="text-sm text-ink/50">Designs</p>
+      </div>
+      <div>
+        <p class="stencil text-4xl">50K+</p>
+        <p class="text-sm text-ink/50">Downloads</p>
+      </div>
+      <div>
+        <p class="stencil text-4xl">4.9★</p>
+        <p class="text-sm text-ink/50">Rating</p>
+      </div>
+      <div>
+        <p class="stencil text-4xl">$9.99</p>
+        <p class="text-sm text-ink/50">Starting at</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Grid -->
+  <section class="px-8 py-24">
+    <div class="max-w-6xl mx-auto">
+      <div class="flex items-end justify-between mb-12">
+        <div>
+          <p class="text-sm font-medium text-ink/50 mb-2">CURATED PICKS</p>
+          <h2 class="stencil text-4xl md:text-5xl">TRENDING NOW</h2>
+        </div>
+        <a href="#" class="text-sm font-medium hover:text-ink/60">View All →</a>
+      </div>
+      
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <div class="group cursor-pointer">
+          <div class="aspect-[3/4] bg-ink/5 mb-4 overflow-hidden">
+            <img src="/preview-images/15001.jpeg" alt="Art" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+          </div>
+          <h3 class="font-medium mb-1">Matisse Coral Line Art</h3>
+          <p class="text-sm text-ink/50">$12.99</p>
+        </div>
+        <div class="group cursor-pointer">
+          <div class="aspect-[3/4] bg-ink/5 mb-4 overflow-hidden">
+            <img src="/preview-images/cat-18518.jpg" alt="Art" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+          </div>
+          <h3 class="font-medium mb-1">Cat in Bathtub</h3>
+          <p class="text-sm text-ink/50">$12.99</p>
+        </div>
+        <div class="group cursor-pointer">
+          <div class="aspect-[3/4] bg-ink/5 mb-4 overflow-hidden">
+            <img src="/preview-images/beach-18952.jpg" alt="Art" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+          </div>
+          <h3 class="font-medium mb-1">Beach Path Coastal</h3>
+          <p class="text-sm text-ink/50">$12.99</p>
+        </div>
+        <div class="group cursor-pointer">
+          <div class="aspect-[3/4] bg-ink/5 mb-4 overflow-hidden">
+            <img src="/preview-images/gardenposter_26.jpg" alt="Art" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+          </div>
+          <h3 class="font-medium mb-1">Sage Leaf Collection</h3>
+          <p class="text-sm text-ink/50">$12.99</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="px-8 py-24 bg-ink text-cream">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="stencil text-5xl md:text-7xl mb-6">READY TO<br/><span class="text-pop">UPGRADE</span> YOUR WALLS?</h2>
+      <p class="text-cream/60 text-lg mb-10 max-w-md mx-auto">Join thousands who've discovered gallery-worthy art without the gallery prices.</p>
+      <a href="#" class="bg-pop text-ink px-10 py-5 text-sm font-bold inline-flex items-center space-x-2 hover:bg-cream transition-colors">
+        <span>Explore 10,000+ Designs</span>
+        <span>→</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="px-8 py-12 border-t border-ink/10">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+      <div class="flex items-center space-x-2">
+        <div class="w-8 h-8 bg-ink flex items-center justify-center">
+          <span class="text-cream stencil text-lg">B</span>
+        </div>
+        <span class="stencil text-xl">BLANKSY</span>
+      </div>
+      <p class="text-sm text-ink/40">© 2026 Blanksy. Art for the people.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
