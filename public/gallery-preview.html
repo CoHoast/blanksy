@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blanksy — Gallery Preview (55 Designs Analyzed)</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Bebas+Neue&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            display: ['Bebas Neue', 'sans-serif'],
+            body: ['Space Grotesk', 'sans-serif'],
+          },
+          colors: {
+            cream: '#FFFEF9',
+            ink: '#0D0D0D',
+            electric: '#FF2D55',
+            lime: '#C7F940',
+            cyan: '#00D4FF',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body { font-family: 'Space Grotesk', sans-serif; }
+    .stencil-text { font-family: 'Bebas Neue', sans-serif; letter-spacing: 0.05em; }
+    .gradient-text {
+      background: linear-gradient(135deg, #FF2D55 0%, #FF6B35 50%, #FFBE98 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .art-card { transition: all 0.3s ease; }
+    .art-card:hover { transform: translateY(-8px) rotate(-1deg); }
+    .color-bar {
+      height: 6px;
+      background: linear-gradient(90deg, #FF2D55, #FFBE98, #C7F940, #00D4FF, #8B5CF6, #FF2D55);
+      background-size: 200% 100%;
+      animation: color-shift 5s ease infinite;
+    }
+    @keyframes color-shift {
+      0%, 100% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+    }
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      padding: 6px 14px;
+      border-radius: 100px;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+    }
+  </style>
+</head>
+<body class="bg-cream text-ink">
+
+  <!-- Rainbow bar -->
+  <div class="color-bar"></div>
+
+  <!-- Header -->
+  <header class="border-b border-ink/10 bg-white sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center space-x-3">
+          <div class="w-12 h-12 bg-gradient-to-br from-electric to-orange-400 flex items-center justify-center transform -rotate-3 rounded-xl">
+            <span class="text-white stencil-text text-3xl font-bold">B</span>
+          </div>
+          <div>
+            <span class="stencil-text text-2xl tracking-wide">BLANKSY</span>
+            <p class="text-xs text-ink/50">Gallery Preview</p>
+          </div>
+        </div>
+        <div class="flex items-center space-x-4">
+          <span class="pill bg-lime text-ink">55 DESIGNS ANALYZED</span>
+          <span class="pill bg-ink/10 text-ink">244 REMAINING</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="py-16 px-6 bg-gradient-to-br from-cream via-white to-cyan/5">
+    <div class="max-w-7xl mx-auto text-center">
+      <span class="pill bg-electric/10 text-electric mb-4 inline-block">🎨 WORK IN PROGRESS</span>
+      <h1 class="stencil-text text-5xl md:text-7xl mb-4">
+        GALLERY <span class="gradient-text">PREVIEW</span>
+      </h1>
+      <p class="text-xl text-ink/60 max-w-2xl mx-auto">
+        First 55 designs with AI-generated titles, descriptions, colors, and tags. 
+        These are ready for the live site!
+      </p>
+    </div>
+  </section>
+
+  <!-- Sample Gallery -->
+  <section class="py-16 px-6">
+    <div class="max-w-7xl mx-auto">
+      <h2 class="stencil-text text-3xl mb-8">SAMPLE DESIGNS</h2>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <!-- Design 1 -->
+        <div class="art-card bg-white rounded-2xl overflow-hidden shadow-lg">
+          <div class="aspect-[3/4] bg-gray-100">
+            <img src="/preview-images/15001.jpeg" alt="Matisse-Inspired Coral Line Art" class="w-full h-full object-cover">
+          </div>
+          <div class="p-6">
+            <span class="pill bg-lime/20 text-ink text-xs mb-3">BOTANICAL</span>
+            <h3 class="font-bold text-lg mb-2">Matisse-Inspired Coral Line Art in Neutral Beige</h3>
+            <p class="text-sm text-ink/60 mb-4">An elegant minimalist print featuring a white organic coral or leaf form against a warm beige background with a bold black accent.</p>
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span class="text-xs bg-ink/5 px-2 py-1 rounded">beige</span>
+              <span class="text-xs bg-ink/5 px-2 py-1 rounded">white</span>
+              <span class="text-xs bg-ink/5 px-2 py-1 rounded">black</span>
+            </div>
+            <div class="flex justify-between items-center">
+              <span class="stencil-text text-2xl text-electric">$12.99</span>
+              <span class="text-sm text-ink/40">Mood: Serene</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Design 2 -->
+        <div class="art-card bg-white rounded-2xl overflow-hidden shadow-lg">
+          <div class="aspect-[3/4] bg-gray-100">
+            <img src="/preview-images/cat-18518.jpg" alt="Orange Cat in Bathtub" class="w-full h-full object-cover">
+          </div>
+          <div class="p-6">
+            <span class="pill bg-cyan/20 text-ink text-xs mb-3">CAT BATHROOM</span>
+            <h3 class="font-bold text-lg mb-2">Orange Cat in Pink Bathtub Tropical Garden</h3>
+            <p class="text-sm text-ink/60 mb-4">A charming orange tabby cat lounges in a pink bathtub surrounded by lush tropical foliage and delicate lilies.</p>
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span class="text-xs bg-ink/5 px-2 py-1 rounded">teal green</span>
+              <span class="text-xs bg-ink/5 px-2 py-1 rounded">pink</span>
+              <span class="text-xs bg-ink/5 px-2 py-1 rounded">orange</span>
+            </div>
+            <div class="flex justify-between items-center">
+              <span class="stencil-text text-2xl text-electric">$12.99</span>
+              <span class="text-sm text-ink/40">Mood: Playful</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Design 3 -->
+        <div class="art-card bg-white rounded-2xl overflow-hidden shadow-lg">
+          <div class="aspect-[3/4] bg-gray-100">
+            <img src="/preview-images/beach-18952.jpg" alt="Sandy Beach Path" class="w-full h-full object-cover">
+          </div>
+          <div class="p-6">
+            <span class="pill bg-electric/20 text-ink text-xs mb-3">IMPRESSIONIST BEACH</span>
+            <h3 class="font-bold text-lg mb-2">Sandy Beach Path Coastal Art Print</h3>
+            <p class="text-sm text-ink/60 mb-4">A serene modern coastal painting depicting a sandy path winding between white picket fences toward the ocean.</p>
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span class="text-xs bg-ink/5 px-2 py-1 rounded">soft peach</span>
+              <span class="text-xs bg-ink/5 px-2 py-1 rounded">slate blue</span>
+              <span class="text-xs bg-ink/5 px-2 py-1 rounded">olive green</span>
+            </div>
+            <div class="flex justify-between items-center">
+              <span class="stencil-text text-2xl text-electric">$12.99</span>
+              <span class="text-sm text-ink/40">Mood: Calm</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Design 4 -->
+        <div class="art-card bg-white rounded-2xl overflow-hidden shadow-lg">
+          <div class="aspect-[3/4] bg-gray-100">
+            <img src="/preview-images/starwars-19100.jpg" alt="Star Wars Tropical" class="w-full h-full object-cover">
+          </div>
+          <div class="p-6">
+            <span class="pill bg-purple-200 text-ink text-xs mb-3">STAR WARS TROPICAL</span>
+            <h3 class="font-bold text-lg mb-2">Dark Villain Sunset Lake Pastel Painting</h3>
+            <p class="text-sm text-ink/60 mb-4">An iconic dark armored figure sitting peacefully among wildflowers, gazing over a serene lake at sunset.</p>
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span class="text-xs bg-ink/5 px-2 py-1 rounded">pastel pink</span>
+              <span class="text-xs bg-ink/5 px-2 py-1 rounded">soft teal</span>
+              <span class="text-xs bg-ink/5 px-2 py-1 rounded">charcoal</span>
+            </div>
+            <div class="flex justify-between items-center">
+              <span class="stencil-text text-2xl text-electric">$12.99</span>
+              <span class="text-sm text-ink/40">Mood: Contemplative</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Design 5 -->
+        <div class="art-card bg-white rounded-2xl overflow-hidden shadow-lg">
+          <div class="aspect-[3/4] bg-gray-100">
+            <img src="/preview-images/gardenposter_26.jpg" alt="Matisse Coral and Sage" class="w-full h-full object-cover">
+          </div>
+          <div class="p-6">
+            <span class="pill bg-lime/20 text-ink text-xs mb-3">BOTANICAL</span>
+            <h3 class="font-bold text-lg mb-2">Matisse Coral and Sage Leaf Cut-Out Collection</h3>
+            <p class="text-sm text-ink/60 mb-4">A vibrant arrangement of organic leaf and seaweed shapes in harmonious greens and terracotta tones.</p>
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span class="text-xs bg-ink/5 px-2 py-1 rounded">sage green</span>
+              <span class="text-xs bg-ink/5 px-2 py-1 rounded">terracotta</span>
+              <span class="text-xs bg-ink/5 px-2 py-1 rounded">cream</span>
+            </div>
+            <div class="flex justify-between items-center">
+              <span class="stencil-text text-2xl text-electric">$12.99</span>
+              <span class="text-sm text-ink/40">Mood: Warm</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Design 6 -->
+        <div class="art-card bg-white rounded-2xl overflow-hidden shadow-lg">
+          <div class="aspect-[3/4] bg-gray-100">
+            <img src="/preview-images/gardenposter_30.jpg" alt="Tropical Monstera" class="w-full h-full object-cover">
+          </div>
+          <div class="p-6">
+            <span class="pill bg-lime/20 text-ink text-xs mb-3">BOTANICAL</span>
+            <h3 class="font-bold text-lg mb-2">Tropical Monstera Leaves with Sunset Peach</h3>
+            <p class="text-sm text-ink/60 mb-4">A serene botanical illustration featuring monstera and banana leaves layered against soft peach geometric shapes.</p>
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span class="text-xs bg-ink/5 px-2 py-1 rounded">sage green</span>
+              <span class="text-xs bg-ink/5 px-2 py-1 rounded">peach</span>
+              <span class="text-xs bg-ink/5 px-2 py-1 rounded">ivory</span>
+            </div>
+            <div class="flex justify-between items-center">
+              <span class="stencil-text text-2xl text-electric">$12.99</span>
+              <span class="text-sm text-ink/40">Mood: Calm</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section class="py-16 px-6 bg-ink text-white">
+    <div class="max-w-7xl mx-auto">
+      <h2 class="stencil-text text-3xl mb-8 text-center">PROCESSING STATUS</h2>
+      
+      <div class="grid grid-cols-2 md:grid-cols-5 gap-6 text-center">
+        <div class="bg-white/10 rounded-2xl p-6">
+          <p class="stencil-text text-4xl text-lime">55</p>
+          <p class="text-sm text-white/60">AI Analyzed</p>
+        </div>
+        <div class="bg-white/10 rounded-2xl p-6">
+          <p class="stencil-text text-4xl">244</p>
+          <p class="text-sm text-white/60">Remaining</p>
+        </div>
+        <div class="bg-white/10 rounded-2xl p-6">
+          <p class="stencil-text text-4xl text-cyan">299</p>
+          <p class="text-sm text-white/60">Total Designs</p>
+        </div>
+        <div class="bg-white/10 rounded-2xl p-6">
+          <p class="stencil-text text-4xl">5</p>
+          <p class="text-sm text-white/60">Categories</p>
+        </div>
+        <div class="bg-white/10 rounded-2xl p-6">
+          <p class="stencil-text text-4xl text-electric">~1.2K</p>
+          <p class="text-sm text-white/60">Total Images</p>
+        </div>
+      </div>
+
+      <div class="mt-12 bg-white/10 rounded-2xl p-8">
+        <h3 class="stencil-text text-2xl mb-4">CATEGORIES BREAKDOWN</h3>
+        <div class="space-y-4">
+          <div>
+            <div class="flex justify-between text-sm mb-1">
+              <span>Botanical</span>
+              <span>45/111 analyzed</span>
+            </div>
+            <div class="h-3 bg-white/20 rounded-full overflow-hidden">
+              <div class="h-full bg-lime rounded-full" style="width: 40%"></div>
+            </div>
+          </div>
+          <div>
+            <div class="flex justify-between text-sm mb-1">
+              <span>Impressionist Beach</span>
+              <span>3/50 analyzed</span>
+            </div>
+            <div class="h-3 bg-white/20 rounded-full overflow-hidden">
+              <div class="h-full bg-cyan rounded-full" style="width: 6%"></div>
+            </div>
+          </div>
+          <div>
+            <div class="flex justify-between text-sm mb-1">
+              <span>Cat Bathroom</span>
+              <span>3/50 analyzed</span>
+            </div>
+            <div class="h-3 bg-white/20 rounded-full overflow-hidden">
+              <div class="h-full bg-electric rounded-full" style="width: 6%"></div>
+            </div>
+          </div>
+          <div>
+            <div class="flex justify-between text-sm mb-1">
+              <span>Star Wars Tropical</span>
+              <span>3/25 analyzed</span>
+            </div>
+            <div class="h-3 bg-white/20 rounded-full overflow-hidden">
+              <div class="h-full bg-purple-400 rounded-full" style="width: 12%"></div>
+            </div>
+          </div>
+          <div>
+            <div class="flex justify-between text-sm mb-1">
+              <span>Star Wars Bathroom</span>
+              <span>1/63 analyzed</span>
+            </div>
+            <div class="h-3 bg-white/20 rounded-full overflow-hidden">
+              <div class="h-full bg-orange-400 rounded-full" style="width: 2%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-8 px-6 border-t border-ink/10">
+    <div class="max-w-7xl mx-auto text-center text-ink/40 text-sm">
+      <p>Blanksy Gallery Preview — Work in Progress</p>
+      <p class="mt-2">55 of 299 designs analyzed • Ready for review</p>
+    </div>
+  </footer>
+
+</body>
+</html>
