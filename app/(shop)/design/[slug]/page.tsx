@@ -1,43 +1,54 @@
 "use client";
 
-import { useState } from "react";
+import { useState, use } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import catalogData from "@/data/catalog.json";
 
-// Sample data - in production this would come from the database
-const designData = {
-  id: "1",
-  title: "Matisse-Inspired Coral Line Art in Neutral Beige",
-  description: "An elegant minimalist print featuring a white organic coral or leaf form against a warm beige background with a bold black accent. Inspired by Matisse's iconic cut-out style, this piece brings effortless sophistication to any modern interior.",
-  image: "/preview-images/15001.jpeg",
-  category: "Botanical",
-  style: "Minimalist Abstract",
-  colors: ["Beige", "White", "Black"],
-  tags: ["Matisse inspired", "minimalist art", "line art", "neutral wall art", "organic shapes"],
-  rooms: ["Living Room", "Bedroom"],
-  mood: "Serene",
-  digitalPrice: "12.99",
-  sizes: [
-    { name: "8x10", printPrice: "29.99" },
-    { name: "11x14", printPrice: "39.99" },
-    { name: "16x20", printPrice: "49.99" },
-    { name: "18x24", printPrice: "59.99" },
-    { name: "24x30", printPrice: "79.99" },
-  ],
-};
+// Find design by slug or id
+function findDesign(slug: string) {
+  return catalogData.designs.find(d => d.slug === slug || d.id === slug);
+}
 
-const relatedDesigns = [
-  { id: "4", title: "Sage Leaf Collection", image: "/preview-images/gardenposter_26.jpg", price: "12.99" },
-  { id: "5", title: "Tropical Monstera", image: "/preview-images/gardenposter_30.jpg", price: "12.99" },
-  { id: "7", title: "Abstract Botanical", image: "/preview-images/15002.jpeg", price: "12.99" },
-  { id: "8", title: "Impressionist Garden", image: "/preview-images/19001_1-49044.jpg", price: "14.99" },
-];
+// Get related designs from same category
+function getRelatedDesigns(design: typeof catalogData.designs[0], count: number = 4) {
+  return catalogData.designs
+    .filter(d => d.id !== design.id && d.category === design.category)
+    .slice(0, count);
+}
 
-export default function DesignPage({ params }: { params: { slug: string } }) {
+export default function DesignPage({ params }: { params: Promise<{ slug: string }> }) {
+  const resolvedParams = use(params);
+  const design = findDesign(resolvedParams.slug);
+  
   const [purchaseType, setPurchaseType] = useState<"digital" | "print">("digital");
-  const [selectedSize, setSelectedSize] = useState(designData.sizes[0].name);
+  const [selectedSize, setSelectedSize] = useState("8x10");
 
-  const selectedSizeData = designData.sizes.find(s => s.name === selectedSize);
+  if (!design) {
+    return (
+      <div className="px-8 py-24 text-center">
+        <h1 className="font-stencil text-4xl mb-4">Design Not Found</h1>
+        <p className="text-ink/50 mb-8">Sorry, we couldn&apos;t find that design.</p>
+        <Link href="/gallery" className="bg-ink text-paper px-6 py-3 text-sm font-medium hover:bg-pop transition-colors">
+          Browse Gallery
+        </Link>
+      </div>
+    );
+  }
+
+  const sizes = [
+    { name: "8x10", printPrice: design.pricing["8x10"] },
+    { name: "11x14", printPrice: design.pricing["11x14"] },
+    { name: "16x20", printPrice: design.pricing["16x20"] },
+    { name: "18x24", printPrice: design.pricing["18x24"] },
+    { name: "24x30", printPrice: design.pricing["24x30"] },
+  ];
+
+  const selectedSizeData = sizes.find(s => s.name === selectedSize);
+  const relatedDesigns = getRelatedDesigns(design);
+  
+  // Get the best available image
+  const mainImage = design.images?.lg || design.thumbnails?.lg || `/designs/${design.id}/${design.id}-lg.jpg`;
 
   return (
     <div className="px-8 py-12">
@@ -46,28 +57,29 @@ export default function DesignPage({ params }: { params: { slug: string } }) {
         <div className="mb-8 text-sm">
           <Link href="/gallery" className="text-ink/40 hover:text-ink transition-colors">Gallery</Link>
           <span className="text-ink/20 mx-2">/</span>
-          <Link href={`/collections/${designData.category.toLowerCase()}`} className="text-ink/40 hover:text-ink transition-colors">{designData.category}</Link>
+          <Link href={`/collections/${design.category.toLowerCase()}`} className="text-ink/40 hover:text-ink transition-colors">{design.category}</Link>
           <span className="text-ink/20 mx-2">/</span>
-          <span className="text-ink/60">{designData.title}</span>
+          <span className="text-ink/60 line-clamp-1">{design.title}</span>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-16">
           {/* Image */}
           <div className="aspect-[3/4] bg-ink/5 relative overflow-hidden">
             <Image
-              src={designData.image}
-              alt={designData.title}
+              src={mainImage}
+              alt={design.title}
               fill
               className="object-cover"
+              priority
             />
           </div>
 
           {/* Details */}
           <div>
-            <p className="text-sm text-ink/40 uppercase tracking-widest mb-2">{designData.category}</p>
-            <h1 className="font-stencil text-4xl md:text-5xl mb-4 leading-tight">{designData.title}</h1>
+            <p className="text-sm text-ink/40 uppercase tracking-widest mb-2">{design.category}</p>
+            <h1 className="font-stencil text-4xl md:text-5xl mb-4 leading-tight">{design.title}</h1>
             
-            <p className="text-ink/60 leading-relaxed mb-8">{designData.description}</p>
+            <p className="text-ink/60 leading-relaxed mb-8">{design.description}</p>
 
             {/* Purchase Type Toggle */}
             <div className="mb-6">
@@ -94,7 +106,7 @@ export default function DesignPage({ params }: { params: { slug: string } }) {
             {/* Price */}
             <div className="mb-8">
               <p className="font-stencil text-5xl text-pop mb-1">
-                ${purchaseType === "digital" ? designData.digitalPrice : selectedSizeData?.printPrice}
+                ${purchaseType === "digital" ? design.pricing.digital.toFixed(2) : selectedSizeData?.printPrice.toFixed(2)}
               </p>
               {purchaseType === "digital" ? (
                 <p className="text-sm text-ink/40">Instant download • High-resolution files</p>
@@ -108,7 +120,7 @@ export default function DesignPage({ params }: { params: { slug: string } }) {
               <div className="mb-8">
                 <p className="text-sm font-medium mb-3">Select Size</p>
                 <div className="flex flex-wrap gap-2">
-                  {designData.sizes.map((size) => (
+                  {sizes.map((size) => (
                     <button
                       key={size.name}
                       onClick={() => setSelectedSize(size.name)}
@@ -118,7 +130,7 @@ export default function DesignPage({ params }: { params: { slug: string } }) {
                           : "border-ink/20 hover:border-ink"
                       }`}
                     >
-                      {size.name}" — ${size.printPrice}
+                      {size.name}&quot; — ${size.printPrice.toFixed(2)}
                     </button>
                   ))}
                 </div>
@@ -127,7 +139,7 @@ export default function DesignPage({ params }: { params: { slug: string } }) {
 
             {/* Add to Cart */}
             <button className="w-full bg-ink text-paper py-4 text-sm font-medium hover:bg-pop transition-colors mb-4">
-              {purchaseType === "digital" ? "Download Now" : "Add to Cart"} — ${purchaseType === "digital" ? designData.digitalPrice : selectedSizeData?.printPrice}
+              {purchaseType === "digital" ? "Download Now" : "Add to Cart"} — ${purchaseType === "digital" ? design.pricing.digital.toFixed(2) : selectedSizeData?.printPrice.toFixed(2)}
             </button>
 
             {/* Features */}
@@ -140,7 +152,7 @@ export default function DesignPage({ params }: { params: { slug: string } }) {
                   </div>
                   <div className="flex items-start space-x-3">
                     <span className="text-pop">✓</span>
-                    <span className="text-sm text-ink/60">Multiple sizes included (8x10 to 24x36)</span>
+                    <span className="text-sm text-ink/60">Multiple sizes included (8x10 to 24x30)</span>
                   </div>
                   <div className="flex items-start space-x-3">
                     <span className="text-pop">✓</span>
@@ -178,68 +190,72 @@ export default function DesignPage({ params }: { params: { slug: string } }) {
               <div className="grid grid-cols-2 gap-4 text-sm">
                 <div>
                   <p className="text-ink/40 mb-1">Style</p>
-                  <p>{designData.style}</p>
+                  <p>{design.style}</p>
                 </div>
                 <div>
                   <p className="text-ink/40 mb-1">Mood</p>
-                  <p>{designData.mood}</p>
+                  <p>{design.mood}</p>
                 </div>
                 <div>
                   <p className="text-ink/40 mb-1">Colors</p>
-                  <p>{designData.colors.join(", ")}</p>
+                  <p>{design.colors?.join(", ") || "—"}</p>
                 </div>
                 <div>
                   <p className="text-ink/40 mb-1">Best for</p>
-                  <p>{designData.rooms.join(", ")}</p>
+                  <p>{design.rooms?.join(", ") || "—"}</p>
                 </div>
               </div>
-              <div className="mt-4">
-                <p className="text-ink/40 mb-2 text-sm">Tags</p>
-                <div className="flex flex-wrap gap-2">
-                  {designData.tags.map((tag) => (
-                    <Link
-                      key={tag}
-                      href={`/gallery?tag=${encodeURIComponent(tag)}`}
-                      className="text-xs bg-ink/5 px-2 py-1 hover:bg-ink/10 transition-colors"
-                    >
-                      {tag}
-                    </Link>
-                  ))}
+              {design.tags && design.tags.length > 0 && (
+                <div className="mt-4">
+                  <p className="text-ink/40 mb-2 text-sm">Tags</p>
+                  <div className="flex flex-wrap gap-2">
+                    {design.tags.map((tag) => (
+                      <Link
+                        key={tag}
+                        href={`/gallery?tag=${encodeURIComponent(tag)}`}
+                        className="text-xs bg-ink/5 px-2 py-1 hover:bg-ink/10 transition-colors"
+                      >
+                        {tag}
+                      </Link>
+                    ))}
+                  </div>
                 </div>
-              </div>
+              )}
             </div>
           </div>
         </div>
 
         {/* Related Designs */}
-        <section className="mt-24 pt-16 border-t border-ink/10">
-          <div className="flex items-end justify-between mb-12">
-            <div>
-              <p className="text-sm text-ink/40 tracking-widest uppercase mb-2">You might also like</p>
-              <h2 className="font-stencil text-3xl md:text-4xl">RELATED DESIGNS</h2>
-            </div>
-            <Link href="/gallery" className="text-sm text-ink/50 hover:text-ink transition-colors">
-              View All →
-            </Link>
-          </div>
-
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            {relatedDesigns.map((design) => (
-              <Link key={design.id} href={`/design/${design.id}`} className="group">
-                <div className="aspect-[3/4] bg-ink/5 mb-4 overflow-hidden relative">
-                  <Image
-                    src={design.image}
-                    alt={design.title}
-                    fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-500"
-                  />
-                </div>
-                <h3 className="font-medium mb-1 line-clamp-1">{design.title}</h3>
-                <p className="text-sm text-ink/50">${design.price}</p>
+        {relatedDesigns.length > 0 && (
+          <section className="mt-24 pt-16 border-t border-ink/10">
+            <div className="flex items-end justify-between mb-12">
+              <div>
+                <p className="text-sm text-ink/40 tracking-widest uppercase mb-2">You might also like</p>
+                <h2 className="font-stencil text-3xl md:text-4xl">RELATED DESIGNS</h2>
+              </div>
+              <Link href="/gallery" className="text-sm text-ink/50 hover:text-ink transition-colors">
+                View All →
               </Link>
-            ))}
-          </div>
-        </section>
+            </div>
+
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+              {relatedDesigns.map((related) => (
+                <Link key={related.id} href={`/design/${related.slug}`} className="group">
+                  <div className="aspect-[3/4] bg-ink/5 mb-4 overflow-hidden relative">
+                    <Image
+                      src={related.images?.sm || `/designs/${related.id}/${related.id}-sm.jpg`}
+                      alt={related.title}
+                      fill
+                      className="object-cover group-hover:scale-105 transition-transform duration-500"
+                    />
+                  </div>
+                  <h3 className="font-medium mb-1 line-clamp-1">{related.title}</h3>
+                  <p className="text-sm text-ink/50">${related.pricing.digital.toFixed(2)}</p>
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
       </div>
     </div>
   );

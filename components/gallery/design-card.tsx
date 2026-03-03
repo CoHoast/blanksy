@@ -3,6 +3,7 @@ import Image from "next/image";
 
 interface DesignCardProps {
   id: string;
+  slug?: string;
   title: string;
   image: string;
   price: string;
@@ -13,6 +14,7 @@ interface DesignCardProps {
 
 export function DesignCard({
   id,
+  slug,
   title,
   image,
   price,
@@ -21,7 +23,7 @@ export function DesignCard({
   isBestseller,
 }: DesignCardProps) {
   return (
-    <Link href={`/design/${id}`} className="group cursor-pointer block">
+    <Link href={`/design/${slug || id}`} className="group cursor-pointer block">
       <div className="aspect-[3/4] bg-ink/5 mb-4 overflow-hidden relative">
         <Image
           src={image}

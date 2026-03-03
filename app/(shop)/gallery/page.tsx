@@ -2,29 +2,35 @@
 
 import { useState } from "react";
 import { DesignCard } from "@/components/gallery/design-card";
+import catalogData from "@/data/catalog.json";
 
-// Sample data - in production this would come from the database
-const allDesigns = [
-  { id: "1", title: "Matisse Coral Line Art", image: "/preview-images/15001.jpeg", price: "12.99", category: "Botanical", isNew: true },
-  { id: "2", title: "Cat in Bathtub", image: "/preview-images/cat-18518.jpg", price: "12.99", category: "Whimsical", isBestseller: true },
-  { id: "3", title: "Beach Path Coastal", image: "/preview-images/beach-18952.jpg", price: "12.99", category: "Coastal" },
-  { id: "4", title: "Sage Leaf Collection", image: "/preview-images/gardenposter_26.jpg", price: "12.99", category: "Botanical" },
-  { id: "5", title: "Tropical Monstera", image: "/preview-images/gardenposter_30.jpg", price: "12.99", category: "Botanical" },
-  { id: "6", title: "Vader Sunset", image: "/preview-images/starwars-19100.jpg", price: "12.99", category: "Pop Culture" },
-  { id: "7", title: "Abstract Botanical", image: "/preview-images/15002.jpeg", price: "12.99", category: "Botanical", isNew: true },
-  { id: "8", title: "Impressionist Garden", image: "/preview-images/19001_1-49044.jpg", price: "14.99", category: "Botanical", isBestseller: true },
-];
-
-const categories = ["All", "Botanical", "Coastal", "Whimsical", "Pop Culture", "Abstract", "Minimal"];
+// Get unique categories from catalog
+const categories = ["All", ...new Set(catalogData.designs.map(d => d.category))];
 const sortOptions = ["Newest", "Popular", "Price: Low to High", "Price: High to Low"];
 
 export default function GalleryPage() {
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [selectedSort, setSelectedSort] = useState("Newest");
+  const [visibleCount, setVisibleCount] = useState(24);
 
   const filteredDesigns = selectedCategory === "All" 
-    ? allDesigns 
-    : allDesigns.filter(d => d.category === selectedCategory);
+    ? catalogData.designs 
+    : catalogData.designs.filter(d => d.category === selectedCategory);
+
+  // Sort designs
+  const sortedDesigns = [...filteredDesigns].sort((a, b) => {
+    switch (selectedSort) {
+      case "Price: Low to High":
+        return a.pricing.digital - b.pricing.digital;
+      case "Price: High to Low":
+        return b.pricing.digital - a.pricing.digital;
+      default:
+        return 0; // Keep original order for now
+    }
+  });
+
+  const visibleDesigns = sortedDesigns.slice(0, visibleCount);
+  const hasMore = visibleCount < sortedDesigns.length;
 
   return (
     <div className="px-8 py-12">
@@ -34,7 +40,7 @@ export default function GalleryPage() {
           <p className="text-sm text-ink/40 tracking-widest uppercase mb-2">Browse</p>
           <h1 className="font-stencil text-5xl md:text-6xl mb-4">GALLERY</h1>
           <p className="text-ink/50 max-w-xl">
-            Explore our curated collection of 10,000+ original artworks. Filter by style, find your perfect piece.
+            Explore our curated collection of {catalogData.total}+ original artworks. Filter by style, find your perfect piece.
           </p>
         </div>
 
@@ -45,7 +51,10 @@ export default function GalleryPage() {
             {categories.map((cat) => (
               <button
                 key={cat}
-                onClick={() => setSelectedCategory(cat)}
+                onClick={() => {
+                  setSelectedCategory(cat);
+                  setVisibleCount(24);
+                }}
                 className={`px-4 py-2 text-sm transition-colors ${
                   selectedCategory === cat
                     ? "bg-ink text-paper"
@@ -73,30 +82,38 @@ export default function GalleryPage() {
         </div>
 
         {/* Results count */}
-        <p className="text-sm text-ink/40 mb-6">{filteredDesigns.length} designs</p>
+        <p className="text-sm text-ink/40 mb-6">
+          {sortedDesigns.length} designs {selectedCategory !== "All" && `in ${selectedCategory}`}
+        </p>
 
         {/* Grid */}
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-          {filteredDesigns.map((design) => (
+          {visibleDesigns.map((design, index) => (
             <DesignCard
               key={design.id}
               id={design.id}
+              slug={design.slug}
               title={design.title}
-              image={design.image}
-              price={design.price}
+              image={design.images.sm || design.thumbnails?.sm || `/designs/${design.id}/${design.id}-sm.jpg`}
+              price={design.pricing.digital.toFixed(2)}
               category={design.category}
-              isNew={design.isNew}
-              isBestseller={design.isBestseller}
+              isNew={index < 4}
+              isBestseller={design.mood?.toLowerCase() === "bold" || design.mood?.toLowerCase() === "vibrant"}
             />
           ))}
         </div>
 
         {/* Load More */}
-        <div className="mt-16 text-center">
-          <button className="border border-ink/20 px-8 py-4 text-sm font-medium hover:bg-ink hover:text-paper transition-colors">
-            Load More Designs
-          </button>
-        </div>
+        {hasMore && (
+          <div className="mt-16 text-center">
+            <button 
+              onClick={() => setVisibleCount(prev => prev + 24)}
+              className="border border-ink/20 px-8 py-4 text-sm font-medium hover:bg-ink hover:text-paper transition-colors"
+            >
+              Load More Designs ({sortedDesigns.length - visibleCount} remaining)
+            </button>
+          </div>
+        )}
       </div>
     </div>
   );
