@@ -64,12 +64,12 @@ export default function DesignPage({ params }: { params: Promise<{ slug: string 
 
         <div className="grid lg:grid-cols-2 gap-16">
           {/* Image */}
-          <div className="aspect-[3/4] bg-ink/5 relative overflow-hidden">
+          <div className="aspect-[4/5] bg-ink/5 relative overflow-hidden">
             <Image
               src={mainImage}
               alt={design.title}
               fill
-              className="object-cover"
+              className="object-contain bg-ink/5"
               priority
             />
           </div>
@@ -241,12 +241,12 @@ export default function DesignPage({ params }: { params: Promise<{ slug: string 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
               {relatedDesigns.map((related) => (
                 <Link key={related.id} href={`/design/${related.slug}`} className="group">
-                  <div className="aspect-[3/4] bg-ink/5 mb-4 overflow-hidden relative">
+                  <div className="aspect-[4/5] bg-ink/5 mb-4 overflow-hidden relative">
                     <Image
                       src={related.images?.sm || `/designs/${related.id}/${related.id}-sm.jpg`}
                       alt={related.title}
                       fill
-                      className="object-cover group-hover:scale-105 transition-transform duration-500"
+                      className="object-contain group-hover:scale-105 transition-transform duration-500"
                     />
                   </div>
                   <h3 className="font-medium mb-1 line-clamp-1">{related.title}</h3>

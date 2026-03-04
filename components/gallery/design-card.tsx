@@ -24,12 +24,12 @@ export function DesignCard({
 }: DesignCardProps) {
   return (
     <Link href={`/design/${slug || id}`} className="group cursor-pointer block">
-      <div className="aspect-[3/4] bg-ink/5 mb-4 overflow-hidden relative">
+      <div className="aspect-[4/5] bg-ink/5 mb-4 overflow-hidden relative">
         <Image
           src={image}
           alt={title}
           fill
-          className="object-cover group-hover:scale-105 transition-transform duration-500"
+          className="object-contain group-hover:scale-105 transition-transform duration-500"
         />
         {/* Badges */}
         {(isNew || isBestseller) && (
